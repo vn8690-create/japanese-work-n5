@@ -1,0 +1,22 @@
+[
+  {"id":"k001","kanji":"日","meaning":"hari/matahari","onyomi":"ニチ, ジツ","kunyomi":"ひ, か","level":"N5","category":"waktu","example":{"jp":"日曜日は休みです。","id":"Hari Minggu libur."}},
+  {"id":"k002","kanji":"月","meaning":"bulan/Senin","onyomi":"ゲツ, ガツ","kunyomi":"つき","level":"N5","category":"waktu","example":{"jp":"月曜日に働きます。","id":"Saya bekerja hari Senin."}},
+  {"id":"k003","kanji":"火","meaning":"api/Selasa","onyomi":"カ","kunyomi":"ひ","level":"N5","category":"waktu","example":{"jp":"火に気をつけてください。","id":"Tolong hati-hati dengan api."}},
+  {"id":"k004","kanji":"水","meaning":"air/Rabu","onyomi":"スイ","kunyomi":"みず","level":"N5","category":"harian","example":{"jp":"水を飲みます。","id":"Saya minum air."}},
+  {"id":"k005","kanji":"木","meaning":"pohon/Kamis","onyomi":"モク, ボク","kunyomi":"き","level":"N5","category":"waktu","example":{"jp":"木曜日に会議があります。","id":"Ada rapat hari Kamis."}},
+  {"id":"k006","kanji":"金","meaning":"uang/emas/Jumat","onyomi":"キン","kunyomi":"かね","level":"N5","category":"harian","example":{"jp":"金曜日に給料をもらいます。","id":"Saya menerima gaji hari Jumat."}},
+  {"id":"k007","kanji":"土","meaning":"tanah/Sabtu","onyomi":"ド, ト","kunyomi":"つち","level":"N5","category":"waktu","example":{"jp":"土曜日も仕事です。","id":"Hari Sabtu juga kerja."}},
+  {"id":"k008","kanji":"人","meaning":"orang","onyomi":"ジン, ニン","kunyomi":"ひと","level":"N5","category":"dasar","example":{"jp":"インドネシア人です。","id":"Saya orang Indonesia."}},
+  {"id":"k009","kanji":"先","meaning":"sebelum/depan","onyomi":"セン","kunyomi":"さき","level":"N5","category":"dasar","example":{"jp":"先生に聞きます。","id":"Saya bertanya kepada guru."}},
+  {"id":"k010","kanji":"生","meaning":"hidup/lahir","onyomi":"セイ, ショウ","kunyomi":"いきる, うまれる","level":"N5","category":"dasar","example":{"jp":"先生は親切です。","id":"Guru itu ramah."}},
+  {"id":"k011","kanji":"会","meaning":"bertemu/pertemuan","onyomi":"カイ","kunyomi":"あう","level":"N5","category":"kerja","example":{"jp":"会議は九時です。","id":"Rapat jam sembilan."}},
+  {"id":"k012","kanji":"社","meaning":"perusahaan/kuil","onyomi":"シャ","kunyomi":"","level":"N5","category":"kerja","example":{"jp":"会社へ行きます。","id":"Saya pergi ke perusahaan."}},
+  {"id":"k013","kanji":"行","meaning":"pergi","onyomi":"コウ, ギョウ","kunyomi":"いく, おこなう","level":"N5","category":"aksi","example":{"jp":"工場へ行きます。","id":"Saya pergi ke pabrik."}},
+  {"id":"k014","kanji":"来","meaning":"datang","onyomi":"ライ","kunyomi":"くる","level":"N5","category":"aksi","example":{"jp":"七時に来てください。","id":"Tolong datang jam tujuh."}},
+  {"id":"k015","kanji":"帰","meaning":"pulang","onyomi":"キ","kunyomi":"かえる","level":"N5","category":"aksi","example":{"jp":"五時に帰ります。","id":"Saya pulang jam lima."}},
+  {"id":"k016","kanji":"見","meaning":"melihat","onyomi":"ケン","kunyomi":"みる","level":"N5","category":"aksi","example":{"jp":"写真を見ます。","id":"Saya melihat foto."}},
+  {"id":"k017","kanji":"聞","meaning":"mendengar/bertanya","onyomi":"ブン, モン","kunyomi":"きく","level":"N5","category":"aksi","example":{"jp":"分からない時、聞きます。","id":"Saat tidak paham, saya bertanya."}},
+  {"id":"k018","kanji":"書","meaning":"menulis","onyomi":"ショ","kunyomi":"かく","level":"N5","category":"aksi","example":{"jp":"報告書を書きます。","id":"Saya menulis laporan."}},
+  {"id":"k019","kanji":"車","meaning":"mobil/kendaraan","onyomi":"シャ","kunyomi":"くるま","level":"N5","category":"transportasi","example":{"jp":"電車で会社へ行きます。","id":"Saya pergi ke perusahaan naik kereta."}},
+  {"id":"k020","kanji":"語","meaning":"bahasa/kata","onyomi":"ゴ","kunyomi":"かたる","level":"N5","category":"belajar","example":{"jp":"日本語を勉強します。","id":"Saya belajar bahasa Jepang."}}
+]

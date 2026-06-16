@@ -1,0 +1,15 @@
+{
+  "type": "bunpou",
+  "questions": [
+    {"id":"qb001","source":"bunpou","prompt":"Pola untuk mengatakan 'Saya trainee' adalah...","options":["私は研修生です","私は研修生をです","私は研修生にです","私は研修生へです"],"answer":"私は研修生です","explanation":"A は B です menyatakan A adalah B."},
+    {"id":"qb002","source":"bunpou","prompt":"Partikel untuk objek dalam '部品を作ります' adalah...","options":["を","へ","に","の"],"answer":"を","explanation":"を menandai objek yang dikenai aksi."},
+    {"id":"qb003","source":"bunpou","prompt":"Cara sopan meminta 'Tolong tulis nama' adalah...","options":["名前を書いてください","名前を書きませんか","名前を書きたいです","名前を書いてはいけません"],"answer":"名前を書いてください","explanation":"Vてください dipakai untuk meminta/instruksi."},
+    {"id":"qb004","source":"bunpou","prompt":"Kalimat 'Bolehkah saya istirahat?' adalah...","options":["休んでもいいですか","休んではいけませんか","休みじゃありませんか","休みましたか"],"answer":"休んでもいいですか","explanation":"Vてもいいですか dipakai untuk meminta izin."},
+    {"id":"qb005","source":"bunpou","prompt":"Pola larangan 'Tidak boleh merokok di sini' memakai...","options":["Vてはいけません","Vたいです","Vましょう","Vませんか"],"answer":"Vてはいけません","explanation":"Vてはいけません berarti tidak boleh melakukan."},
+    {"id":"qb006","source":"bunpou","prompt":"九時から五時まで berarti...","options":["dari jam sembilan sampai lima","jam sembilan dan lima","sebelum jam sembilan","sesudah jam lima"],"answer":"dari jam sembilan sampai lima","explanation":"A から B まで berarti dari A sampai B."},
+    {"id":"qb007","source":"bunpou","prompt":"Untuk waktu spesifik seperti 八時, partikel yang umum dipakai adalah...","options":["に","を","で","の"],"answer":"に","explanation":"に dipakai untuk waktu spesifik."},
+    {"id":"qb008","source":"bunpou","prompt":"Kalimat 'Saya ingin pergi ke rumah sakit' adalah...","options":["病院へ行きたいです","病院へ行きませんか","病院へ行ってください","病院へ行ってはいけません"],"answer":"病院へ行きたいです","explanation":"Vたいです menyatakan ingin melakukan."},
+    {"id":"qb009","source":"bunpou","prompt":"もう掃除しました berarti...","options":["sudah membersihkan","belum membersihkan","tolong bersihkan","tidak boleh bersihkan"],"answer":"sudah membersihkan","explanation":"もう + Vました berarti sudah melakukan."},
+    {"id":"qb010","source":"bunpou","prompt":"まだ確認していません berarti...","options":["belum mengecek","sudah mengecek","ayo cek","boleh cek"],"answer":"belum mengecek","explanation":"まだ + bentuk negatif berarti belum."}
+  ]
+}

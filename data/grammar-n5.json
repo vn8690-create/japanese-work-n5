@@ -1,0 +1,22 @@
+[
+  {"id":"g001","pattern":"A は B です","title":"Menyatakan identitas","explanation":"Dipakai untuk mengatakan A adalah B.","level":"N5","use":"dasar","example":{"jp":"私は研修生です。","id":"Saya trainee."}},
+  {"id":"g002","pattern":"A は B じゃありません","title":"Bentuk negatif desu","explanation":"Dipakai untuk menyangkal identitas atau keadaan.","level":"N5","use":"dasar","example":{"jp":"今日は休みじゃありません。","id":"Hari ini bukan libur."}},
+  {"id":"g003","pattern":"N ですか","title":"Pertanyaan sopan","explanation":"Tambahkan か di akhir kalimat untuk bertanya.","level":"N5","use":"komunikasi","example":{"jp":"これは道具ですか。","id":"Apakah ini alat?"}},
+  {"id":"g004","pattern":"N の N","title":"Kepemilikan/keterangan","explanation":"の menghubungkan dua kata benda.","level":"N5","use":"dasar","example":{"jp":"会社の寮です。","id":"Asrama perusahaan."}},
+  {"id":"g005","pattern":"場所 に あります","title":"Ada benda di tempat","explanation":"あります untuk benda mati atau hal.","level":"N5","use":"lokasi","example":{"jp":"道具はここにあります。","id":"Alat ada di sini."}},
+  {"id":"g006","pattern":"場所 に います","title":"Ada orang di tempat","explanation":"います untuk orang atau makhluk hidup.","level":"N5","use":"lokasi","example":{"jp":"田中さんは事務所にいます。","id":"Tanaka ada di kantor."}},
+  {"id":"g007","pattern":"場所 へ 行きます","title":"Pergi ke tempat","explanation":"へ menunjukkan arah tujuan.","level":"N5","use":"aktivitas","example":{"jp":"工場へ行きます。","id":"Saya pergi ke pabrik."}},
+  {"id":"g008","pattern":"乗り物 で 行きます","title":"Pergi dengan kendaraan","explanation":"で menunjukkan alat atau cara.","level":"N5","use":"transportasi","example":{"jp":"電車で会社へ行きます。","id":"Saya pergi ke perusahaan naik kereta."}},
+  {"id":"g009","pattern":"時間 に Vます","title":"Melakukan pada waktu tertentu","explanation":"に dipakai untuk waktu spesifik.","level":"N5","use":"jadwal","example":{"jp":"八時に始めます。","id":"Mulai jam delapan."}},
+  {"id":"g010","pattern":"N を Vます","title":"Objek kerja","explanation":"を menandai objek yang dikenai aksi.","level":"N5","use":"aktivitas","example":{"jp":"部品を作ります。","id":"Saya membuat komponen."}},
+  {"id":"g011","pattern":"Vませんか","title":"Ajakan sopan","explanation":"Dipakai untuk mengajak dengan lembut.","level":"N5","use":"komunikasi","example":{"jp":"一緒に昼ご飯を食べませんか。","id":"Mau makan siang bersama?"}},
+  {"id":"g012","pattern":"Vましょう","title":"Ayo melakukan","explanation":"Dipakai untuk mengajak atau memberi aba-aba.","level":"N5","use":"komunikasi","example":{"jp":"安全を確認しましょう。","id":"Ayo cek keselamatan."}},
+  {"id":"g013","pattern":"Vてください","title":"Meminta tolong/instruksi","explanation":"Bentuk sopan untuk meminta orang melakukan sesuatu.","level":"N5","use":"kerja","example":{"jp":"ここに名前を書いてください。","id":"Tolong tulis nama di sini."}},
+  {"id":"g014","pattern":"Vてもいいです","title":"Boleh melakukan","explanation":"Dipakai untuk meminta atau memberi izin.","level":"N5","use":"izin","example":{"jp":"休んでもいいですか。","id":"Bolehkah saya istirahat?"}},
+  {"id":"g015","pattern":"Vてはいけません","title":"Tidak boleh","explanation":"Dipakai untuk larangan.","level":"N5","use":"keselamatan","example":{"jp":"ここでタバコを吸ってはいけません。","id":"Tidak boleh merokok di sini."}},
+  {"id":"g016","pattern":"Vたいです","title":"Ingin melakukan","explanation":"Dipakai untuk menyatakan keinginan sendiri.","level":"N5","use":"komunikasi","example":{"jp":"病院へ行きたいです。","id":"Saya ingin pergi ke rumah sakit."}},
+  {"id":"g017","pattern":"A から B まで","title":"Dari sampai","explanation":"Dipakai untuk rentang waktu atau tempat.","level":"N5","use":"jadwal","example":{"jp":"九時から五時まで働きます。","id":"Saya bekerja dari jam sembilan sampai lima."}},
+  {"id":"g018","pattern":"理由 から","title":"Karena","explanation":"から di akhir klausa menyatakan alasan.","level":"N5","use":"penjelasan","example":{"jp":"熱がありますから、休みたいです。","id":"Karena demam, saya ingin libur."}},
+  {"id":"g019","pattern":"もう Vました","title":"Sudah melakukan","explanation":"もう menunjukkan sesuatu sudah selesai.","level":"N5","use":"laporan","example":{"jp":"もう掃除しました。","id":"Saya sudah membersihkan."}},
+  {"id":"g020","pattern":"まだ Vていません","title":"Belum melakukan","explanation":"まだ dengan bentuk negatif menunjukkan belum selesai.","level":"N5","use":"laporan","example":{"jp":"まだ確認していません。","id":"Saya belum mengecek."}}
+]

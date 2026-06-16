@@ -1,0 +1,12 @@
+[
+  {"id":"c001","title":"Salam pagi di pabrik","context":"Saat datang sebelum mulai kerja.","lines":[{"speaker":"Sato","jp":"おはようございます。","id":"Selamat pagi."},{"speaker":"Adi","jp":"おはようございます。今日もよろしくお願いします。","id":"Selamat pagi. Mohon bantuannya hari ini."}]},
+  {"id":"c002","title":"Mengecek jadwal shift","context":"Menanyakan jam mulai kerja.","lines":[{"speaker":"Adi","jp":"すみません、今日は何時からですか。","id":"Maaf, hari ini mulai jam berapa?"},{"speaker":"Yamada","jp":"今日は八時から五時までです。","id":"Hari ini dari jam delapan sampai lima."}]},
+  {"id":"c003","title":"Meminta instruksi","context":"Belum yakin pekerjaan yang harus dilakukan.","lines":[{"speaker":"Adi","jp":"次は何をしますか。","id":"Selanjutnya saya melakukan apa?"},{"speaker":"Leader","jp":"この部品を箱に入れてください。","id":"Tolong masukkan komponen ini ke kotak."}]},
+  {"id":"c004","title":"Saat tidak paham","context":"Meminta penjelasan ulang.","lines":[{"speaker":"Adi","jp":"すみません、もう一度お願いします。","id":"Maaf, tolong sekali lagi."},{"speaker":"Leader","jp":"ゆっくり言いますね。","id":"Saya akan bicara pelan ya."}]},
+  {"id":"c005","title":"Melaporkan selesai","context":"Setelah tugas selesai.","lines":[{"speaker":"Adi","jp":"終わりました。確認してください。","id":"Sudah selesai. Tolong cek."},{"speaker":"Leader","jp":"はい、ありがとうございます。","id":"Baik, terima kasih."}]},
+  {"id":"c006","title":"Meminta izin istirahat","context":"Saat badan kurang enak.","lines":[{"speaker":"Adi","jp":"少し休んでもいいですか。","id":"Bolehkah saya istirahat sebentar?"},{"speaker":"Sato","jp":"はい、大丈夫です。水を飲んでください。","id":"Ya, tidak apa-apa. Minumlah air."}]},
+  {"id":"c007","title":"Lapor sakit","context":"Saat demam sebelum kerja.","lines":[{"speaker":"Adi","jp":"熱があります。病院へ行きたいです。","id":"Saya demam. Saya ingin ke rumah sakit."},{"speaker":"Staff","jp":"分かりました。今日は休んでください。","id":"Saya mengerti. Hari ini silakan istirahat."}]},
+  {"id":"c008","title":"Keselamatan kerja","context":"Saat akan memakai mesin.","lines":[{"speaker":"Leader","jp":"手袋をしてください。ここは危ないです。","id":"Tolong pakai sarung tangan. Di sini berbahaya."},{"speaker":"Adi","jp":"はい、分かりました。","id":"Baik, saya mengerti."}]},
+  {"id":"c009","title":"Menanyakan lokasi alat","context":"Mencari alat kerja.","lines":[{"speaker":"Adi","jp":"すみません、道具はどこですか。","id":"Maaf, alatnya di mana?"},{"speaker":"Yamada","jp":"道具はあの棚にあります。","id":"Alat ada di rak itu."}]},
+  {"id":"c010","title":"Pulang kerja","context":"Mengucapkan selesai kerja.","lines":[{"speaker":"Adi","jp":"お先に失礼します。","id":"Saya permisi pulang duluan."},{"speaker":"Sato","jp":"お疲れさまでした。","id":"Terima kasih atas kerja kerasnya."}]}
+]

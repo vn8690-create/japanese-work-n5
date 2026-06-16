@@ -1,0 +1,15 @@
+{
+  "type": "kanji",
+  "questions": [
+    {"id":"qk001","source":"kanji","prompt":"Kanji 日 berarti...","options":["hari/matahari","air","uang","orang"],"answer":"hari/matahari","explanation":"日 punya arti hari atau matahari."},
+    {"id":"qk002","source":"kanji","prompt":"Kanji untuk 'air' adalah...","options":["水","火","木","金"],"answer":"水","explanation":"水 dibaca mizu atau sui."},
+    {"id":"qk003","source":"kanji","prompt":"会社 terdiri dari kanji 会 dan 社. Artinya...","options":["perusahaan","stasiun","rumah sakit","asrama"],"answer":"perusahaan","explanation":"会社 berarti perusahaan."},
+    {"id":"qk004","source":"kanji","prompt":"Kanji 人 berarti...","options":["orang","bulan","kendaraan","bahasa"],"answer":"orang","explanation":"人 dibaca hito/jin/nin, artinya orang."},
+    {"id":"qk005","source":"kanji","prompt":"行 dalam 行きます berarti...","options":["pergi","datang","pulang","melihat"],"answer":"pergi","explanation":"行く berarti pergi."},
+    {"id":"qk006","source":"kanji","prompt":"Kanji 帰 dipakai pada kata...","options":["帰ります","来ます","見ます","書きます"],"answer":"帰ります","explanation":"帰ります berarti pulang."},
+    {"id":"qk007","source":"kanji","prompt":"電車 mengandung kanji 車 yang berarti...","options":["kendaraan/mobil","air","api","bahasa"],"answer":"kendaraan/mobil","explanation":"車 berarti mobil atau kendaraan."},
+    {"id":"qk008","source":"kanji","prompt":"日本語 memakai kanji 語 yang berarti...","options":["bahasa/kata","uang","pertemuan","tanah"],"answer":"bahasa/kata","explanation":"語 berarti bahasa atau kata."},
+    {"id":"qk009","source":"kanji","prompt":"Kanji 金 dapat berarti...","options":["uang/emas/Jumat","air/Rabu","api/Selasa","pohon/Kamis"],"answer":"uang/emas/Jumat","explanation":"金 punya arti uang, emas, dan Jumat."},
+    {"id":"qk010","source":"kanji","prompt":"Kanji 聞 dibaca きく dalam kata kerja...","options":["mendengar/bertanya","menulis","melihat","makan"],"answer":"mendengar/bertanya","explanation":"聞く berarti mendengar atau bertanya."}
+  ]
+}

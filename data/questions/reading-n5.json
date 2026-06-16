@@ -1,0 +1,50 @@
+{
+  "type": "reading",
+  "passages": [
+    {
+      "id": "r001",
+      "title": "Jadwal Kerja",
+      "text": "今日は月曜日です。アディさんは八時から五時まで工場で働きます。昼休みは十二時から一時までです。",
+      "questions": [
+        {"id":"qr001","prompt":"アディさんはどこで働きますか。","options":["工場","病院","駅","寮"],"answer":"工場","explanation":"Di bacaan tertulis 工場で働きます."},
+        {"id":"qr002","prompt":"昼休みは何時からですか。","options":["十二時","八時","一時","五時"],"answer":"十二時","explanation":"昼休みは十二時から一時までです."}
+      ]
+    },
+    {
+      "id": "r002",
+      "title": "Di Asrama",
+      "text": "私は会社の寮に住んでいます。寮から駅まで自転車で十分です。駅から会社まで電車で行きます。",
+      "questions": [
+        {"id":"qr003","prompt":"私はどこに住んでいますか。","options":["会社の寮","病院","工場","駅"],"answer":"会社の寮","explanation":"Bacaan menyebut 会社の寮に住んでいます."},
+        {"id":"qr004","prompt":"寮から駅まで何で行きますか。","options":["自転車","電車","車","歩き"],"answer":"自転車","explanation":"寮から駅まで自転車で十分です."}
+      ]
+    },
+    {
+      "id": "r003",
+      "title": "Sakit",
+      "text": "今朝、熱がありました。頭も痛いです。会社に電話して、今日は休みたいと言いました。",
+      "questions": [
+        {"id":"qr005","prompt":"今朝、何がありましたか。","options":["熱","会議","仕事","道具"],"answer":"熱","explanation":"Bacaan mengatakan 熱がありました."},
+        {"id":"qr006","prompt":"私は会社に何をしましたか。","options":["電話しました","行きました","帰りました","買いました"],"answer":"電話しました","explanation":"会社に電話して tertulis di bacaan."}
+      ]
+    },
+    {
+      "id": "r004",
+      "title": "Keselamatan",
+      "text": "この機械は危ないです。使う前に手袋をしてください。分からない時、リーダーに聞いてください。",
+      "questions": [
+        {"id":"qr007","prompt":"何をする前に手袋をしますか。","options":["機械を使う前","昼ご飯を食べる前","電車に乗る前","寮へ帰る前"],"answer":"機械を使う前","explanation":"使う前に手袋をしてください mengacu pada mesin."},
+        {"id":"qr008","prompt":"分からない時、誰に聞きますか。","options":["リーダー","先生","医者","友だち"],"answer":"リーダー","explanation":"リーダーに聞いてください tertulis di bacaan."}
+      ]
+    },
+    {
+      "id": "r005",
+      "title": "Laporan Selesai",
+      "text": "アディさんは部品を百個作りました。もう箱に入れました。でも、まだ確認していません。",
+      "questions": [
+        {"id":"qr009","prompt":"アディさんは何を作りましたか。","options":["部品","薬","手袋","自転車"],"answer":"部品","explanation":"部品を百個作りました."},
+        {"id":"qr010","prompt":"まだ何をしていませんか。","options":["確認","箱に入れる","作る","電話"],"answer":"確認","explanation":"まだ確認していません."}
+      ]
+    }
+  ]
+}
