@@ -25,12 +25,12 @@ const navItems = [
 
 const modules = [
   { id: "daily", title: "Belajar Hari Ini", mark: "7m", detail: "Rutinitas pendek: 5 kata, 1 grammar, review kartu, dan quiz cepat." },
-  { id: "vocab", title: "Kosakata", mark: "Ko", detail: "50 kata N5 yang sering muncul di kantor, pabrik, dan kehidupan harian." },
-  { id: "kanji", title: "Kanji", mark: "Ka", detail: "20 kanji dasar dengan onyomi, kunyomi, arti, dan contoh kerja." },
-  { id: "grammar", title: "Tata Bahasa", mark: "Gr", detail: "20 pola N5 yang praktis untuk bicara sopan dan memahami instruksi." },
-  { id: "conversation", title: "Percakapan", mark: "Pc", detail: "10 dialog kerja: salam, shift, laporan, izin, dan keselamatan." },
-  { id: "scenario", title: "Skenario Kerja", mark: "Sk", detail: "Pabrik, kaigo, restoran, konbini, dan konstruksi." },
-  { id: "practice", title: "Latihan Soal", mark: "Qs", detail: "Tes acak, review jawaban salah, dan reading berbasis passage." },
+  { id: "vocab", title: "Kosakata", mark: "Ko", detail: "120 kata N5-N4 dasar untuk kantor, pabrik, dokumen, kesehatan, dan hidup harian." },
+  { id: "kanji", title: "Kanji", mark: "Ka", detail: "80 kanji dasar dengan onyomi, kunyomi, arti, dan contoh kerja." },
+  { id: "grammar", title: "Tata Bahasa", mark: "Gr", detail: "50 pola N5-N4 dasar yang praktis untuk instruksi, izin, laporan, dan pendapat." },
+  { id: "conversation", title: "Percakapan", mark: "Pc", detail: "25 dialog kerja: shift, laporan, sakit, bank, hotel, kaigo, konbini, dan interview." },
+  { id: "scenario", title: "Skenario Kerja", mark: "Sk", detail: "10 jalur situasi: pabrik, kaigo, restoran, konbini, konstruksi, hotel, gudang, dan hidup harian." },
+  { id: "practice", title: "Latihan Soal", mark: "Qs", detail: "100 soal acak, review jawaban salah, dan reading berbasis passage." },
   { id: "flashcard", title: "Flashcard SRS", mark: "SR", detail: "Pilih Sulit, Lumayan, atau Mudah agar jadwal ulang menyesuaikan." }
 ];
 
@@ -43,7 +43,10 @@ const state = {
   flashcards: [],
   flashIndex: 0,
   flashRevealed: false,
-  screenshotMode: false
+  screenshotMode: false,
+  kanjiIndex: 0,
+  kanjiAuto: false,
+  kanjiTimer: null
 };
 
 const $ = (selector) => document.querySelector(selector);
@@ -138,9 +141,17 @@ const scoreBadge = (percent) => {
 };
 
 const routeTo = (route) => {
+  clearKanjiTimer();
   state.route = route;
   location.hash = route;
   render();
+};
+
+const clearKanjiTimer = () => {
+  if (state.kanjiTimer) {
+    window.clearTimeout(state.kanjiTimer);
+    state.kanjiTimer = null;
+  }
 };
 
 const setNav = () => {
@@ -175,7 +186,7 @@ const renderHome = () => {
     <section class="hero">
       <div>
         <h2>Belajar Jepang yang langsung kepakai di tempat kerja.</h2>
-        <p>Materi N5 untuk pemula Indonesia: kata praktis, kanji dasar, pola kalimat, dialog kerja, flashcard SRS, dan tes acak.</p>
+        <p>Materi N5-N4 dasar untuk pemula Indonesia: kata praktis, kanji, pola kalimat, dialog kerja, flashcard SRS, dan tes acak.</p>
         <div class="actions">
           <button class="primary" data-route="daily">${doneToday ? "Lihat rutinitas" : "Mulai 7 menit"}</button>
           <button class="ghost" data-route="scenario">Pilih skenario kerja</button>
@@ -315,29 +326,65 @@ const renderVocab = async () => {
 };
 
 const renderKanji = async () => {
+  clearKanjiTimer();
   loading();
   const data = await fetchJson("kanji");
-  const { pageItems, maxPage } = paginate(data, "kanji");
+  state.kanjiIndex = Math.max(0, Math.min(state.kanjiIndex, data.length - 1));
+  const item = data[state.kanjiIndex];
+  const percent = Math.round(((state.kanjiIndex + 1) / data.length) * 100);
   view.innerHTML = `
-    <div class="grid">
-      ${pageItems
-        .map(
-          (item) => `
-        <article class="item" data-study="kanji:${item.id}">
-          <div class="japanese">${item.kanji}</div>
-          <h3>${item.meaning}</h3>
-          <p>On: ${item.onyomi || "-"} - Kun: ${item.kunyomi || "-"}</p>
-          <p><button class="mini-sound" data-speak="${escapeHtml(item.example.jp)}">Dengar</button> ${item.example.jp} - ${item.example.id}</p>
-          <div class="tag-row"><span class="tag">${item.level}</span><span class="tag">${item.category}</span></div>
-        </article>`
-        )
-        .join("")}
-    </div>
-    ${pagination("kanji", maxPage)}
+    <section class="study-stage">
+      <div class="study-topline">
+        <span>Kanji ${state.kanjiIndex + 1}/${data.length}</span>
+        <span>${percent}%</span>
+      </div>
+      <div class="progress-track"><span style="width:${percent}%"></span></div>
+      <article class="kanji-card" data-study="kanji:${item.id}">
+        <p class="kanji-label">${item.level} - ${item.category}</p>
+        <div class="kanji-symbol">${item.kanji}</div>
+        <h2>${item.meaning}</h2>
+        <div class="reading-grid">
+          <div><span>Onyomi</span><strong>${item.onyomi || "-"}</strong></div>
+          <div><span>Kunyomi</span><strong>${item.kunyomi || "-"}</strong></div>
+        </div>
+        <div class="example-panel">
+          <p><button class="mini-sound" data-speak="${escapeHtml(item.example.jp)}">Dengar</button> <strong>${item.example.jp}</strong></p>
+          <p>${item.example.id}</p>
+        </div>
+      </article>
+      <div class="study-controls">
+        <button class="ghost" id="prevKanji" ${state.kanjiIndex === 0 ? "disabled" : ""}>Sebelumnya</button>
+        <button class="primary" id="nextKanji">${state.kanjiIndex === data.length - 1 ? "Ulang dari awal" : "Berikutnya"}</button>
+      </div>
+      <div class="study-controls compact">
+        <button class="ghost" id="speakKanji" data-speak="${escapeHtml(item.example.jp)}">Dengar contoh</button>
+        <button class="ghost ${state.kanjiAuto ? "active-control" : ""}" id="autoKanji">${state.kanjiAuto ? "Auto aktif" : "Auto next"}</button>
+      </div>
+    </section>
   `;
   bindSpeakButtons();
-  bindStudyMarks();
-  bindPaging();
+  markStudied("kanji", item.id);
+  $("#prevKanji").addEventListener("click", () => {
+    clearKanjiTimer();
+    state.kanjiIndex = Math.max(0, state.kanjiIndex - 1);
+    renderKanji();
+  });
+  $("#nextKanji").addEventListener("click", () => {
+    clearKanjiTimer();
+    state.kanjiIndex = (state.kanjiIndex + 1) % data.length;
+    renderKanji();
+  });
+  $("#autoKanji").addEventListener("click", () => {
+    clearKanjiTimer();
+    state.kanjiAuto = !state.kanjiAuto;
+    renderKanji();
+  });
+  if (state.kanjiAuto) {
+    state.kanjiTimer = window.setTimeout(() => {
+      state.kanjiIndex = (state.kanjiIndex + 1) % data.length;
+      renderKanji();
+    }, 5200);
+  }
 };
 
 const renderGrammar = async () => {
@@ -678,6 +725,7 @@ view.addEventListener("click", (event) => {
 
 const render = async () => {
   setNav();
+  if (state.route !== "kanji") clearKanjiTimer();
   if (state.route !== "practice") {
     state.screenshotMode = false;
     document.body.classList.remove("screenshot-mode");

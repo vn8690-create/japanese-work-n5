@@ -5,9 +5,18 @@
     "goal": "Memahami instruksi dasar di lini produksi.",
     "dailyMission": "Latih 5 frasa sebelum shift pagi.",
     "phrases": [
-      {"jp":"これを箱に入れてください。","id":"Tolong masukkan ini ke kotak."},
-      {"jp":"機械を止めてください。","id":"Tolong hentikan mesin."},
-      {"jp":"もう一度確認します。","id":"Saya akan mengecek sekali lagi."}
+      {
+        "jp": "これを箱に入れてください。",
+        "id": "Tolong masukkan ini ke kotak."
+      },
+      {
+        "jp": "機械を止めてください。",
+        "id": "Tolong hentikan mesin."
+      },
+      {
+        "jp": "もう一度確認します。",
+        "id": "Saya akan mengecek sekali lagi."
+      }
     ]
   },
   {
@@ -16,9 +25,18 @@
     "goal": "Berbicara sopan saat membantu orang tua.",
     "dailyMission": "Latih sapaan dan izin sebelum membantu.",
     "phrases": [
-      {"jp":"お手伝いしましょうか。","id":"Boleh saya bantu?"},
-      {"jp":"ゆっくり歩いてください。","id":"Tolong berjalan pelan-pelan."},
-      {"jp":"大丈夫ですか。","id":"Apakah Anda baik-baik saja?"}
+      {
+        "jp": "お手伝いしましょうか。",
+        "id": "Boleh saya bantu?"
+      },
+      {
+        "jp": "ゆっくり歩いてください。",
+        "id": "Tolong berjalan pelan-pelan."
+      },
+      {
+        "jp": "大丈夫ですか。",
+        "id": "Apakah Anda baik-baik saja?"
+      }
     ]
   },
   {
@@ -27,9 +45,18 @@
     "goal": "Mengerti pesanan dan instruksi sederhana.",
     "dailyMission": "Latih frasa pelayanan singkat.",
     "phrases": [
-      {"jp":"いらっしゃいませ。","id":"Selamat datang."},
-      {"jp":"少々お待ちください。","id":"Mohon tunggu sebentar."},
-      {"jp":"注文を確認します。","id":"Saya akan mengecek pesanan."}
+      {
+        "jp": "いらっしゃいませ。",
+        "id": "Selamat datang."
+      },
+      {
+        "jp": "少々お待ちください。",
+        "id": "Mohon tunggu sebentar."
+      },
+      {
+        "jp": "注文を確認します。",
+        "id": "Saya akan mengecek pesanan."
+      }
     ]
   },
   {
@@ -38,9 +65,18 @@
     "goal": "Menangani pelanggan dengan kalimat pendek.",
     "dailyMission": "Latih kasir dan respons pelanggan.",
     "phrases": [
-      {"jp":"袋は要りますか。","id":"Apakah perlu kantong?"},
-      {"jp":"ポイントカードはありますか。","id":"Apakah punya kartu poin?"},
-      {"jp":"ありがとうございました。","id":"Terima kasih banyak."}
+      {
+        "jp": "袋は要りますか。",
+        "id": "Apakah perlu kantong?"
+      },
+      {
+        "jp": "ポイントカードはありますか。",
+        "id": "Apakah punya kartu poin?"
+      },
+      {
+        "jp": "ありがとうございました。",
+        "id": "Terima kasih banyak."
+      }
     ]
   },
   {
@@ -49,9 +85,118 @@
     "goal": "Mengerti peringatan keselamatan dasar.",
     "dailyMission": "Latih instruksi aman sebelum masuk lokasi.",
     "phrases": [
-      {"jp":"ヘルメットをしてください。","id":"Tolong pakai helm."},
-      {"jp":"ここは危ないです。","id":"Di sini berbahaya."},
-      {"jp":"上に気をつけてください。","id":"Tolong hati-hati bagian atas."}
+      {
+        "jp": "ヘルメットをしてください。",
+        "id": "Tolong pakai helm."
+      },
+      {
+        "jp": "ここは危ないです。",
+        "id": "Di sini berbahaya."
+      },
+      {
+        "jp": "上に気をつけてください。",
+        "id": "Tolong hati-hati bagian atas."
+      }
+    ]
+  },
+  {
+    "id": "s006",
+    "sector": "Hotel",
+    "goal": "Mengucapkan kalimat sopan kepada tamu.",
+    "dailyMission": "Latih frasa check-in dan bantuan sederhana.",
+    "phrases": [
+      {
+        "jp": "チェックインですね。",
+        "id": "Check-in ya."
+      },
+      {
+        "jp": "こちらに名前を書いてください。",
+        "id": "Tolong tulis nama di sini."
+      },
+      {
+        "jp": "荷物をお持ちします。",
+        "id": "Saya akan membawakan barang."
+      }
+    ]
+  },
+  {
+    "id": "s007",
+    "sector": "Gudang",
+    "goal": "Mengerti instruksi barang dan jumlah.",
+    "dailyMission": "Latih angka, lokasi, dan konfirmasi.",
+    "phrases": [
+      {
+        "jp": "この荷物を運んでください。",
+        "id": "Tolong angkut barang ini."
+      },
+      {
+        "jp": "数を確認してください。",
+        "id": "Tolong cek jumlahnya."
+      },
+      {
+        "jp": "棚に入れてください。",
+        "id": "Tolong masukkan ke rak."
+      }
+    ]
+  },
+  {
+    "id": "s008",
+    "sector": "Pertanian",
+    "goal": "Memahami instruksi lapangan.",
+    "dailyMission": "Latih kata kerja sederhana di kebun.",
+    "phrases": [
+      {
+        "jp": "野菜を取ってください。",
+        "id": "Tolong ambil sayur."
+      },
+      {
+        "jp": "水をまいてください。",
+        "id": "Tolong siram air."
+      },
+      {
+        "jp": "ここに置いてください。",
+        "id": "Tolong taruh di sini."
+      }
+    ]
+  },
+  {
+    "id": "s009",
+    "sector": "Administrasi",
+    "goal": "Mengurus dokumen harian.",
+    "dailyMission": "Latih frasa dokumen dan konfirmasi.",
+    "phrases": [
+      {
+        "jp": "書類を確認します。",
+        "id": "Saya akan mengecek dokumen."
+      },
+      {
+        "jp": "住所を書いてください。",
+        "id": "Tolong tulis alamat."
+      },
+      {
+        "jp": "印鑑を持ってきてください。",
+        "id": "Tolong bawa stempel nama."
+      }
+    ]
+  },
+  {
+    "id": "s010",
+    "sector": "Kehidupan Harian",
+    "goal": "Bertahan hidup di Jepang dengan frasa dasar.",
+    "dailyMission": "Latih bank, pos, rumah sakit, dan stasiun.",
+    "phrases": [
+      {
+        "jp": "病院へ行きたいです。",
+        "id": "Saya ingin pergi ke rumah sakit."
+      },
+      {
+        "jp": "銀行はどこですか。",
+        "id": "Di mana bank?"
+      },
+      {
+        "jp": "この電車は新宿へ行きますか。",
+        "id": "Apakah kereta ini pergi ke Shinjuku?"
+      }
     ]
   }
 ]

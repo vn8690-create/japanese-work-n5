@@ -23,6 +23,7 @@ Aplikasi web ringan untuk pengguna Indonesia yang baru belajar bahasa Jepang, te
 - Progress tersimpan di localStorage
 - PWA sederhana dengan manifest dan service worker
 - Siap deploy ke GitHub Pages
+- Konten diperluas: 120 kosakata, 80 kanji, 50 grammar, 25 dialog, 10 skenario, 100 soal, dan 10 reading passage
 
 ## Struktur
 

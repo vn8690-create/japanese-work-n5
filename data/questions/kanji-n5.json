@@ -1,15 +1,330 @@
 {
   "type": "kanji",
   "questions": [
-    {"id":"qk001","source":"kanji","prompt":"Kanji 日 berarti...","options":["hari/matahari","air","uang","orang"],"answer":"hari/matahari","explanation":"日 punya arti hari atau matahari."},
-    {"id":"qk002","source":"kanji","prompt":"Kanji untuk 'air' adalah...","options":["水","火","木","金"],"answer":"水","explanation":"水 dibaca mizu atau sui."},
-    {"id":"qk003","source":"kanji","prompt":"会社 terdiri dari kanji 会 dan 社. Artinya...","options":["perusahaan","stasiun","rumah sakit","asrama"],"answer":"perusahaan","explanation":"会社 berarti perusahaan."},
-    {"id":"qk004","source":"kanji","prompt":"Kanji 人 berarti...","options":["orang","bulan","kendaraan","bahasa"],"answer":"orang","explanation":"人 dibaca hito/jin/nin, artinya orang."},
-    {"id":"qk005","source":"kanji","prompt":"行 dalam 行きます berarti...","options":["pergi","datang","pulang","melihat"],"answer":"pergi","explanation":"行く berarti pergi."},
-    {"id":"qk006","source":"kanji","prompt":"Kanji 帰 dipakai pada kata...","options":["帰ります","来ます","見ます","書きます"],"answer":"帰ります","explanation":"帰ります berarti pulang."},
-    {"id":"qk007","source":"kanji","prompt":"電車 mengandung kanji 車 yang berarti...","options":["kendaraan/mobil","air","api","bahasa"],"answer":"kendaraan/mobil","explanation":"車 berarti mobil atau kendaraan."},
-    {"id":"qk008","source":"kanji","prompt":"日本語 memakai kanji 語 yang berarti...","options":["bahasa/kata","uang","pertemuan","tanah"],"answer":"bahasa/kata","explanation":"語 berarti bahasa atau kata."},
-    {"id":"qk009","source":"kanji","prompt":"Kanji 金 dapat berarti...","options":["uang/emas/Jumat","air/Rabu","api/Selasa","pohon/Kamis"],"answer":"uang/emas/Jumat","explanation":"金 punya arti uang, emas, dan Jumat."},
-    {"id":"qk010","source":"kanji","prompt":"Kanji 聞 dibaca きく dalam kata kerja...","options":["mendengar/bertanya","menulis","melihat","makan"],"answer":"mendengar/bertanya","explanation":"聞く berarti mendengar atau bertanya."}
+    {
+      "id": "qk001",
+      "source": "kanji",
+      "prompt": "Kanji 日 berarti...",
+      "options": [
+        "hari/matahari",
+        "air",
+        "uang",
+        "orang"
+      ],
+      "answer": "hari/matahari",
+      "explanation": "日 punya arti hari atau matahari."
+    },
+    {
+      "id": "qk002",
+      "source": "kanji",
+      "prompt": "Kanji untuk 'air' adalah...",
+      "options": [
+        "水",
+        "火",
+        "木",
+        "金"
+      ],
+      "answer": "水",
+      "explanation": "水 dibaca mizu atau sui."
+    },
+    {
+      "id": "qk003",
+      "source": "kanji",
+      "prompt": "会社 terdiri dari kanji 会 dan 社. Artinya...",
+      "options": [
+        "perusahaan",
+        "stasiun",
+        "rumah sakit",
+        "asrama"
+      ],
+      "answer": "perusahaan",
+      "explanation": "会社 berarti perusahaan."
+    },
+    {
+      "id": "qk004",
+      "source": "kanji",
+      "prompt": "Kanji 人 berarti...",
+      "options": [
+        "orang",
+        "bulan",
+        "kendaraan",
+        "bahasa"
+      ],
+      "answer": "orang",
+      "explanation": "人 dibaca hito/jin/nin, artinya orang."
+    },
+    {
+      "id": "qk005",
+      "source": "kanji",
+      "prompt": "行 dalam 行きます berarti...",
+      "options": [
+        "pergi",
+        "datang",
+        "pulang",
+        "melihat"
+      ],
+      "answer": "pergi",
+      "explanation": "行く berarti pergi."
+    },
+    {
+      "id": "qk006",
+      "source": "kanji",
+      "prompt": "Kanji 帰 dipakai pada kata...",
+      "options": [
+        "帰ります",
+        "来ます",
+        "見ます",
+        "書きます"
+      ],
+      "answer": "帰ります",
+      "explanation": "帰ります berarti pulang."
+    },
+    {
+      "id": "qk007",
+      "source": "kanji",
+      "prompt": "電車 mengandung kanji 車 yang berarti...",
+      "options": [
+        "kendaraan/mobil",
+        "air",
+        "api",
+        "bahasa"
+      ],
+      "answer": "kendaraan/mobil",
+      "explanation": "車 berarti mobil atau kendaraan."
+    },
+    {
+      "id": "qk008",
+      "source": "kanji",
+      "prompt": "日本語 memakai kanji 語 yang berarti...",
+      "options": [
+        "bahasa/kata",
+        "uang",
+        "pertemuan",
+        "tanah"
+      ],
+      "answer": "bahasa/kata",
+      "explanation": "語 berarti bahasa atau kata."
+    },
+    {
+      "id": "qk009",
+      "source": "kanji",
+      "prompt": "Kanji 金 dapat berarti...",
+      "options": [
+        "uang/emas/Jumat",
+        "air/Rabu",
+        "api/Selasa",
+        "pohon/Kamis"
+      ],
+      "answer": "uang/emas/Jumat",
+      "explanation": "金 punya arti uang, emas, dan Jumat."
+    },
+    {
+      "id": "qk010",
+      "source": "kanji",
+      "prompt": "Kanji 聞 dibaca きく dalam kata kerja...",
+      "options": [
+        "mendengar/bertanya",
+        "menulis",
+        "melihat",
+        "makan"
+      ],
+      "answer": "mendengar/bertanya",
+      "explanation": "聞く berarti mendengar atau bertanya."
+    },
+    {
+      "id": "qk011",
+      "source": "kanji",
+      "prompt": "Kanji 一 berarti...",
+      "options": [
+        "satu",
+        "dua",
+        "tiga",
+        "sepuluh"
+      ],
+      "answer": "satu",
+      "explanation": "一 berarti satu."
+    },
+    {
+      "id": "qk012",
+      "source": "kanji",
+      "prompt": "Kanji 時 berarti...",
+      "options": [
+        "jam/waktu",
+        "tahun",
+        "uang",
+        "pintu"
+      ],
+      "answer": "jam/waktu",
+      "explanation": "時 berarti jam atau waktu."
+    },
+    {
+      "id": "qk013",
+      "source": "kanji",
+      "prompt": "出口 mengandung kanji 出 yang berarti...",
+      "options": [
+        "keluar",
+        "masuk",
+        "besar",
+        "murah"
+      ],
+      "answer": "keluar",
+      "explanation": "出 berarti keluar."
+    },
+    {
+      "id": "qk014",
+      "source": "kanji",
+      "prompt": "入口 berarti...",
+      "options": [
+        "pintu masuk",
+        "pintu keluar",
+        "pintu barat",
+        "pintu timur"
+      ],
+      "answer": "pintu masuk",
+      "explanation": "入口 berarti pintu masuk."
+    },
+    {
+      "id": "qk015",
+      "source": "kanji",
+      "prompt": "Kanji 休 berhubungan dengan...",
+      "options": [
+        "istirahat/libur",
+        "uang",
+        "nama",
+        "warna"
+      ],
+      "answer": "istirahat/libur",
+      "explanation": "休 berarti istirahat atau libur."
+    },
+    {
+      "id": "qk016",
+      "source": "kanji",
+      "prompt": "名前 memakai kanji 名 yang berarti...",
+      "options": [
+        "nama",
+        "ayah",
+        "ibu",
+        "teman"
+      ],
+      "answer": "nama",
+      "explanation": "名 berarti nama."
+    },
+    {
+      "id": "qk017",
+      "source": "kanji",
+      "prompt": "Kanji 右 berarti...",
+      "options": [
+        "kanan",
+        "kiri",
+        "utara",
+        "selatan"
+      ],
+      "answer": "kanan",
+      "explanation": "右 berarti kanan."
+    },
+    {
+      "id": "qk018",
+      "source": "kanji",
+      "prompt": "Kanji 左 berarti...",
+      "options": [
+        "kiri",
+        "kanan",
+        "luar",
+        "dalam"
+      ],
+      "answer": "kiri",
+      "explanation": "左 berarti kiri."
+    },
+    {
+      "id": "qk019",
+      "source": "kanji",
+      "prompt": "Kanji 高 dapat berarti...",
+      "options": [
+        "tinggi/mahal",
+        "rendah",
+        "baru",
+        "pendek"
+      ],
+      "answer": "tinggi/mahal",
+      "explanation": "高 berarti tinggi atau mahal."
+    },
+    {
+      "id": "qk020",
+      "source": "kanji",
+      "prompt": "Kanji 安 muncul pada 安全 dan berarti...",
+      "options": [
+        "aman/murah",
+        "besar",
+        "lama",
+        "hitam"
+      ],
+      "answer": "aman/murah",
+      "explanation": "安 berhubungan dengan aman atau murah."
+    },
+    {
+      "id": "qk021",
+      "source": "kanji",
+      "prompt": "Kanji 電 pada 電車 berarti...",
+      "options": [
+        "listrik",
+        "air",
+        "api",
+        "tanah"
+      ],
+      "answer": "listrik",
+      "explanation": "電 berarti listrik."
+    },
+    {
+      "id": "qk022",
+      "source": "kanji",
+      "prompt": "Kanji 白 berarti...",
+      "options": [
+        "putih",
+        "hitam",
+        "merah",
+        "biru"
+      ],
+      "answer": "putih",
+      "explanation": "白 berarti putih."
+    },
+    {
+      "id": "qk023",
+      "source": "kanji",
+      "prompt": "赤いボタン berarti tombol warna...",
+      "options": [
+        "merah",
+        "biru",
+        "putih",
+        "hitam"
+      ],
+      "answer": "merah",
+      "explanation": "赤 berarti merah."
+    },
+    {
+      "id": "qk024",
+      "source": "kanji",
+      "prompt": "Kanji 新 berarti...",
+      "options": [
+        "baru",
+        "lama",
+        "panjang",
+        "pendek"
+      ],
+      "answer": "baru",
+      "explanation": "新 berarti baru."
+    },
+    {
+      "id": "qk025",
+      "source": "kanji",
+      "prompt": "Kanji 中 berarti...",
+      "options": [
+        "dalam/tengah",
+        "luar",
+        "sebelum",
+        "setelah"
+      ],
+      "answer": "dalam/tengah",
+      "explanation": "中 berarti dalam atau tengah."
+    }
   ]
 }

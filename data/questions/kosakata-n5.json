@@ -1,15 +1,330 @@
 {
   "type": "kosakata",
   "questions": [
-    {"id":"qv001","source":"kosakata","prompt":"Arti dari 会社 adalah...","options":["perusahaan","asrama","kereta","obat"],"answer":"perusahaan","explanation":"会社 dibaca kaisha, artinya perusahaan."},
-    {"id":"qv002","source":"kosakata","prompt":"Bahasa Jepang untuk 'pabrik' adalah...","options":["工場","会社","病院","駅"],"answer":"工場","explanation":"工場 dibaca koujou, artinya pabrik."},
-    {"id":"qv003","source":"kosakata","prompt":"やすみ berarti...","options":["libur/istirahat","mesin","alat","bahaya"],"answer":"libur/istirahat","explanation":"休み atau やすみ dipakai untuk libur atau istirahat."},
-    {"id":"qv004","source":"kosakata","prompt":"Kalimat 'Saya bekerja di pabrik' memakai kata kerja...","options":["働く","帰る","飲む","待つ"],"answer":"働く","explanation":"働く berarti bekerja."},
-    {"id":"qv005","source":"kosakata","prompt":"危ない berarti...","options":["berbahaya","aman","cepat","sedikit"],"answer":"berbahaya","explanation":"危ない dibaca abunai, artinya berbahaya."},
-    {"id":"qv006","source":"kosakata","prompt":"手袋 adalah benda untuk...","options":["melindungi tangan","membaca laporan","naik kereta","membeli makan"],"answer":"melindungi tangan","explanation":"手袋 berarti sarung tangan."},
-    {"id":"qv007","source":"kosakata","prompt":"Jika tidak paham, kata kerja yang cocok adalah...","options":["聞く","作る","買う","帰る"],"answer":"聞く","explanation":"聞く berarti mendengar atau bertanya."},
-    {"id":"qv008","source":"kosakata","prompt":"薬 dibaca...","options":["kusuri","netsu","heya","ryou"],"answer":"kusuri","explanation":"薬 dibaca kusuri, artinya obat."},
-    {"id":"qv009","source":"kosakata","prompt":"電車 berarti...","options":["kereta","sepeda","stasiun","perusahaan"],"answer":"kereta","explanation":"電車 dibaca densha, artinya kereta."},
-    {"id":"qv010","source":"kosakata","prompt":"Frasa untuk 'Saya mengerti' yang praktis di kerja adalah...","options":["分かりました","危ないです","休みです","行きたいです"],"answer":"分かりました","explanation":"分かりました berarti saya mengerti."}
+    {
+      "id": "qv001",
+      "source": "kosakata",
+      "prompt": "Arti dari 会社 adalah...",
+      "options": [
+        "perusahaan",
+        "asrama",
+        "kereta",
+        "obat"
+      ],
+      "answer": "perusahaan",
+      "explanation": "会社 dibaca kaisha, artinya perusahaan."
+    },
+    {
+      "id": "qv002",
+      "source": "kosakata",
+      "prompt": "Bahasa Jepang untuk 'pabrik' adalah...",
+      "options": [
+        "工場",
+        "会社",
+        "病院",
+        "駅"
+      ],
+      "answer": "工場",
+      "explanation": "工場 dibaca koujou, artinya pabrik."
+    },
+    {
+      "id": "qv003",
+      "source": "kosakata",
+      "prompt": "やすみ berarti...",
+      "options": [
+        "libur/istirahat",
+        "mesin",
+        "alat",
+        "bahaya"
+      ],
+      "answer": "libur/istirahat",
+      "explanation": "休み atau やすみ dipakai untuk libur atau istirahat."
+    },
+    {
+      "id": "qv004",
+      "source": "kosakata",
+      "prompt": "Kalimat 'Saya bekerja di pabrik' memakai kata kerja...",
+      "options": [
+        "働く",
+        "帰る",
+        "飲む",
+        "待つ"
+      ],
+      "answer": "働く",
+      "explanation": "働く berarti bekerja."
+    },
+    {
+      "id": "qv005",
+      "source": "kosakata",
+      "prompt": "危ない berarti...",
+      "options": [
+        "berbahaya",
+        "aman",
+        "cepat",
+        "sedikit"
+      ],
+      "answer": "berbahaya",
+      "explanation": "危ない dibaca abunai, artinya berbahaya."
+    },
+    {
+      "id": "qv006",
+      "source": "kosakata",
+      "prompt": "手袋 adalah benda untuk...",
+      "options": [
+        "melindungi tangan",
+        "membaca laporan",
+        "naik kereta",
+        "membeli makan"
+      ],
+      "answer": "melindungi tangan",
+      "explanation": "手袋 berarti sarung tangan."
+    },
+    {
+      "id": "qv007",
+      "source": "kosakata",
+      "prompt": "Jika tidak paham, kata kerja yang cocok adalah...",
+      "options": [
+        "聞く",
+        "作る",
+        "買う",
+        "帰る"
+      ],
+      "answer": "聞く",
+      "explanation": "聞く berarti mendengar atau bertanya."
+    },
+    {
+      "id": "qv008",
+      "source": "kosakata",
+      "prompt": "薬 dibaca...",
+      "options": [
+        "kusuri",
+        "netsu",
+        "heya",
+        "ryou"
+      ],
+      "answer": "kusuri",
+      "explanation": "薬 dibaca kusuri, artinya obat."
+    },
+    {
+      "id": "qv009",
+      "source": "kosakata",
+      "prompt": "電車 berarti...",
+      "options": [
+        "kereta",
+        "sepeda",
+        "stasiun",
+        "perusahaan"
+      ],
+      "answer": "kereta",
+      "explanation": "電車 dibaca densha, artinya kereta."
+    },
+    {
+      "id": "qv010",
+      "source": "kosakata",
+      "prompt": "Frasa untuk 'Saya mengerti' yang praktis di kerja adalah...",
+      "options": [
+        "分かりました",
+        "危ないです",
+        "休みです",
+        "行きたいです"
+      ],
+      "answer": "分かりました",
+      "explanation": "分かりました berarti saya mengerti."
+    },
+    {
+      "id": "qv011",
+      "source": "kosakata",
+      "prompt": "上司 berarti...",
+      "options": [
+        "atasan",
+        "rekan kerja",
+        "dokumen",
+        "kantor pos"
+      ],
+      "answer": "atasan",
+      "explanation": "上司 berarti atasan."
+    },
+    {
+      "id": "qv012",
+      "source": "kosakata",
+      "prompt": "Bahasa Jepang untuk lembur adalah...",
+      "options": [
+        "残業",
+        "給料",
+        "会議",
+        "掃除"
+      ],
+      "answer": "残業",
+      "explanation": "残業 berarti lembur."
+    },
+    {
+      "id": "qv013",
+      "source": "kosakata",
+      "prompt": "確認 berarti...",
+      "options": [
+        "cek/konfirmasi",
+        "terlambat",
+        "dompet",
+        "peta"
+      ],
+      "answer": "cek/konfirmasi",
+      "explanation": "確認 dipakai untuk mengecek atau mengonfirmasi."
+    },
+    {
+      "id": "qv014",
+      "source": "kosakata",
+      "prompt": "遅刻してすみません dipakai saat...",
+      "options": [
+        "terlambat",
+        "sakit",
+        "pulang",
+        "belanja"
+      ],
+      "answer": "terlambat",
+      "explanation": "遅刻 berarti terlambat."
+    },
+    {
+      "id": "qv015",
+      "source": "kosakata",
+      "prompt": "給料 berarti...",
+      "options": [
+        "gaji",
+        "asuransi",
+        "alat",
+        "alamat"
+      ],
+      "answer": "gaji",
+      "explanation": "給料 berarti gaji."
+    },
+    {
+      "id": "qv016",
+      "source": "kosakata",
+      "prompt": "市役所 adalah...",
+      "options": [
+        "balai kota",
+        "bank",
+        "pabrik",
+        "asrama"
+      ],
+      "answer": "balai kota",
+      "explanation": "市役所 adalah balai kota."
+    },
+    {
+      "id": "qv017",
+      "source": "kosakata",
+      "prompt": "Jika mesin rusak, kata yang cocok adalah...",
+      "options": [
+        "壊れる",
+        "覚える",
+        "急ぐ",
+        "洗濯"
+      ],
+      "answer": "壊れる",
+      "explanation": "壊れる berarti rusak."
+    },
+    {
+      "id": "qv018",
+      "source": "kosakata",
+      "prompt": "荷物を運びます berarti...",
+      "options": [
+        "mengangkut barang",
+        "membaca buku",
+        "membuat janji",
+        "mencari pintu"
+      ],
+      "answer": "mengangkut barang",
+      "explanation": "運ぶ berarti membawa atau mengangkut."
+    },
+    {
+      "id": "qv019",
+      "source": "kosakata",
+      "prompt": "財布 berarti...",
+      "options": [
+        "dompet",
+        "kunci",
+        "batuk",
+        "alamat"
+      ],
+      "answer": "dompet",
+      "explanation": "財布 adalah dompet."
+    },
+    {
+      "id": "qv020",
+      "source": "kosakata",
+      "prompt": "入口 berarti...",
+      "options": [
+        "pintu masuk",
+        "pintu keluar",
+        "bank",
+        "kantor pos"
+      ],
+      "answer": "pintu masuk",
+      "explanation": "入口 adalah pintu masuk."
+    },
+    {
+      "id": "qv021",
+      "source": "kosakata",
+      "prompt": "具合が悪いです berarti...",
+      "options": [
+        "kondisi badan tidak baik",
+        "pekerjaan selesai",
+        "saya terlambat",
+        "alat rusak"
+      ],
+      "answer": "kondisi badan tidak baik",
+      "explanation": "具合 adalah kondisi badan."
+    },
+    {
+      "id": "qv022",
+      "source": "kosakata",
+      "prompt": "手続き berarti...",
+      "options": [
+        "prosedur administrasi",
+        "sarung tangan",
+        "makan siang",
+        "sepeda"
+      ],
+      "answer": "prosedur administrasi",
+      "explanation": "手続き sering dipakai di kantor/balai kota."
+    },
+    {
+      "id": "qv023",
+      "source": "kosakata",
+      "prompt": "番号 berarti...",
+      "options": [
+        "nomor",
+        "nama",
+        "uang",
+        "warna"
+      ],
+      "answer": "nomor",
+      "explanation": "番号 berarti nomor."
+    },
+    {
+      "id": "qv024",
+      "source": "kosakata",
+      "prompt": "忘れました berarti...",
+      "options": [
+        "sudah lupa",
+        "sudah datang",
+        "sudah membeli",
+        "sudah membaca"
+      ],
+      "answer": "sudah lupa",
+      "explanation": "忘れる berarti lupa."
+    },
+    {
+      "id": "qv025",
+      "source": "kosakata",
+      "prompt": "地図を見ます berarti...",
+      "options": [
+        "melihat peta",
+        "menekan tombol",
+        "menunggu balasan",
+        "mengirim paket"
+      ],
+      "answer": "melihat peta",
+      "explanation": "地図 berarti peta."
+    }
   ]
 }

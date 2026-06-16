@@ -1,22 +1,1042 @@
 [
-  {"id":"k001","kanji":"日","meaning":"hari/matahari","onyomi":"ニチ, ジツ","kunyomi":"ひ, か","level":"N5","category":"waktu","example":{"jp":"日曜日は休みです。","id":"Hari Minggu libur."}},
-  {"id":"k002","kanji":"月","meaning":"bulan/Senin","onyomi":"ゲツ, ガツ","kunyomi":"つき","level":"N5","category":"waktu","example":{"jp":"月曜日に働きます。","id":"Saya bekerja hari Senin."}},
-  {"id":"k003","kanji":"火","meaning":"api/Selasa","onyomi":"カ","kunyomi":"ひ","level":"N5","category":"waktu","example":{"jp":"火に気をつけてください。","id":"Tolong hati-hati dengan api."}},
-  {"id":"k004","kanji":"水","meaning":"air/Rabu","onyomi":"スイ","kunyomi":"みず","level":"N5","category":"harian","example":{"jp":"水を飲みます。","id":"Saya minum air."}},
-  {"id":"k005","kanji":"木","meaning":"pohon/Kamis","onyomi":"モク, ボク","kunyomi":"き","level":"N5","category":"waktu","example":{"jp":"木曜日に会議があります。","id":"Ada rapat hari Kamis."}},
-  {"id":"k006","kanji":"金","meaning":"uang/emas/Jumat","onyomi":"キン","kunyomi":"かね","level":"N5","category":"harian","example":{"jp":"金曜日に給料をもらいます。","id":"Saya menerima gaji hari Jumat."}},
-  {"id":"k007","kanji":"土","meaning":"tanah/Sabtu","onyomi":"ド, ト","kunyomi":"つち","level":"N5","category":"waktu","example":{"jp":"土曜日も仕事です。","id":"Hari Sabtu juga kerja."}},
-  {"id":"k008","kanji":"人","meaning":"orang","onyomi":"ジン, ニン","kunyomi":"ひと","level":"N5","category":"dasar","example":{"jp":"インドネシア人です。","id":"Saya orang Indonesia."}},
-  {"id":"k009","kanji":"先","meaning":"sebelum/depan","onyomi":"セン","kunyomi":"さき","level":"N5","category":"dasar","example":{"jp":"先生に聞きます。","id":"Saya bertanya kepada guru."}},
-  {"id":"k010","kanji":"生","meaning":"hidup/lahir","onyomi":"セイ, ショウ","kunyomi":"いきる, うまれる","level":"N5","category":"dasar","example":{"jp":"先生は親切です。","id":"Guru itu ramah."}},
-  {"id":"k011","kanji":"会","meaning":"bertemu/pertemuan","onyomi":"カイ","kunyomi":"あう","level":"N5","category":"kerja","example":{"jp":"会議は九時です。","id":"Rapat jam sembilan."}},
-  {"id":"k012","kanji":"社","meaning":"perusahaan/kuil","onyomi":"シャ","kunyomi":"","level":"N5","category":"kerja","example":{"jp":"会社へ行きます。","id":"Saya pergi ke perusahaan."}},
-  {"id":"k013","kanji":"行","meaning":"pergi","onyomi":"コウ, ギョウ","kunyomi":"いく, おこなう","level":"N5","category":"aksi","example":{"jp":"工場へ行きます。","id":"Saya pergi ke pabrik."}},
-  {"id":"k014","kanji":"来","meaning":"datang","onyomi":"ライ","kunyomi":"くる","level":"N5","category":"aksi","example":{"jp":"七時に来てください。","id":"Tolong datang jam tujuh."}},
-  {"id":"k015","kanji":"帰","meaning":"pulang","onyomi":"キ","kunyomi":"かえる","level":"N5","category":"aksi","example":{"jp":"五時に帰ります。","id":"Saya pulang jam lima."}},
-  {"id":"k016","kanji":"見","meaning":"melihat","onyomi":"ケン","kunyomi":"みる","level":"N5","category":"aksi","example":{"jp":"写真を見ます。","id":"Saya melihat foto."}},
-  {"id":"k017","kanji":"聞","meaning":"mendengar/bertanya","onyomi":"ブン, モン","kunyomi":"きく","level":"N5","category":"aksi","example":{"jp":"分からない時、聞きます。","id":"Saat tidak paham, saya bertanya."}},
-  {"id":"k018","kanji":"書","meaning":"menulis","onyomi":"ショ","kunyomi":"かく","level":"N5","category":"aksi","example":{"jp":"報告書を書きます。","id":"Saya menulis laporan."}},
-  {"id":"k019","kanji":"車","meaning":"mobil/kendaraan","onyomi":"シャ","kunyomi":"くるま","level":"N5","category":"transportasi","example":{"jp":"電車で会社へ行きます。","id":"Saya pergi ke perusahaan naik kereta."}},
-  {"id":"k020","kanji":"語","meaning":"bahasa/kata","onyomi":"ゴ","kunyomi":"かたる","level":"N5","category":"belajar","example":{"jp":"日本語を勉強します。","id":"Saya belajar bahasa Jepang."}}
+  {
+    "id": "k001",
+    "kanji": "日",
+    "meaning": "hari/matahari",
+    "onyomi": "ニチ, ジツ",
+    "kunyomi": "ひ, か",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "日曜日は休みです。",
+      "id": "Hari Minggu libur."
+    }
+  },
+  {
+    "id": "k002",
+    "kanji": "月",
+    "meaning": "bulan/Senin",
+    "onyomi": "ゲツ, ガツ",
+    "kunyomi": "つき",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "月曜日に働きます。",
+      "id": "Saya bekerja hari Senin."
+    }
+  },
+  {
+    "id": "k003",
+    "kanji": "火",
+    "meaning": "api/Selasa",
+    "onyomi": "カ",
+    "kunyomi": "ひ",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "火に気をつけてください。",
+      "id": "Tolong hati-hati dengan api."
+    }
+  },
+  {
+    "id": "k004",
+    "kanji": "水",
+    "meaning": "air/Rabu",
+    "onyomi": "スイ",
+    "kunyomi": "みず",
+    "level": "N5",
+    "category": "harian",
+    "example": {
+      "jp": "水を飲みます。",
+      "id": "Saya minum air."
+    }
+  },
+  {
+    "id": "k005",
+    "kanji": "木",
+    "meaning": "pohon/Kamis",
+    "onyomi": "モク, ボク",
+    "kunyomi": "き",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "木曜日に会議があります。",
+      "id": "Ada rapat hari Kamis."
+    }
+  },
+  {
+    "id": "k006",
+    "kanji": "金",
+    "meaning": "uang/emas/Jumat",
+    "onyomi": "キン",
+    "kunyomi": "かね",
+    "level": "N5",
+    "category": "harian",
+    "example": {
+      "jp": "金曜日に給料をもらいます。",
+      "id": "Saya menerima gaji hari Jumat."
+    }
+  },
+  {
+    "id": "k007",
+    "kanji": "土",
+    "meaning": "tanah/Sabtu",
+    "onyomi": "ド, ト",
+    "kunyomi": "つち",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "土曜日も仕事です。",
+      "id": "Hari Sabtu juga kerja."
+    }
+  },
+  {
+    "id": "k008",
+    "kanji": "人",
+    "meaning": "orang",
+    "onyomi": "ジン, ニン",
+    "kunyomi": "ひと",
+    "level": "N5",
+    "category": "dasar",
+    "example": {
+      "jp": "インドネシア人です。",
+      "id": "Saya orang Indonesia."
+    }
+  },
+  {
+    "id": "k009",
+    "kanji": "先",
+    "meaning": "sebelum/depan",
+    "onyomi": "セン",
+    "kunyomi": "さき",
+    "level": "N5",
+    "category": "dasar",
+    "example": {
+      "jp": "先生に聞きます。",
+      "id": "Saya bertanya kepada guru."
+    }
+  },
+  {
+    "id": "k010",
+    "kanji": "生",
+    "meaning": "hidup/lahir",
+    "onyomi": "セイ, ショウ",
+    "kunyomi": "いきる, うまれる",
+    "level": "N5",
+    "category": "dasar",
+    "example": {
+      "jp": "先生は親切です。",
+      "id": "Guru itu ramah."
+    }
+  },
+  {
+    "id": "k011",
+    "kanji": "会",
+    "meaning": "bertemu/pertemuan",
+    "onyomi": "カイ",
+    "kunyomi": "あう",
+    "level": "N5",
+    "category": "kerja",
+    "example": {
+      "jp": "会議は九時です。",
+      "id": "Rapat jam sembilan."
+    }
+  },
+  {
+    "id": "k012",
+    "kanji": "社",
+    "meaning": "perusahaan/kuil",
+    "onyomi": "シャ",
+    "kunyomi": "",
+    "level": "N5",
+    "category": "kerja",
+    "example": {
+      "jp": "会社へ行きます。",
+      "id": "Saya pergi ke perusahaan."
+    }
+  },
+  {
+    "id": "k013",
+    "kanji": "行",
+    "meaning": "pergi",
+    "onyomi": "コウ, ギョウ",
+    "kunyomi": "いく, おこなう",
+    "level": "N5",
+    "category": "aksi",
+    "example": {
+      "jp": "工場へ行きます。",
+      "id": "Saya pergi ke pabrik."
+    }
+  },
+  {
+    "id": "k014",
+    "kanji": "来",
+    "meaning": "datang",
+    "onyomi": "ライ",
+    "kunyomi": "くる",
+    "level": "N5",
+    "category": "aksi",
+    "example": {
+      "jp": "七時に来てください。",
+      "id": "Tolong datang jam tujuh."
+    }
+  },
+  {
+    "id": "k015",
+    "kanji": "帰",
+    "meaning": "pulang",
+    "onyomi": "キ",
+    "kunyomi": "かえる",
+    "level": "N5",
+    "category": "aksi",
+    "example": {
+      "jp": "五時に帰ります。",
+      "id": "Saya pulang jam lima."
+    }
+  },
+  {
+    "id": "k016",
+    "kanji": "見",
+    "meaning": "melihat",
+    "onyomi": "ケン",
+    "kunyomi": "みる",
+    "level": "N5",
+    "category": "aksi",
+    "example": {
+      "jp": "写真を見ます。",
+      "id": "Saya melihat foto."
+    }
+  },
+  {
+    "id": "k017",
+    "kanji": "聞",
+    "meaning": "mendengar/bertanya",
+    "onyomi": "ブン, モン",
+    "kunyomi": "きく",
+    "level": "N5",
+    "category": "aksi",
+    "example": {
+      "jp": "分からない時、聞きます。",
+      "id": "Saat tidak paham, saya bertanya."
+    }
+  },
+  {
+    "id": "k018",
+    "kanji": "書",
+    "meaning": "menulis",
+    "onyomi": "ショ",
+    "kunyomi": "かく",
+    "level": "N5",
+    "category": "aksi",
+    "example": {
+      "jp": "報告書を書きます。",
+      "id": "Saya menulis laporan."
+    }
+  },
+  {
+    "id": "k019",
+    "kanji": "車",
+    "meaning": "mobil/kendaraan",
+    "onyomi": "シャ",
+    "kunyomi": "くるま",
+    "level": "N5",
+    "category": "transportasi",
+    "example": {
+      "jp": "電車で会社へ行きます。",
+      "id": "Saya pergi ke perusahaan naik kereta."
+    }
+  },
+  {
+    "id": "k020",
+    "kanji": "語",
+    "meaning": "bahasa/kata",
+    "onyomi": "ゴ",
+    "kunyomi": "かたる",
+    "level": "N5",
+    "category": "belajar",
+    "example": {
+      "jp": "日本語を勉強します。",
+      "id": "Saya belajar bahasa Jepang."
+    }
+  },
+  {
+    "id": "k021",
+    "kanji": "一",
+    "meaning": "satu",
+    "onyomi": "イチ",
+    "kunyomi": "ひとつ",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "一時に休みます。",
+      "id": "Saya istirahat jam satu."
+    }
+  },
+  {
+    "id": "k022",
+    "kanji": "二",
+    "meaning": "dua",
+    "onyomi": "ニ",
+    "kunyomi": "ふたつ",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "二人で作業します。",
+      "id": "Kami bekerja berdua."
+    }
+  },
+  {
+    "id": "k023",
+    "kanji": "三",
+    "meaning": "tiga",
+    "onyomi": "サン",
+    "kunyomi": "みっつ",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "三時に会議があります。",
+      "id": "Ada rapat jam tiga."
+    }
+  },
+  {
+    "id": "k024",
+    "kanji": "四",
+    "meaning": "empat",
+    "onyomi": "シ, ヨン",
+    "kunyomi": "よっつ",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "四時に終わります。",
+      "id": "Selesai jam empat."
+    }
+  },
+  {
+    "id": "k025",
+    "kanji": "五",
+    "meaning": "lima",
+    "onyomi": "ゴ",
+    "kunyomi": "いつつ",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "五分待ってください。",
+      "id": "Tolong tunggu lima menit."
+    }
+  },
+  {
+    "id": "k026",
+    "kanji": "六",
+    "meaning": "enam",
+    "onyomi": "ロク",
+    "kunyomi": "むっつ",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "六時に起きます。",
+      "id": "Saya bangun jam enam."
+    }
+  },
+  {
+    "id": "k027",
+    "kanji": "七",
+    "meaning": "tujuh",
+    "onyomi": "シチ, ナナ",
+    "kunyomi": "ななつ",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "七時に出ます。",
+      "id": "Saya berangkat jam tujuh."
+    }
+  },
+  {
+    "id": "k028",
+    "kanji": "八",
+    "meaning": "delapan",
+    "onyomi": "ハチ",
+    "kunyomi": "やっつ",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "八時から仕事です。",
+      "id": "Kerja mulai jam delapan."
+    }
+  },
+  {
+    "id": "k029",
+    "kanji": "九",
+    "meaning": "sembilan",
+    "onyomi": "キュウ, ク",
+    "kunyomi": "ここのつ",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "九時に始めます。",
+      "id": "Mulai jam sembilan."
+    }
+  },
+  {
+    "id": "k030",
+    "kanji": "十",
+    "meaning": "sepuluh",
+    "onyomi": "ジュウ",
+    "kunyomi": "とお",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "十個作りました。",
+      "id": "Saya membuat sepuluh buah."
+    }
+  },
+  {
+    "id": "k031",
+    "kanji": "百",
+    "meaning": "seratus",
+    "onyomi": "ヒャク",
+    "kunyomi": "",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "百個あります。",
+      "id": "Ada seratus buah."
+    }
+  },
+  {
+    "id": "k032",
+    "kanji": "千",
+    "meaning": "seribu",
+    "onyomi": "セン",
+    "kunyomi": "",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "千円です。",
+      "id": "Seribu yen."
+    }
+  },
+  {
+    "id": "k033",
+    "kanji": "万",
+    "meaning": "sepuluh ribu",
+    "onyomi": "マン, バン",
+    "kunyomi": "",
+    "level": "N5",
+    "category": "angka",
+    "example": {
+      "jp": "一万円を払います。",
+      "id": "Saya membayar sepuluh ribu yen."
+    }
+  },
+  {
+    "id": "k034",
+    "kanji": "円",
+    "meaning": "yen/lingkaran",
+    "onyomi": "エン",
+    "kunyomi": "まるい",
+    "level": "N5",
+    "category": "uang",
+    "example": {
+      "jp": "これは五百円です。",
+      "id": "Ini lima ratus yen."
+    }
+  },
+  {
+    "id": "k035",
+    "kanji": "年",
+    "meaning": "tahun",
+    "onyomi": "ネン",
+    "kunyomi": "とし",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "今年、日本へ行きます。",
+      "id": "Tahun ini saya pergi ke Jepang."
+    }
+  },
+  {
+    "id": "k036",
+    "kanji": "時",
+    "meaning": "jam/waktu",
+    "onyomi": "ジ",
+    "kunyomi": "とき",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "今、何時ですか。",
+      "id": "Sekarang jam berapa?"
+    }
+  },
+  {
+    "id": "k037",
+    "kanji": "分",
+    "meaning": "menit/mengerti",
+    "onyomi": "フン, ブン",
+    "kunyomi": "わかる",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "十分休みます。",
+      "id": "Istirahat sepuluh menit."
+    }
+  },
+  {
+    "id": "k038",
+    "kanji": "半",
+    "meaning": "setengah",
+    "onyomi": "ハン",
+    "kunyomi": "なかば",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "八時半に来ます。",
+      "id": "Datang jam delapan setengah."
+    }
+  },
+  {
+    "id": "k039",
+    "kanji": "前",
+    "meaning": "depan/sebelum",
+    "onyomi": "ゼン",
+    "kunyomi": "まえ",
+    "level": "N5",
+    "category": "arah",
+    "example": {
+      "jp": "会社の前で待ちます。",
+      "id": "Saya menunggu di depan perusahaan."
+    }
+  },
+  {
+    "id": "k040",
+    "kanji": "後",
+    "meaning": "belakang/setelah",
+    "onyomi": "ゴ, コウ",
+    "kunyomi": "あと, うしろ",
+    "level": "N5",
+    "category": "arah",
+    "example": {
+      "jp": "仕事の後で勉強します。",
+      "id": "Saya belajar setelah kerja."
+    }
+  },
+  {
+    "id": "k041",
+    "kanji": "午",
+    "meaning": "siang",
+    "onyomi": "ゴ",
+    "kunyomi": "",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "午後五時に帰ります。",
+      "id": "Saya pulang jam lima sore."
+    }
+  },
+  {
+    "id": "k042",
+    "kanji": "今",
+    "meaning": "sekarang",
+    "onyomi": "コン, キン",
+    "kunyomi": "いま",
+    "level": "N5",
+    "category": "waktu",
+    "example": {
+      "jp": "今、忙しいです。",
+      "id": "Sekarang saya sibuk."
+    }
+  },
+  {
+    "id": "k043",
+    "kanji": "休",
+    "meaning": "istirahat/libur",
+    "onyomi": "キュウ",
+    "kunyomi": "やすむ",
+    "level": "N5",
+    "category": "kerja",
+    "example": {
+      "jp": "明日は休みます。",
+      "id": "Besok saya libur."
+    }
+  },
+  {
+    "id": "k044",
+    "kanji": "何",
+    "meaning": "apa",
+    "onyomi": "カ",
+    "kunyomi": "なに, なん",
+    "level": "N5",
+    "category": "tanya",
+    "example": {
+      "jp": "これは何ですか。",
+      "id": "Ini apa?"
+    }
+  },
+  {
+    "id": "k045",
+    "kanji": "名",
+    "meaning": "nama",
+    "onyomi": "メイ, ミョウ",
+    "kunyomi": "な",
+    "level": "N5",
+    "category": "dokumen",
+    "example": {
+      "jp": "名前を書いてください。",
+      "id": "Tolong tulis nama."
+    }
+  },
+  {
+    "id": "k046",
+    "kanji": "本",
+    "meaning": "buku/asal",
+    "onyomi": "ホン",
+    "kunyomi": "もと",
+    "level": "N5",
+    "category": "belajar",
+    "example": {
+      "jp": "日本語の本を読みます。",
+      "id": "Saya membaca buku bahasa Jepang."
+    }
+  },
+  {
+    "id": "k047",
+    "kanji": "校",
+    "meaning": "sekolah",
+    "onyomi": "コウ",
+    "kunyomi": "",
+    "level": "N5",
+    "category": "belajar",
+    "example": {
+      "jp": "学校で勉強します。",
+      "id": "Saya belajar di sekolah."
+    }
+  },
+  {
+    "id": "k048",
+    "kanji": "学",
+    "meaning": "belajar",
+    "onyomi": "ガク",
+    "kunyomi": "まなぶ",
+    "level": "N5",
+    "category": "belajar",
+    "example": {
+      "jp": "日本語を学びます。",
+      "id": "Saya belajar bahasa Jepang."
+    }
+  },
+  {
+    "id": "k049",
+    "kanji": "友",
+    "meaning": "teman",
+    "onyomi": "ユウ",
+    "kunyomi": "とも",
+    "level": "N5",
+    "category": "hidup",
+    "example": {
+      "jp": "友だちに電話します。",
+      "id": "Saya menelepon teman."
+    }
+  },
+  {
+    "id": "k050",
+    "kanji": "男",
+    "meaning": "laki-laki",
+    "onyomi": "ダン, ナン",
+    "kunyomi": "おとこ",
+    "level": "N5",
+    "category": "dasar",
+    "example": {
+      "jp": "男の人がいます。",
+      "id": "Ada laki-laki."
+    }
+  },
+  {
+    "id": "k051",
+    "kanji": "女",
+    "meaning": "perempuan",
+    "onyomi": "ジョ, ニョ",
+    "kunyomi": "おんな",
+    "level": "N5",
+    "category": "dasar",
+    "example": {
+      "jp": "女の人がいます。",
+      "id": "Ada perempuan."
+    }
+  },
+  {
+    "id": "k052",
+    "kanji": "子",
+    "meaning": "anak",
+    "onyomi": "シ, ス",
+    "kunyomi": "こ",
+    "level": "N5",
+    "category": "dasar",
+    "example": {
+      "jp": "子どもがいます。",
+      "id": "Ada anak."
+    }
+  },
+  {
+    "id": "k053",
+    "kanji": "父",
+    "meaning": "ayah",
+    "onyomi": "フ",
+    "kunyomi": "ちち",
+    "level": "N5",
+    "category": "keluarga",
+    "example": {
+      "jp": "父はインドネシアにいます。",
+      "id": "Ayah saya ada di Indonesia."
+    }
+  },
+  {
+    "id": "k054",
+    "kanji": "母",
+    "meaning": "ibu",
+    "onyomi": "ボ",
+    "kunyomi": "はは",
+    "level": "N5",
+    "category": "keluarga",
+    "example": {
+      "jp": "母に連絡します。",
+      "id": "Saya menghubungi ibu."
+    }
+  },
+  {
+    "id": "k055",
+    "kanji": "外",
+    "meaning": "luar",
+    "onyomi": "ガイ, ゲ",
+    "kunyomi": "そと",
+    "level": "N5",
+    "category": "arah",
+    "example": {
+      "jp": "外は寒いです。",
+      "id": "Di luar dingin."
+    }
+  },
+  {
+    "id": "k056",
+    "kanji": "中",
+    "meaning": "dalam/tengah",
+    "onyomi": "チュウ",
+    "kunyomi": "なか",
+    "level": "N5",
+    "category": "arah",
+    "example": {
+      "jp": "箱の中を見ます。",
+      "id": "Saya melihat dalam kotak."
+    }
+  },
+  {
+    "id": "k057",
+    "kanji": "大",
+    "meaning": "besar",
+    "onyomi": "ダイ, タイ",
+    "kunyomi": "おおきい",
+    "level": "N5",
+    "category": "sifat",
+    "example": {
+      "jp": "大きい箱です。",
+      "id": "Ini kotak besar."
+    }
+  },
+  {
+    "id": "k058",
+    "kanji": "小",
+    "meaning": "kecil",
+    "onyomi": "ショウ",
+    "kunyomi": "ちいさい",
+    "level": "N5",
+    "category": "sifat",
+    "example": {
+      "jp": "小さい部品です。",
+      "id": "Ini komponen kecil."
+    }
+  },
+  {
+    "id": "k059",
+    "kanji": "新",
+    "meaning": "baru",
+    "onyomi": "シン",
+    "kunyomi": "あたらしい",
+    "level": "N5",
+    "category": "sifat",
+    "example": {
+      "jp": "新しい道具です。",
+      "id": "Ini alat baru."
+    }
+  },
+  {
+    "id": "k060",
+    "kanji": "古",
+    "meaning": "lama/tua",
+    "onyomi": "コ",
+    "kunyomi": "ふるい",
+    "level": "N5",
+    "category": "sifat",
+    "example": {
+      "jp": "古い機械です。",
+      "id": "Ini mesin lama."
+    }
+  },
+  {
+    "id": "k061",
+    "kanji": "高",
+    "meaning": "tinggi/mahal",
+    "onyomi": "コウ",
+    "kunyomi": "たかい",
+    "level": "N4 dasar",
+    "category": "sifat",
+    "example": {
+      "jp": "給料が高いです。",
+      "id": "Gajinya tinggi."
+    }
+  },
+  {
+    "id": "k062",
+    "kanji": "安",
+    "meaning": "murah/aman",
+    "onyomi": "アン",
+    "kunyomi": "やすい",
+    "level": "N4 dasar",
+    "category": "sifat",
+    "example": {
+      "jp": "安全を確認します。",
+      "id": "Saya mengecek keselamatan."
+    }
+  },
+  {
+    "id": "k063",
+    "kanji": "長",
+    "meaning": "panjang/pemimpin",
+    "onyomi": "チョウ",
+    "kunyomi": "ながい",
+    "level": "N4 dasar",
+    "category": "sifat",
+    "example": {
+      "jp": "長い時間働きます。",
+      "id": "Saya bekerja waktu lama."
+    }
+  },
+  {
+    "id": "k064",
+    "kanji": "短",
+    "meaning": "pendek",
+    "onyomi": "タン",
+    "kunyomi": "みじかい",
+    "level": "N4 dasar",
+    "category": "sifat",
+    "example": {
+      "jp": "休み時間は短いです。",
+      "id": "Waktu istirahat pendek."
+    }
+  },
+  {
+    "id": "k065",
+    "kanji": "右",
+    "meaning": "kanan",
+    "onyomi": "ウ, ユウ",
+    "kunyomi": "みぎ",
+    "level": "N4 dasar",
+    "category": "arah",
+    "example": {
+      "jp": "右へ行ってください。",
+      "id": "Tolong pergi ke kanan."
+    }
+  },
+  {
+    "id": "k066",
+    "kanji": "左",
+    "meaning": "kiri",
+    "onyomi": "サ",
+    "kunyomi": "ひだり",
+    "level": "N4 dasar",
+    "category": "arah",
+    "example": {
+      "jp": "左にあります。",
+      "id": "Ada di kiri."
+    }
+  },
+  {
+    "id": "k067",
+    "kanji": "東",
+    "meaning": "timur",
+    "onyomi": "トウ",
+    "kunyomi": "ひがし",
+    "level": "N4 dasar",
+    "category": "arah",
+    "example": {
+      "jp": "駅は東口です。",
+      "id": "Stasiun di pintu timur."
+    }
+  },
+  {
+    "id": "k068",
+    "kanji": "西",
+    "meaning": "barat",
+    "onyomi": "セイ, サイ",
+    "kunyomi": "にし",
+    "level": "N4 dasar",
+    "category": "arah",
+    "example": {
+      "jp": "西口で待ちます。",
+      "id": "Saya menunggu di pintu barat."
+    }
+  },
+  {
+    "id": "k069",
+    "kanji": "南",
+    "meaning": "selatan",
+    "onyomi": "ナン",
+    "kunyomi": "みなみ",
+    "level": "N4 dasar",
+    "category": "arah",
+    "example": {
+      "jp": "南へ行きます。",
+      "id": "Saya pergi ke selatan."
+    }
+  },
+  {
+    "id": "k070",
+    "kanji": "北",
+    "meaning": "utara",
+    "onyomi": "ホク",
+    "kunyomi": "きた",
+    "level": "N4 dasar",
+    "category": "arah",
+    "example": {
+      "jp": "北口はどこですか。",
+      "id": "Di mana pintu utara?"
+    }
+  },
+  {
+    "id": "k071",
+    "kanji": "口",
+    "meaning": "mulut/pintu",
+    "onyomi": "コウ, ク",
+    "kunyomi": "くち",
+    "level": "N4 dasar",
+    "category": "arah",
+    "example": {
+      "jp": "入口はここです。",
+      "id": "Pintu masuk di sini."
+    }
+  },
+  {
+    "id": "k072",
+    "kanji": "出",
+    "meaning": "keluar",
+    "onyomi": "シュツ",
+    "kunyomi": "でる, だす",
+    "level": "N4 dasar",
+    "category": "aksi",
+    "example": {
+      "jp": "出口から出ます。",
+      "id": "Saya keluar dari pintu keluar."
+    }
+  },
+  {
+    "id": "k073",
+    "kanji": "入",
+    "meaning": "masuk",
+    "onyomi": "ニュウ",
+    "kunyomi": "はいる, いれる",
+    "level": "N4 dasar",
+    "category": "aksi",
+    "example": {
+      "jp": "部屋に入ります。",
+      "id": "Saya masuk ke kamar."
+    }
+  },
+  {
+    "id": "k074",
+    "kanji": "立",
+    "meaning": "berdiri",
+    "onyomi": "リツ",
+    "kunyomi": "たつ",
+    "level": "N4 dasar",
+    "category": "aksi",
+    "example": {
+      "jp": "ここに立ってください。",
+      "id": "Tolong berdiri di sini."
+    }
+  },
+  {
+    "id": "k075",
+    "kanji": "電",
+    "meaning": "listrik",
+    "onyomi": "デン",
+    "kunyomi": "",
+    "level": "N4 dasar",
+    "category": "kerja",
+    "example": {
+      "jp": "電気を消します。",
+      "id": "Saya mematikan listrik."
+    }
+  },
+  {
+    "id": "k076",
+    "kanji": "気",
+    "meaning": "energi/perasaan",
+    "onyomi": "キ",
+    "kunyomi": "き",
+    "level": "N4 dasar",
+    "category": "dasar",
+    "example": {
+      "jp": "気をつけてください。",
+      "id": "Tolong hati-hati."
+    }
+  },
+  {
+    "id": "k077",
+    "kanji": "白",
+    "meaning": "putih",
+    "onyomi": "ハク",
+    "kunyomi": "しろい",
+    "level": "N4 dasar",
+    "category": "warna",
+    "example": {
+      "jp": "白い紙です。",
+      "id": "Ini kertas putih."
+    }
+  },
+  {
+    "id": "k078",
+    "kanji": "黒",
+    "meaning": "hitam",
+    "onyomi": "コク",
+    "kunyomi": "くろい",
+    "level": "N4 dasar",
+    "category": "warna",
+    "example": {
+      "jp": "黒いペンです。",
+      "id": "Ini pulpen hitam."
+    }
+  },
+  {
+    "id": "k079",
+    "kanji": "赤",
+    "meaning": "merah",
+    "onyomi": "セキ",
+    "kunyomi": "あかい",
+    "level": "N4 dasar",
+    "category": "warna",
+    "example": {
+      "jp": "赤いボタンを押します。",
+      "id": "Saya menekan tombol merah."
+    }
+  },
+  {
+    "id": "k080",
+    "kanji": "青",
+    "meaning": "biru",
+    "onyomi": "セイ",
+    "kunyomi": "あおい",
+    "level": "N4 dasar",
+    "category": "warna",
+    "example": {
+      "jp": "青い線を見てください。",
+      "id": "Tolong lihat garis biru."
+    }
+  }
 ]

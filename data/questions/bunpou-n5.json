@@ -1,15 +1,330 @@
 {
   "type": "bunpou",
   "questions": [
-    {"id":"qb001","source":"bunpou","prompt":"Pola untuk mengatakan 'Saya trainee' adalah...","options":["私は研修生です","私は研修生をです","私は研修生にです","私は研修生へです"],"answer":"私は研修生です","explanation":"A は B です menyatakan A adalah B."},
-    {"id":"qb002","source":"bunpou","prompt":"Partikel untuk objek dalam '部品を作ります' adalah...","options":["を","へ","に","の"],"answer":"を","explanation":"を menandai objek yang dikenai aksi."},
-    {"id":"qb003","source":"bunpou","prompt":"Cara sopan meminta 'Tolong tulis nama' adalah...","options":["名前を書いてください","名前を書きませんか","名前を書きたいです","名前を書いてはいけません"],"answer":"名前を書いてください","explanation":"Vてください dipakai untuk meminta/instruksi."},
-    {"id":"qb004","source":"bunpou","prompt":"Kalimat 'Bolehkah saya istirahat?' adalah...","options":["休んでもいいですか","休んではいけませんか","休みじゃありませんか","休みましたか"],"answer":"休んでもいいですか","explanation":"Vてもいいですか dipakai untuk meminta izin."},
-    {"id":"qb005","source":"bunpou","prompt":"Pola larangan 'Tidak boleh merokok di sini' memakai...","options":["Vてはいけません","Vたいです","Vましょう","Vませんか"],"answer":"Vてはいけません","explanation":"Vてはいけません berarti tidak boleh melakukan."},
-    {"id":"qb006","source":"bunpou","prompt":"九時から五時まで berarti...","options":["dari jam sembilan sampai lima","jam sembilan dan lima","sebelum jam sembilan","sesudah jam lima"],"answer":"dari jam sembilan sampai lima","explanation":"A から B まで berarti dari A sampai B."},
-    {"id":"qb007","source":"bunpou","prompt":"Untuk waktu spesifik seperti 八時, partikel yang umum dipakai adalah...","options":["に","を","で","の"],"answer":"に","explanation":"に dipakai untuk waktu spesifik."},
-    {"id":"qb008","source":"bunpou","prompt":"Kalimat 'Saya ingin pergi ke rumah sakit' adalah...","options":["病院へ行きたいです","病院へ行きませんか","病院へ行ってください","病院へ行ってはいけません"],"answer":"病院へ行きたいです","explanation":"Vたいです menyatakan ingin melakukan."},
-    {"id":"qb009","source":"bunpou","prompt":"もう掃除しました berarti...","options":["sudah membersihkan","belum membersihkan","tolong bersihkan","tidak boleh bersihkan"],"answer":"sudah membersihkan","explanation":"もう + Vました berarti sudah melakukan."},
-    {"id":"qb010","source":"bunpou","prompt":"まだ確認していません berarti...","options":["belum mengecek","sudah mengecek","ayo cek","boleh cek"],"answer":"belum mengecek","explanation":"まだ + bentuk negatif berarti belum."}
+    {
+      "id": "qb001",
+      "source": "bunpou",
+      "prompt": "Pola untuk mengatakan 'Saya trainee' adalah...",
+      "options": [
+        "私は研修生です",
+        "私は研修生をです",
+        "私は研修生にです",
+        "私は研修生へです"
+      ],
+      "answer": "私は研修生です",
+      "explanation": "A は B です menyatakan A adalah B."
+    },
+    {
+      "id": "qb002",
+      "source": "bunpou",
+      "prompt": "Partikel untuk objek dalam '部品を作ります' adalah...",
+      "options": [
+        "を",
+        "へ",
+        "に",
+        "の"
+      ],
+      "answer": "を",
+      "explanation": "を menandai objek yang dikenai aksi."
+    },
+    {
+      "id": "qb003",
+      "source": "bunpou",
+      "prompt": "Cara sopan meminta 'Tolong tulis nama' adalah...",
+      "options": [
+        "名前を書いてください",
+        "名前を書きませんか",
+        "名前を書きたいです",
+        "名前を書いてはいけません"
+      ],
+      "answer": "名前を書いてください",
+      "explanation": "Vてください dipakai untuk meminta/instruksi."
+    },
+    {
+      "id": "qb004",
+      "source": "bunpou",
+      "prompt": "Kalimat 'Bolehkah saya istirahat?' adalah...",
+      "options": [
+        "休んでもいいですか",
+        "休んではいけませんか",
+        "休みじゃありませんか",
+        "休みましたか"
+      ],
+      "answer": "休んでもいいですか",
+      "explanation": "Vてもいいですか dipakai untuk meminta izin."
+    },
+    {
+      "id": "qb005",
+      "source": "bunpou",
+      "prompt": "Pola larangan 'Tidak boleh merokok di sini' memakai...",
+      "options": [
+        "Vてはいけません",
+        "Vたいです",
+        "Vましょう",
+        "Vませんか"
+      ],
+      "answer": "Vてはいけません",
+      "explanation": "Vてはいけません berarti tidak boleh melakukan."
+    },
+    {
+      "id": "qb006",
+      "source": "bunpou",
+      "prompt": "九時から五時まで berarti...",
+      "options": [
+        "dari jam sembilan sampai lima",
+        "jam sembilan dan lima",
+        "sebelum jam sembilan",
+        "sesudah jam lima"
+      ],
+      "answer": "dari jam sembilan sampai lima",
+      "explanation": "A から B まで berarti dari A sampai B."
+    },
+    {
+      "id": "qb007",
+      "source": "bunpou",
+      "prompt": "Untuk waktu spesifik seperti 八時, partikel yang umum dipakai adalah...",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "の"
+      ],
+      "answer": "に",
+      "explanation": "に dipakai untuk waktu spesifik."
+    },
+    {
+      "id": "qb008",
+      "source": "bunpou",
+      "prompt": "Kalimat 'Saya ingin pergi ke rumah sakit' adalah...",
+      "options": [
+        "病院へ行きたいです",
+        "病院へ行きませんか",
+        "病院へ行ってください",
+        "病院へ行ってはいけません"
+      ],
+      "answer": "病院へ行きたいです",
+      "explanation": "Vたいです menyatakan ingin melakukan."
+    },
+    {
+      "id": "qb009",
+      "source": "bunpou",
+      "prompt": "もう掃除しました berarti...",
+      "options": [
+        "sudah membersihkan",
+        "belum membersihkan",
+        "tolong bersihkan",
+        "tidak boleh bersihkan"
+      ],
+      "answer": "sudah membersihkan",
+      "explanation": "もう + Vました berarti sudah melakukan."
+    },
+    {
+      "id": "qb010",
+      "source": "bunpou",
+      "prompt": "まだ確認していません berarti...",
+      "options": [
+        "belum mengecek",
+        "sudah mengecek",
+        "ayo cek",
+        "boleh cek"
+      ],
+      "answer": "belum mengecek",
+      "explanation": "まだ + bentuk negatif berarti belum."
+    },
+    {
+      "id": "qb011",
+      "source": "bunpou",
+      "prompt": "Pola 'Tolong jangan masuk' adalah...",
+      "options": [
+        "入らないでください",
+        "入ってもいいです",
+        "入りたいです",
+        "入りましょう"
+      ],
+      "answer": "入らないでください",
+      "explanation": "Vないでください berarti tolong jangan."
+    },
+    {
+      "id": "qb012",
+      "source": "bunpou",
+      "prompt": "Pola untuk 'harus memakai sepatu keselamatan' memakai...",
+      "options": [
+        "Vなければなりません",
+        "Vなくてもいいです",
+        "Vたいです",
+        "Vましょう"
+      ],
+      "answer": "Vなければなりません",
+      "explanation": "Vなければなりません berarti harus."
+    },
+    {
+      "id": "qb013",
+      "source": "bunpou",
+      "prompt": "仕事が終わった後で帰ります berarti...",
+      "options": [
+        "pulang setelah pekerjaan selesai",
+        "pulang sebelum kerja",
+        "tidak perlu pulang",
+        "ingin pulang"
+      ],
+      "answer": "pulang setelah pekerjaan selesai",
+      "explanation": "Vた後で berarti setelah melakukan."
+    },
+    {
+      "id": "qb014",
+      "source": "bunpou",
+      "prompt": "使う前に確認します berarti...",
+      "options": [
+        "cek sebelum memakai",
+        "cek setelah memakai",
+        "tidak boleh memakai",
+        "ingin memakai"
+      ],
+      "answer": "cek sebelum memakai",
+      "explanation": "Vる前に berarti sebelum melakukan."
+    },
+    {
+      "id": "qb015",
+      "source": "bunpou",
+      "prompt": "日本語で報告することができます berarti...",
+      "options": [
+        "bisa melapor dalam bahasa Jepang",
+        "harus belajar Jepang",
+        "tidak boleh melapor",
+        "ingin belajar Jepang"
+      ],
+      "answer": "bisa melapor dalam bahasa Jepang",
+      "explanation": "Vることができます berarti bisa melakukan."
+    },
+    {
+      "id": "qb016",
+      "source": "bunpou",
+      "prompt": "今日は残業しなくてもいいです berarti...",
+      "options": [
+        "hari ini tidak perlu lembur",
+        "hari ini harus lembur",
+        "hari ini ingin lembur",
+        "hari ini sedang lembur"
+      ],
+      "answer": "hari ini tidak perlu lembur",
+      "explanation": "Vなくてもいいです berarti tidak perlu."
+    },
+    {
+      "id": "qb017",
+      "source": "bunpou",
+      "prompt": "電車は自転車より速いです berarti...",
+      "options": [
+        "kereta lebih cepat daripada sepeda",
+        "sepeda lebih cepat daripada kereta",
+        "kereta sama dengan sepeda",
+        "kereta tidak cepat"
+      ],
+      "answer": "kereta lebih cepat daripada sepeda",
+      "explanation": "より dipakai untuk perbandingan."
+    },
+    {
+      "id": "qb018",
+      "source": "bunpou",
+      "prompt": "安全が一番大切です berarti...",
+      "options": [
+        "keselamatan paling penting",
+        "keselamatan tidak penting",
+        "keselamatan sulit",
+        "keselamatan mahal"
+      ],
+      "answer": "keselamatan paling penting",
+      "explanation": "一番 berarti paling."
+    },
+    {
+      "id": "qb019",
+      "source": "bunpou",
+      "prompt": "メモを見ながら話します berarti...",
+      "options": [
+        "berbicara sambil melihat catatan",
+        "berbicara setelah melihat catatan",
+        "tidak melihat catatan",
+        "ingin melihat catatan"
+      ],
+      "answer": "berbicara sambil melihat catatan",
+      "explanation": "Vながら berarti sambil."
+    },
+    {
+      "id": "qb020",
+      "source": "bunpou",
+      "prompt": "日本へ行ったことがあります berarti...",
+      "options": [
+        "pernah pergi ke Jepang",
+        "akan pergi ke Jepang",
+        "tidak pergi ke Jepang",
+        "harus pergi ke Jepang"
+      ],
+      "answer": "pernah pergi ke Jepang",
+      "explanation": "Vたことがあります menyatakan pengalaman."
+    },
+    {
+      "id": "qb021",
+      "source": "bunpou",
+      "prompt": "掃除したり片付けたりします berarti...",
+      "options": [
+        "bersih-bersih dan membereskan",
+        "hanya bersih-bersih",
+        "tidak membereskan",
+        "ingin membereskan"
+      ],
+      "answer": "bersih-bersih dan membereskan",
+      "explanation": "Vたり Vたり します menyebut beberapa kegiatan."
+    },
+    {
+      "id": "qb022",
+      "source": "bunpou",
+      "prompt": "この荷物は重そうです berarti...",
+      "options": [
+        "barang ini terlihat berat",
+        "barang ini tidak berat",
+        "barang ini harus berat",
+        "barang ini paling berat"
+      ],
+      "answer": "barang ini terlihat berat",
+      "explanation": "そうです menyatakan kesan."
+    },
+    {
+      "id": "qb023",
+      "source": "bunpou",
+      "prompt": "電車が遅れています berarti...",
+      "options": [
+        "kereta sedang terlambat",
+        "kereta tidak terlambat",
+        "kereta akan datang",
+        "kereta sudah cepat"
+      ],
+      "answer": "kereta sedang terlambat",
+      "explanation": "Vている bisa menyatakan kondisi berlangsung."
+    },
+    {
+      "id": "qb024",
+      "source": "bunpou",
+      "prompt": "仕事について話します berarti...",
+      "options": [
+        "berbicara tentang pekerjaan",
+        "berbicara setelah kerja",
+        "tidak bicara di kerja",
+        "ingin bekerja"
+      ],
+      "answer": "berbicara tentang pekerjaan",
+      "explanation": "Nについて berarti tentang."
+    },
+    {
+      "id": "qb025",
+      "source": "bunpou",
+      "prompt": "明日は雨だと思います berarti...",
+      "options": [
+        "saya pikir besok hujan",
+        "besok tidak hujan",
+        "kemarin hujan",
+        "hujan itu sulit"
+      ],
+      "answer": "saya pikir besok hujan",
+      "explanation": "と思います menyampaikan pendapat."
+    }
   ]
 }

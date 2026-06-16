@@ -1,52 +1,1562 @@
 [
-  {"id":"v001","jp":"私","kana":"わたし","romaji":"watashi","meaning":"saya","category":"dasar","level":"N5","example":{"jp":"私はインドネシア人です。","id":"Saya orang Indonesia."}},
-  {"id":"v002","jp":"あなた","kana":"あなた","romaji":"anata","meaning":"Anda","category":"dasar","level":"N5","example":{"jp":"あなたは技能実習生ですか。","id":"Apakah Anda trainee kerja?"}},
-  {"id":"v003","jp":"会社","kana":"かいしゃ","romaji":"kaisha","meaning":"perusahaan","category":"kerja","level":"N5","example":{"jp":"会社は駅の近くです。","id":"Perusahaan dekat stasiun."}},
-  {"id":"v004","jp":"工場","kana":"こうじょう","romaji":"koujou","meaning":"pabrik","category":"kerja","level":"N5","example":{"jp":"工場で働きます。","id":"Saya bekerja di pabrik."}},
-  {"id":"v005","jp":"仕事","kana":"しごと","romaji":"shigoto","meaning":"pekerjaan","category":"kerja","level":"N5","example":{"jp":"仕事は八時からです。","id":"Pekerjaan mulai jam delapan."}},
-  {"id":"v006","jp":"働く","kana":"はたらく","romaji":"hataraku","meaning":"bekerja","category":"kerja","level":"N5","example":{"jp":"月曜日から金曜日まで働きます。","id":"Saya bekerja dari Senin sampai Jumat."}},
-  {"id":"v007","jp":"休み","kana":"やすみ","romaji":"yasumi","meaning":"libur/istirahat","category":"kerja","level":"N5","example":{"jp":"明日は休みです。","id":"Besok libur."}},
-  {"id":"v008","jp":"時間","kana":"じかん","romaji":"jikan","meaning":"waktu/jam","category":"jadwal","level":"N5","example":{"jp":"休み時間は十二時です。","id":"Waktu istirahat jam dua belas."}},
-  {"id":"v009","jp":"今日","kana":"きょう","romaji":"kyou","meaning":"hari ini","category":"waktu","level":"N5","example":{"jp":"今日は残業があります。","id":"Hari ini ada lembur."}},
-  {"id":"v010","jp":"明日","kana":"あした","romaji":"ashita","meaning":"besok","category":"waktu","level":"N5","example":{"jp":"明日、会社へ行きます。","id":"Besok saya pergi ke perusahaan."}},
-  {"id":"v011","jp":"昨日","kana":"きのう","romaji":"kinou","meaning":"kemarin","category":"waktu","level":"N5","example":{"jp":"昨日は休みでした。","id":"Kemarin libur."}},
-  {"id":"v012","jp":"朝","kana":"あさ","romaji":"asa","meaning":"pagi","category":"waktu","level":"N5","example":{"jp":"朝六時に起きます。","id":"Saya bangun jam enam pagi."}},
-  {"id":"v013","jp":"昼","kana":"ひる","romaji":"hiru","meaning":"siang","category":"waktu","level":"N5","example":{"jp":"昼ご飯を食べます。","id":"Saya makan siang."}},
-  {"id":"v014","jp":"夜","kana":"よる","romaji":"yoru","meaning":"malam","category":"waktu","level":"N5","example":{"jp":"夜、勉強します。","id":"Malam saya belajar."}},
-  {"id":"v015","jp":"行く","kana":"いく","romaji":"iku","meaning":"pergi","category":"aksi","level":"N5","example":{"jp":"七時に工場へ行きます。","id":"Saya pergi ke pabrik jam tujuh."}},
-  {"id":"v016","jp":"来る","kana":"くる","romaji":"kuru","meaning":"datang","category":"aksi","level":"N5","example":{"jp":"先生が来ます。","id":"Guru datang."}},
-  {"id":"v017","jp":"帰る","kana":"かえる","romaji":"kaeru","meaning":"pulang","category":"aksi","level":"N5","example":{"jp":"五時に帰ります。","id":"Saya pulang jam lima."}},
-  {"id":"v018","jp":"見る","kana":"みる","romaji":"miru","meaning":"melihat","category":"aksi","level":"N5","example":{"jp":"マニュアルを見ます。","id":"Saya melihat manual."}},
-  {"id":"v019","jp":"聞く","kana":"きく","romaji":"kiku","meaning":"mendengar/bertanya","category":"aksi","level":"N5","example":{"jp":"分からない時、聞きます。","id":"Saat tidak paham, saya bertanya."}},
-  {"id":"v020","jp":"話す","kana":"はなす","romaji":"hanasu","meaning":"berbicara","category":"aksi","level":"N5","example":{"jp":"日本語で話します。","id":"Saya berbicara dalam bahasa Jepang."}},
-  {"id":"v021","jp":"読む","kana":"よむ","romaji":"yomu","meaning":"membaca","category":"aksi","level":"N5","example":{"jp":"ルールを読みます。","id":"Saya membaca aturan."}},
-  {"id":"v022","jp":"書く","kana":"かく","romaji":"kaku","meaning":"menulis","category":"aksi","level":"N5","example":{"jp":"名前を書いてください。","id":"Tolong tulis nama."}},
-  {"id":"v023","jp":"食べる","kana":"たべる","romaji":"taberu","meaning":"makan","category":"harian","level":"N5","example":{"jp":"食堂で食べます。","id":"Saya makan di kantin."}},
-  {"id":"v024","jp":"飲む","kana":"のむ","romaji":"nomu","meaning":"minum","category":"harian","level":"N5","example":{"jp":"水を飲みます。","id":"Saya minum air."}},
-  {"id":"v025","jp":"買う","kana":"かう","romaji":"kau","meaning":"membeli","category":"harian","level":"N5","example":{"jp":"コンビニで弁当を買います。","id":"Saya membeli bekal di minimarket."}},
-  {"id":"v026","jp":"使う","kana":"つかう","romaji":"tsukau","meaning":"menggunakan","category":"kerja","level":"N5","example":{"jp":"この機械を使います。","id":"Saya menggunakan mesin ini."}},
-  {"id":"v027","jp":"作る","kana":"つくる","romaji":"tsukuru","meaning":"membuat","category":"kerja","level":"N5","example":{"jp":"部品を作ります。","id":"Saya membuat komponen."}},
-  {"id":"v028","jp":"持つ","kana":"もつ","romaji":"motsu","meaning":"membawa/memegang","category":"kerja","level":"N5","example":{"jp":"手袋を持ってください。","id":"Tolong bawa sarung tangan."}},
-  {"id":"v029","jp":"待つ","kana":"まつ","romaji":"matsu","meaning":"menunggu","category":"aksi","level":"N5","example":{"jp":"ここで待ってください。","id":"Tolong tunggu di sini."}},
-  {"id":"v030","jp":"分かる","kana":"わかる","romaji":"wakaru","meaning":"mengerti","category":"komunikasi","level":"N5","example":{"jp":"はい、分かりました。","id":"Baik, saya mengerti."}},
-  {"id":"v031","jp":"大丈夫","kana":"だいじょうぶ","romaji":"daijoubu","meaning":"tidak apa-apa/aman","category":"komunikasi","level":"N5","example":{"jp":"体は大丈夫ですか。","id":"Apakah badan Anda baik-baik saja?"}},
-  {"id":"v032","jp":"危ない","kana":"あぶない","romaji":"abunai","meaning":"berbahaya","category":"keselamatan","level":"N5","example":{"jp":"ここは危ないです。","id":"Di sini berbahaya."}},
-  {"id":"v033","jp":"安全","kana":"あんぜん","romaji":"anzen","meaning":"aman/keselamatan","category":"keselamatan","level":"N5","example":{"jp":"安全第一です。","id":"Keselamatan nomor satu."}},
-  {"id":"v034","jp":"機械","kana":"きかい","romaji":"kikai","meaning":"mesin","category":"kerja","level":"N5","example":{"jp":"機械を止めます。","id":"Saya menghentikan mesin."}},
-  {"id":"v035","jp":"道具","kana":"どうぐ","romaji":"dougu","meaning":"alat","category":"kerja","level":"N5","example":{"jp":"道具はここにあります。","id":"Alat ada di sini."}},
-  {"id":"v036","jp":"手袋","kana":"てぶくろ","romaji":"tebukuro","meaning":"sarung tangan","category":"kerja","level":"N5","example":{"jp":"手袋をしてください。","id":"Tolong pakai sarung tangan."}},
-  {"id":"v037","jp":"電話","kana":"でんわ","romaji":"denwa","meaning":"telepon","category":"komunikasi","level":"N5","example":{"jp":"会社に電話します。","id":"Saya menelepon perusahaan."}},
-  {"id":"v038","jp":"駅","kana":"えき","romaji":"eki","meaning":"stasiun","category":"transportasi","level":"N5","example":{"jp":"駅まで歩きます。","id":"Saya berjalan sampai stasiun."}},
-  {"id":"v039","jp":"電車","kana":"でんしゃ","romaji":"densha","meaning":"kereta","category":"transportasi","level":"N5","example":{"jp":"電車で行きます。","id":"Saya pergi naik kereta."}},
-  {"id":"v040","jp":"自転車","kana":"じてんしゃ","romaji":"jitensha","meaning":"sepeda","category":"transportasi","level":"N5","example":{"jp":"自転車で会社へ行きます。","id":"Saya pergi ke perusahaan naik sepeda."}},
-  {"id":"v041","jp":"寮","kana":"りょう","romaji":"ryou","meaning":"asrama","category":"hidup","level":"N5","example":{"jp":"寮に住んでいます。","id":"Saya tinggal di asrama."}},
-  {"id":"v042","jp":"部屋","kana":"へや","romaji":"heya","meaning":"kamar","category":"hidup","level":"N5","example":{"jp":"部屋を掃除します。","id":"Saya membersihkan kamar."}},
-  {"id":"v043","jp":"病院","kana":"びょういん","romaji":"byouin","meaning":"rumah sakit","category":"hidup","level":"N5","example":{"jp":"病院へ行きたいです。","id":"Saya ingin pergi ke rumah sakit."}},
-  {"id":"v044","jp":"薬","kana":"くすり","romaji":"kusuri","meaning":"obat","category":"hidup","level":"N5","example":{"jp":"薬を飲みます。","id":"Saya minum obat."}},
-  {"id":"v045","jp":"熱","kana":"ねつ","romaji":"netsu","meaning":"demam","category":"kesehatan","level":"N5","example":{"jp":"熱があります。","id":"Saya demam."}},
-  {"id":"v046","jp":"痛い","kana":"いたい","romaji":"itai","meaning":"sakit/nyeri","category":"kesehatan","level":"N5","example":{"jp":"頭が痛いです。","id":"Kepala saya sakit."}},
-  {"id":"v047","jp":"早い","kana":"はやい","romaji":"hayai","meaning":"cepat/awal","category":"sifat","level":"N5","example":{"jp":"今日は早く来ました。","id":"Hari ini saya datang awal."}},
-  {"id":"v048","jp":"遅い","kana":"おそい","romaji":"osoi","meaning":"lambat/telat","category":"sifat","level":"N5","example":{"jp":"電車が遅いです。","id":"Kereta terlambat."}},
-  {"id":"v049","jp":"多い","kana":"おおい","romaji":"ooi","meaning":"banyak","category":"sifat","level":"N5","example":{"jp":"今日は仕事が多いです。","id":"Hari ini pekerjaan banyak."}},
-  {"id":"v050","jp":"少ない","kana":"すくない","romaji":"sukunai","meaning":"sedikit","category":"sifat","level":"N5","example":{"jp":"今日は人が少ないです。","id":"Hari ini orangnya sedikit."}}
+  {
+    "id": "v001",
+    "jp": "私",
+    "kana": "わたし",
+    "romaji": "watashi",
+    "meaning": "saya",
+    "category": "dasar",
+    "level": "N5",
+    "example": {
+      "jp": "私はインドネシア人です。",
+      "id": "Saya orang Indonesia."
+    }
+  },
+  {
+    "id": "v002",
+    "jp": "あなた",
+    "kana": "あなた",
+    "romaji": "anata",
+    "meaning": "Anda",
+    "category": "dasar",
+    "level": "N5",
+    "example": {
+      "jp": "あなたは技能実習生ですか。",
+      "id": "Apakah Anda trainee kerja?"
+    }
+  },
+  {
+    "id": "v003",
+    "jp": "会社",
+    "kana": "かいしゃ",
+    "romaji": "kaisha",
+    "meaning": "perusahaan",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "会社は駅の近くです。",
+      "id": "Perusahaan dekat stasiun."
+    }
+  },
+  {
+    "id": "v004",
+    "jp": "工場",
+    "kana": "こうじょう",
+    "romaji": "koujou",
+    "meaning": "pabrik",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "工場で働きます。",
+      "id": "Saya bekerja di pabrik."
+    }
+  },
+  {
+    "id": "v005",
+    "jp": "仕事",
+    "kana": "しごと",
+    "romaji": "shigoto",
+    "meaning": "pekerjaan",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "仕事は八時からです。",
+      "id": "Pekerjaan mulai jam delapan."
+    }
+  },
+  {
+    "id": "v006",
+    "jp": "働く",
+    "kana": "はたらく",
+    "romaji": "hataraku",
+    "meaning": "bekerja",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "月曜日から金曜日まで働きます。",
+      "id": "Saya bekerja dari Senin sampai Jumat."
+    }
+  },
+  {
+    "id": "v007",
+    "jp": "休み",
+    "kana": "やすみ",
+    "romaji": "yasumi",
+    "meaning": "libur/istirahat",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "明日は休みです。",
+      "id": "Besok libur."
+    }
+  },
+  {
+    "id": "v008",
+    "jp": "時間",
+    "kana": "じかん",
+    "romaji": "jikan",
+    "meaning": "waktu/jam",
+    "category": "jadwal",
+    "level": "N5",
+    "example": {
+      "jp": "休み時間は十二時です。",
+      "id": "Waktu istirahat jam dua belas."
+    }
+  },
+  {
+    "id": "v009",
+    "jp": "今日",
+    "kana": "きょう",
+    "romaji": "kyou",
+    "meaning": "hari ini",
+    "category": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "今日は残業があります。",
+      "id": "Hari ini ada lembur."
+    }
+  },
+  {
+    "id": "v010",
+    "jp": "明日",
+    "kana": "あした",
+    "romaji": "ashita",
+    "meaning": "besok",
+    "category": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "明日、会社へ行きます。",
+      "id": "Besok saya pergi ke perusahaan."
+    }
+  },
+  {
+    "id": "v011",
+    "jp": "昨日",
+    "kana": "きのう",
+    "romaji": "kinou",
+    "meaning": "kemarin",
+    "category": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "昨日は休みでした。",
+      "id": "Kemarin libur."
+    }
+  },
+  {
+    "id": "v012",
+    "jp": "朝",
+    "kana": "あさ",
+    "romaji": "asa",
+    "meaning": "pagi",
+    "category": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "朝六時に起きます。",
+      "id": "Saya bangun jam enam pagi."
+    }
+  },
+  {
+    "id": "v013",
+    "jp": "昼",
+    "kana": "ひる",
+    "romaji": "hiru",
+    "meaning": "siang",
+    "category": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "昼ご飯を食べます。",
+      "id": "Saya makan siang."
+    }
+  },
+  {
+    "id": "v014",
+    "jp": "夜",
+    "kana": "よる",
+    "romaji": "yoru",
+    "meaning": "malam",
+    "category": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "夜、勉強します。",
+      "id": "Malam saya belajar."
+    }
+  },
+  {
+    "id": "v015",
+    "jp": "行く",
+    "kana": "いく",
+    "romaji": "iku",
+    "meaning": "pergi",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "七時に工場へ行きます。",
+      "id": "Saya pergi ke pabrik jam tujuh."
+    }
+  },
+  {
+    "id": "v016",
+    "jp": "来る",
+    "kana": "くる",
+    "romaji": "kuru",
+    "meaning": "datang",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "先生が来ます。",
+      "id": "Guru datang."
+    }
+  },
+  {
+    "id": "v017",
+    "jp": "帰る",
+    "kana": "かえる",
+    "romaji": "kaeru",
+    "meaning": "pulang",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "五時に帰ります。",
+      "id": "Saya pulang jam lima."
+    }
+  },
+  {
+    "id": "v018",
+    "jp": "見る",
+    "kana": "みる",
+    "romaji": "miru",
+    "meaning": "melihat",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "マニュアルを見ます。",
+      "id": "Saya melihat manual."
+    }
+  },
+  {
+    "id": "v019",
+    "jp": "聞く",
+    "kana": "きく",
+    "romaji": "kiku",
+    "meaning": "mendengar/bertanya",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "分からない時、聞きます。",
+      "id": "Saat tidak paham, saya bertanya."
+    }
+  },
+  {
+    "id": "v020",
+    "jp": "話す",
+    "kana": "はなす",
+    "romaji": "hanasu",
+    "meaning": "berbicara",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "日本語で話します。",
+      "id": "Saya berbicara dalam bahasa Jepang."
+    }
+  },
+  {
+    "id": "v021",
+    "jp": "読む",
+    "kana": "よむ",
+    "romaji": "yomu",
+    "meaning": "membaca",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "ルールを読みます。",
+      "id": "Saya membaca aturan."
+    }
+  },
+  {
+    "id": "v022",
+    "jp": "書く",
+    "kana": "かく",
+    "romaji": "kaku",
+    "meaning": "menulis",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "名前を書いてください。",
+      "id": "Tolong tulis nama."
+    }
+  },
+  {
+    "id": "v023",
+    "jp": "食べる",
+    "kana": "たべる",
+    "romaji": "taberu",
+    "meaning": "makan",
+    "category": "harian",
+    "level": "N5",
+    "example": {
+      "jp": "食堂で食べます。",
+      "id": "Saya makan di kantin."
+    }
+  },
+  {
+    "id": "v024",
+    "jp": "飲む",
+    "kana": "のむ",
+    "romaji": "nomu",
+    "meaning": "minum",
+    "category": "harian",
+    "level": "N5",
+    "example": {
+      "jp": "水を飲みます。",
+      "id": "Saya minum air."
+    }
+  },
+  {
+    "id": "v025",
+    "jp": "買う",
+    "kana": "かう",
+    "romaji": "kau",
+    "meaning": "membeli",
+    "category": "harian",
+    "level": "N5",
+    "example": {
+      "jp": "コンビニで弁当を買います。",
+      "id": "Saya membeli bekal di minimarket."
+    }
+  },
+  {
+    "id": "v026",
+    "jp": "使う",
+    "kana": "つかう",
+    "romaji": "tsukau",
+    "meaning": "menggunakan",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "この機械を使います。",
+      "id": "Saya menggunakan mesin ini."
+    }
+  },
+  {
+    "id": "v027",
+    "jp": "作る",
+    "kana": "つくる",
+    "romaji": "tsukuru",
+    "meaning": "membuat",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "部品を作ります。",
+      "id": "Saya membuat komponen."
+    }
+  },
+  {
+    "id": "v028",
+    "jp": "持つ",
+    "kana": "もつ",
+    "romaji": "motsu",
+    "meaning": "membawa/memegang",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "手袋を持ってください。",
+      "id": "Tolong bawa sarung tangan."
+    }
+  },
+  {
+    "id": "v029",
+    "jp": "待つ",
+    "kana": "まつ",
+    "romaji": "matsu",
+    "meaning": "menunggu",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "ここで待ってください。",
+      "id": "Tolong tunggu di sini."
+    }
+  },
+  {
+    "id": "v030",
+    "jp": "分かる",
+    "kana": "わかる",
+    "romaji": "wakaru",
+    "meaning": "mengerti",
+    "category": "komunikasi",
+    "level": "N5",
+    "example": {
+      "jp": "はい、分かりました。",
+      "id": "Baik, saya mengerti."
+    }
+  },
+  {
+    "id": "v031",
+    "jp": "大丈夫",
+    "kana": "だいじょうぶ",
+    "romaji": "daijoubu",
+    "meaning": "tidak apa-apa/aman",
+    "category": "komunikasi",
+    "level": "N5",
+    "example": {
+      "jp": "体は大丈夫ですか。",
+      "id": "Apakah badan Anda baik-baik saja?"
+    }
+  },
+  {
+    "id": "v032",
+    "jp": "危ない",
+    "kana": "あぶない",
+    "romaji": "abunai",
+    "meaning": "berbahaya",
+    "category": "keselamatan",
+    "level": "N5",
+    "example": {
+      "jp": "ここは危ないです。",
+      "id": "Di sini berbahaya."
+    }
+  },
+  {
+    "id": "v033",
+    "jp": "安全",
+    "kana": "あんぜん",
+    "romaji": "anzen",
+    "meaning": "aman/keselamatan",
+    "category": "keselamatan",
+    "level": "N5",
+    "example": {
+      "jp": "安全第一です。",
+      "id": "Keselamatan nomor satu."
+    }
+  },
+  {
+    "id": "v034",
+    "jp": "機械",
+    "kana": "きかい",
+    "romaji": "kikai",
+    "meaning": "mesin",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "機械を止めます。",
+      "id": "Saya menghentikan mesin."
+    }
+  },
+  {
+    "id": "v035",
+    "jp": "道具",
+    "kana": "どうぐ",
+    "romaji": "dougu",
+    "meaning": "alat",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "道具はここにあります。",
+      "id": "Alat ada di sini."
+    }
+  },
+  {
+    "id": "v036",
+    "jp": "手袋",
+    "kana": "てぶくろ",
+    "romaji": "tebukuro",
+    "meaning": "sarung tangan",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "手袋をしてください。",
+      "id": "Tolong pakai sarung tangan."
+    }
+  },
+  {
+    "id": "v037",
+    "jp": "電話",
+    "kana": "でんわ",
+    "romaji": "denwa",
+    "meaning": "telepon",
+    "category": "komunikasi",
+    "level": "N5",
+    "example": {
+      "jp": "会社に電話します。",
+      "id": "Saya menelepon perusahaan."
+    }
+  },
+  {
+    "id": "v038",
+    "jp": "駅",
+    "kana": "えき",
+    "romaji": "eki",
+    "meaning": "stasiun",
+    "category": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "駅まで歩きます。",
+      "id": "Saya berjalan sampai stasiun."
+    }
+  },
+  {
+    "id": "v039",
+    "jp": "電車",
+    "kana": "でんしゃ",
+    "romaji": "densha",
+    "meaning": "kereta",
+    "category": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "電車で行きます。",
+      "id": "Saya pergi naik kereta."
+    }
+  },
+  {
+    "id": "v040",
+    "jp": "自転車",
+    "kana": "じてんしゃ",
+    "romaji": "jitensha",
+    "meaning": "sepeda",
+    "category": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "自転車で会社へ行きます。",
+      "id": "Saya pergi ke perusahaan naik sepeda."
+    }
+  },
+  {
+    "id": "v041",
+    "jp": "寮",
+    "kana": "りょう",
+    "romaji": "ryou",
+    "meaning": "asrama",
+    "category": "hidup",
+    "level": "N5",
+    "example": {
+      "jp": "寮に住んでいます。",
+      "id": "Saya tinggal di asrama."
+    }
+  },
+  {
+    "id": "v042",
+    "jp": "部屋",
+    "kana": "へや",
+    "romaji": "heya",
+    "meaning": "kamar",
+    "category": "hidup",
+    "level": "N5",
+    "example": {
+      "jp": "部屋を掃除します。",
+      "id": "Saya membersihkan kamar."
+    }
+  },
+  {
+    "id": "v043",
+    "jp": "病院",
+    "kana": "びょういん",
+    "romaji": "byouin",
+    "meaning": "rumah sakit",
+    "category": "hidup",
+    "level": "N5",
+    "example": {
+      "jp": "病院へ行きたいです。",
+      "id": "Saya ingin pergi ke rumah sakit."
+    }
+  },
+  {
+    "id": "v044",
+    "jp": "薬",
+    "kana": "くすり",
+    "romaji": "kusuri",
+    "meaning": "obat",
+    "category": "hidup",
+    "level": "N5",
+    "example": {
+      "jp": "薬を飲みます。",
+      "id": "Saya minum obat."
+    }
+  },
+  {
+    "id": "v045",
+    "jp": "熱",
+    "kana": "ねつ",
+    "romaji": "netsu",
+    "meaning": "demam",
+    "category": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "熱があります。",
+      "id": "Saya demam."
+    }
+  },
+  {
+    "id": "v046",
+    "jp": "痛い",
+    "kana": "いたい",
+    "romaji": "itai",
+    "meaning": "sakit/nyeri",
+    "category": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "頭が痛いです。",
+      "id": "Kepala saya sakit."
+    }
+  },
+  {
+    "id": "v047",
+    "jp": "早い",
+    "kana": "はやい",
+    "romaji": "hayai",
+    "meaning": "cepat/awal",
+    "category": "sifat",
+    "level": "N5",
+    "example": {
+      "jp": "今日は早く来ました。",
+      "id": "Hari ini saya datang awal."
+    }
+  },
+  {
+    "id": "v048",
+    "jp": "遅い",
+    "kana": "おそい",
+    "romaji": "osoi",
+    "meaning": "lambat/telat",
+    "category": "sifat",
+    "level": "N5",
+    "example": {
+      "jp": "電車が遅いです。",
+      "id": "Kereta terlambat."
+    }
+  },
+  {
+    "id": "v049",
+    "jp": "多い",
+    "kana": "おおい",
+    "romaji": "ooi",
+    "meaning": "banyak",
+    "category": "sifat",
+    "level": "N5",
+    "example": {
+      "jp": "今日は仕事が多いです。",
+      "id": "Hari ini pekerjaan banyak."
+    }
+  },
+  {
+    "id": "v050",
+    "jp": "少ない",
+    "kana": "すくない",
+    "romaji": "sukunai",
+    "meaning": "sedikit",
+    "category": "sifat",
+    "level": "N5",
+    "example": {
+      "jp": "今日は人が少ないです。",
+      "id": "Hari ini orangnya sedikit."
+    }
+  },
+  {
+    "id": "v051",
+    "jp": "上司",
+    "kana": "じょうし",
+    "romaji": "joushi",
+    "meaning": "atasan",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "上司に報告します。",
+      "id": "Saya melapor kepada atasan."
+    }
+  },
+  {
+    "id": "v052",
+    "jp": "同僚",
+    "kana": "どうりょう",
+    "romaji": "douryou",
+    "meaning": "rekan kerja",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "同僚と昼ご飯を食べます。",
+      "id": "Saya makan siang dengan rekan kerja."
+    }
+  },
+  {
+    "id": "v053",
+    "jp": "先輩",
+    "kana": "せんぱい",
+    "romaji": "senpai",
+    "meaning": "senior",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "先輩に聞きます。",
+      "id": "Saya bertanya kepada senior."
+    }
+  },
+  {
+    "id": "v054",
+    "jp": "後輩",
+    "kana": "こうはい",
+    "romaji": "kouhai",
+    "meaning": "junior",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "後輩に教えます。",
+      "id": "Saya mengajari junior."
+    }
+  },
+  {
+    "id": "v055",
+    "jp": "会議",
+    "kana": "かいぎ",
+    "romaji": "kaigi",
+    "meaning": "rapat",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "会議は十時からです。",
+      "id": "Rapat mulai jam sepuluh."
+    }
+  },
+  {
+    "id": "v056",
+    "jp": "書類",
+    "kana": "しょるい",
+    "romaji": "shorui",
+    "meaning": "dokumen",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "書類を出してください。",
+      "id": "Tolong serahkan dokumen."
+    }
+  },
+  {
+    "id": "v057",
+    "jp": "報告",
+    "kana": "ほうこく",
+    "romaji": "houkoku",
+    "meaning": "laporan",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "毎日、報告します。",
+      "id": "Saya melapor setiap hari."
+    }
+  },
+  {
+    "id": "v058",
+    "jp": "確認",
+    "kana": "かくにん",
+    "romaji": "kakunin",
+    "meaning": "konfirmasi/cek",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "名前を確認してください。",
+      "id": "Tolong cek nama."
+    }
+  },
+  {
+    "id": "v059",
+    "jp": "準備",
+    "kana": "じゅんび",
+    "romaji": "junbi",
+    "meaning": "persiapan",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "仕事の準備をします。",
+      "id": "Saya menyiapkan pekerjaan."
+    }
+  },
+  {
+    "id": "v060",
+    "jp": "掃除",
+    "kana": "そうじ",
+    "romaji": "souji",
+    "meaning": "bersih-bersih",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "部屋を掃除します。",
+      "id": "Saya membersihkan kamar."
+    }
+  },
+  {
+    "id": "v061",
+    "jp": "片付け",
+    "kana": "かたづけ",
+    "romaji": "katazuke",
+    "meaning": "membereskan",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "道具を片付けます。",
+      "id": "Saya membereskan alat."
+    }
+  },
+  {
+    "id": "v062",
+    "jp": "残業",
+    "kana": "ざんぎょう",
+    "romaji": "zangyou",
+    "meaning": "lembur",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "今日は残業があります。",
+      "id": "Hari ini ada lembur."
+    }
+  },
+  {
+    "id": "v063",
+    "jp": "給料",
+    "kana": "きゅうりょう",
+    "romaji": "kyuuryou",
+    "meaning": "gaji",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "給料日はいつですか。",
+      "id": "Kapan hari gajian?"
+    }
+  },
+  {
+    "id": "v064",
+    "jp": "面接",
+    "kana": "めんせつ",
+    "romaji": "mensetsu",
+    "meaning": "wawancara",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "明日、面接があります。",
+      "id": "Besok ada wawancara."
+    }
+  },
+  {
+    "id": "v065",
+    "jp": "履歴書",
+    "kana": "りれきしょ",
+    "romaji": "rirekisho",
+    "meaning": "CV/daftar riwayat hidup",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "履歴書を書きます。",
+      "id": "Saya menulis CV."
+    }
+  },
+  {
+    "id": "v066",
+    "jp": "住所",
+    "kana": "じゅうしょ",
+    "romaji": "juusho",
+    "meaning": "alamat",
+    "category": "dokumen",
+    "level": "N5",
+    "example": {
+      "jp": "住所を書いてください。",
+      "id": "Tolong tulis alamat."
+    }
+  },
+  {
+    "id": "v067",
+    "jp": "在留カード",
+    "kana": "ざいりゅうカード",
+    "romaji": "zairyuu kaado",
+    "meaning": "kartu izin tinggal",
+    "category": "dokumen",
+    "level": "N5",
+    "example": {
+      "jp": "在留カードを見せてください。",
+      "id": "Tolong tunjukkan kartu izin tinggal."
+    }
+  },
+  {
+    "id": "v068",
+    "jp": "保険",
+    "kana": "ほけん",
+    "romaji": "hoken",
+    "meaning": "asuransi",
+    "category": "dokumen",
+    "level": "N5",
+    "example": {
+      "jp": "保険に入ります。",
+      "id": "Saya ikut asuransi."
+    }
+  },
+  {
+    "id": "v069",
+    "jp": "銀行",
+    "kana": "ぎんこう",
+    "romaji": "ginkou",
+    "meaning": "bank",
+    "category": "hidup",
+    "level": "N5",
+    "example": {
+      "jp": "銀行へ行きます。",
+      "id": "Saya pergi ke bank."
+    }
+  },
+  {
+    "id": "v070",
+    "jp": "郵便局",
+    "kana": "ゆうびんきょく",
+    "romaji": "yuubinkyoku",
+    "meaning": "kantor pos",
+    "category": "hidup",
+    "level": "N5",
+    "example": {
+      "jp": "郵便局で荷物を送ります。",
+      "id": "Saya mengirim paket di kantor pos."
+    }
+  },
+  {
+    "id": "v071",
+    "jp": "市役所",
+    "kana": "しやくしょ",
+    "romaji": "shiyakusho",
+    "meaning": "balai kota",
+    "category": "hidup",
+    "level": "N5",
+    "example": {
+      "jp": "市役所で手続きします。",
+      "id": "Saya mengurus prosedur di balai kota."
+    }
+  },
+  {
+    "id": "v072",
+    "jp": "手続き",
+    "kana": "てつづき",
+    "romaji": "tetsuzuki",
+    "meaning": "prosedur administrasi",
+    "category": "dokumen",
+    "level": "N5",
+    "example": {
+      "jp": "手続きは難しいです。",
+      "id": "Prosedurnya sulit."
+    }
+  },
+  {
+    "id": "v073",
+    "jp": "印鑑",
+    "kana": "いんかん",
+    "romaji": "inkan",
+    "meaning": "stempel nama",
+    "category": "dokumen",
+    "level": "N5",
+    "example": {
+      "jp": "印鑑を持ってきてください。",
+      "id": "Tolong bawa stempel nama."
+    }
+  },
+  {
+    "id": "v074",
+    "jp": "番号",
+    "kana": "ばんごう",
+    "romaji": "bangou",
+    "meaning": "nomor",
+    "category": "dokumen",
+    "level": "N5",
+    "example": {
+      "jp": "電話番号を書きます。",
+      "id": "Saya menulis nomor telepon."
+    }
+  },
+  {
+    "id": "v075",
+    "jp": "説明",
+    "kana": "せつめい",
+    "romaji": "setsumei",
+    "meaning": "penjelasan",
+    "category": "komunikasi",
+    "level": "N5",
+    "example": {
+      "jp": "説明を聞きます。",
+      "id": "Saya mendengarkan penjelasan."
+    }
+  },
+  {
+    "id": "v076",
+    "jp": "質問",
+    "kana": "しつもん",
+    "romaji": "shitsumon",
+    "meaning": "pertanyaan",
+    "category": "komunikasi",
+    "level": "N5",
+    "example": {
+      "jp": "質問があります。",
+      "id": "Saya punya pertanyaan."
+    }
+  },
+  {
+    "id": "v077",
+    "jp": "返事",
+    "kana": "へんじ",
+    "romaji": "henji",
+    "meaning": "jawaban/balasan",
+    "category": "komunikasi",
+    "level": "N5",
+    "example": {
+      "jp": "返事を待っています。",
+      "id": "Saya menunggu balasan."
+    }
+  },
+  {
+    "id": "v078",
+    "jp": "連絡",
+    "kana": "れんらく",
+    "romaji": "renraku",
+    "meaning": "menghubungi/kabar",
+    "category": "komunikasi",
+    "level": "N5",
+    "example": {
+      "jp": "会社に連絡します。",
+      "id": "Saya menghubungi perusahaan."
+    }
+  },
+  {
+    "id": "v079",
+    "jp": "遅刻",
+    "kana": "ちこく",
+    "romaji": "chikoku",
+    "meaning": "terlambat",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "遅刻してすみません。",
+      "id": "Maaf saya terlambat."
+    }
+  },
+  {
+    "id": "v080",
+    "jp": "欠席",
+    "kana": "けっせき",
+    "romaji": "kesseki",
+    "meaning": "absen/tidak hadir",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "今日は欠席します。",
+      "id": "Hari ini saya tidak hadir."
+    }
+  },
+  {
+    "id": "v081",
+    "jp": "早退",
+    "kana": "そうたい",
+    "romaji": "soutai",
+    "meaning": "pulang lebih awal",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "早退してもいいですか。",
+      "id": "Bolehkah saya pulang lebih awal?"
+    }
+  },
+  {
+    "id": "v082",
+    "jp": "遅れる",
+    "kana": "おくれる",
+    "romaji": "okureru",
+    "meaning": "terlambat",
+    "category": "jadwal",
+    "level": "N5",
+    "example": {
+      "jp": "電車が遅れています。",
+      "id": "Kereta sedang terlambat."
+    }
+  },
+  {
+    "id": "v083",
+    "jp": "始まる",
+    "kana": "はじまる",
+    "romaji": "hajimaru",
+    "meaning": "mulai",
+    "category": "jadwal",
+    "level": "N5",
+    "example": {
+      "jp": "仕事が始まります。",
+      "id": "Pekerjaan dimulai."
+    }
+  },
+  {
+    "id": "v084",
+    "jp": "終わる",
+    "kana": "おわる",
+    "romaji": "owaru",
+    "meaning": "selesai",
+    "category": "jadwal",
+    "level": "N5",
+    "example": {
+      "jp": "仕事が終わりました。",
+      "id": "Pekerjaan sudah selesai."
+    }
+  },
+  {
+    "id": "v085",
+    "jp": "間に合う",
+    "kana": "まにあう",
+    "romaji": "maniau",
+    "meaning": "sempat/tepat waktu",
+    "category": "jadwal",
+    "level": "N5",
+    "example": {
+      "jp": "八時に間に合います。",
+      "id": "Saya sempat sampai jam delapan."
+    }
+  },
+  {
+    "id": "v086",
+    "jp": "急ぐ",
+    "kana": "いそぐ",
+    "romaji": "isogu",
+    "meaning": "terburu-buru",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "急いでください。",
+      "id": "Tolong cepat."
+    }
+  },
+  {
+    "id": "v087",
+    "jp": "手伝う",
+    "kana": "てつだう",
+    "romaji": "tetsudau",
+    "meaning": "membantu",
+    "category": "aksi",
+    "level": "N5",
+    "example": {
+      "jp": "手伝いましょうか。",
+      "id": "Boleh saya bantu?"
+    }
+  },
+  {
+    "id": "v088",
+    "jp": "覚える",
+    "kana": "おぼえる",
+    "romaji": "oboeru",
+    "meaning": "menghafal/mengingat",
+    "category": "belajar",
+    "level": "N5",
+    "example": {
+      "jp": "漢字を覚えます。",
+      "id": "Saya menghafal kanji."
+    }
+  },
+  {
+    "id": "v089",
+    "jp": "忘れる",
+    "kana": "わすれる",
+    "romaji": "wasureru",
+    "meaning": "lupa",
+    "category": "belajar",
+    "level": "N5",
+    "example": {
+      "jp": "名前を忘れました。",
+      "id": "Saya lupa nama."
+    }
+  },
+  {
+    "id": "v090",
+    "jp": "直す",
+    "kana": "なおす",
+    "romaji": "naosu",
+    "meaning": "memperbaiki",
+    "category": "kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ミスを直します。",
+      "id": "Saya memperbaiki kesalahan."
+    }
+  },
+  {
+    "id": "v091",
+    "jp": "壊れる",
+    "kana": "こわれる",
+    "romaji": "kowareru",
+    "meaning": "rusak",
+    "category": "kerja",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "機械が壊れました。",
+      "id": "Mesinnya rusak."
+    }
+  },
+  {
+    "id": "v092",
+    "jp": "止める",
+    "kana": "とめる",
+    "romaji": "tomeru",
+    "meaning": "menghentikan",
+    "category": "kerja",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "機械を止めてください。",
+      "id": "Tolong hentikan mesin."
+    }
+  },
+  {
+    "id": "v093",
+    "jp": "動く",
+    "kana": "うごく",
+    "romaji": "ugoku",
+    "meaning": "bergerak/berfungsi",
+    "category": "kerja",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "機械が動きません。",
+      "id": "Mesinnya tidak berjalan."
+    }
+  },
+  {
+    "id": "v094",
+    "jp": "押す",
+    "kana": "おす",
+    "romaji": "osu",
+    "meaning": "menekan",
+    "category": "kerja",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "ボタンを押します。",
+      "id": "Saya menekan tombol."
+    }
+  },
+  {
+    "id": "v095",
+    "jp": "引く",
+    "kana": "ひく",
+    "romaji": "hiku",
+    "meaning": "menarik",
+    "category": "kerja",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "ドアを引いてください。",
+      "id": "Tolong tarik pintu."
+    }
+  },
+  {
+    "id": "v096",
+    "jp": "入れる",
+    "kana": "いれる",
+    "romaji": "ireru",
+    "meaning": "memasukkan",
+    "category": "kerja",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "部品を箱に入れます。",
+      "id": "Saya memasukkan komponen ke kotak."
+    }
+  },
+  {
+    "id": "v097",
+    "jp": "出す",
+    "kana": "だす",
+    "romaji": "dasu",
+    "meaning": "mengeluarkan/menyerahkan",
+    "category": "kerja",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "書類を出します。",
+      "id": "Saya menyerahkan dokumen."
+    }
+  },
+  {
+    "id": "v098",
+    "jp": "運ぶ",
+    "kana": "はこぶ",
+    "romaji": "hakobu",
+    "meaning": "membawa/mengangkut",
+    "category": "kerja",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "荷物を運びます。",
+      "id": "Saya mengangkut barang."
+    }
+  },
+  {
+    "id": "v099",
+    "jp": "重い",
+    "kana": "おもい",
+    "romaji": "omoi",
+    "meaning": "berat",
+    "category": "sifat",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "この箱は重いです。",
+      "id": "Kotak ini berat."
+    }
+  },
+  {
+    "id": "v100",
+    "jp": "軽い",
+    "kana": "かるい",
+    "romaji": "karui",
+    "meaning": "ringan",
+    "category": "sifat",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "この荷物は軽いです。",
+      "id": "Barang ini ringan."
+    }
+  },
+  {
+    "id": "v101",
+    "jp": "狭い",
+    "kana": "せまい",
+    "romaji": "semai",
+    "meaning": "sempit",
+    "category": "sifat",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "部屋は狭いです。",
+      "id": "Kamarnya sempit."
+    }
+  },
+  {
+    "id": "v102",
+    "jp": "広い",
+    "kana": "ひろい",
+    "romaji": "hiroi",
+    "meaning": "luas",
+    "category": "sifat",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "工場は広いです。",
+      "id": "Pabriknya luas."
+    }
+  },
+  {
+    "id": "v103",
+    "jp": "暑い",
+    "kana": "あつい",
+    "romaji": "atsui",
+    "meaning": "panas/cuaca",
+    "category": "sifat",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "今日は暑いです。",
+      "id": "Hari ini panas."
+    }
+  },
+  {
+    "id": "v104",
+    "jp": "寒い",
+    "kana": "さむい",
+    "romaji": "samui",
+    "meaning": "dingin/cuaca",
+    "category": "sifat",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "朝は寒いです。",
+      "id": "Pagi dingin."
+    }
+  },
+  {
+    "id": "v105",
+    "jp": "眠い",
+    "kana": "ねむい",
+    "romaji": "nemui",
+    "meaning": "mengantuk",
+    "category": "kesehatan",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "少し眠いです。",
+      "id": "Saya agak mengantuk."
+    }
+  },
+  {
+    "id": "v106",
+    "jp": "疲れる",
+    "kana": "つかれる",
+    "romaji": "tsukareru",
+    "meaning": "lelah",
+    "category": "kesehatan",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "仕事で疲れました。",
+      "id": "Saya lelah karena kerja."
+    }
+  },
+  {
+    "id": "v107",
+    "jp": "具合",
+    "kana": "ぐあい",
+    "romaji": "guai",
+    "meaning": "kondisi badan",
+    "category": "kesehatan",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "具合が悪いです。",
+      "id": "Kondisi badan saya tidak baik."
+    }
+  },
+  {
+    "id": "v108",
+    "jp": "咳",
+    "kana": "せき",
+    "romaji": "seki",
+    "meaning": "batuk",
+    "category": "kesehatan",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "咳が出ます。",
+      "id": "Saya batuk."
+    }
+  },
+  {
+    "id": "v109",
+    "jp": "けが",
+    "kana": "けが",
+    "romaji": "kega",
+    "meaning": "luka/cedera",
+    "category": "kesehatan",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "手にけがをしました。",
+      "id": "Tangan saya terluka."
+    }
+  },
+  {
+    "id": "v110",
+    "jp": "病気",
+    "kana": "びょうき",
+    "romaji": "byouki",
+    "meaning": "sakit/penyakit",
+    "category": "kesehatan",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "病気で休みます。",
+      "id": "Saya libur karena sakit."
+    }
+  },
+  {
+    "id": "v111",
+    "jp": "予約",
+    "kana": "よやく",
+    "romaji": "yoyaku",
+    "meaning": "reservasi/janji",
+    "category": "hidup",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "病院を予約します。",
+      "id": "Saya membuat janji rumah sakit."
+    }
+  },
+  {
+    "id": "v112",
+    "jp": "受付",
+    "kana": "うけつけ",
+    "romaji": "uketsuke",
+    "meaning": "resepsionis/loket",
+    "category": "hidup",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "受付で名前を言います。",
+      "id": "Saya menyebut nama di resepsionis."
+    }
+  },
+  {
+    "id": "v113",
+    "jp": "財布",
+    "kana": "さいふ",
+    "romaji": "saifu",
+    "meaning": "dompet",
+    "category": "hidup",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "財布を忘れました。",
+      "id": "Saya lupa dompet."
+    }
+  },
+  {
+    "id": "v114",
+    "jp": "鍵",
+    "kana": "かぎ",
+    "romaji": "kagi",
+    "meaning": "kunci",
+    "category": "hidup",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "鍵をなくしました。",
+      "id": "Saya kehilangan kunci."
+    }
+  },
+  {
+    "id": "v115",
+    "jp": "洗濯",
+    "kana": "せんたく",
+    "romaji": "sentaku",
+    "meaning": "mencuci pakaian",
+    "category": "hidup",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "日曜日に洗濯します。",
+      "id": "Saya mencuci pakaian hari Minggu."
+    }
+  },
+  {
+    "id": "v116",
+    "jp": "料理",
+    "kana": "りょうり",
+    "romaji": "ryouri",
+    "meaning": "masakan/memasak",
+    "category": "hidup",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "寮で料理します。",
+      "id": "Saya memasak di asrama."
+    }
+  },
+  {
+    "id": "v117",
+    "jp": "買い物",
+    "kana": "かいもの",
+    "romaji": "kaimono",
+    "meaning": "belanja",
+    "category": "hidup",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "スーパーで買い物します。",
+      "id": "Saya belanja di supermarket."
+    }
+  },
+  {
+    "id": "v118",
+    "jp": "地図",
+    "kana": "ちず",
+    "romaji": "chizu",
+    "meaning": "peta",
+    "category": "transportasi",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "地図を見ます。",
+      "id": "Saya melihat peta."
+    }
+  },
+  {
+    "id": "v119",
+    "jp": "出口",
+    "kana": "でぐち",
+    "romaji": "deguchi",
+    "meaning": "pintu keluar",
+    "category": "transportasi",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "出口はどこですか。",
+      "id": "Di mana pintu keluar?"
+    }
+  },
+  {
+    "id": "v120",
+    "jp": "入口",
+    "kana": "いりぐち",
+    "romaji": "iriguchi",
+    "meaning": "pintu masuk",
+    "category": "transportasi",
+    "level": "N4 dasar",
+    "example": {
+      "jp": "入口で待っています。",
+      "id": "Saya menunggu di pintu masuk."
+    }
+  }
 ]
