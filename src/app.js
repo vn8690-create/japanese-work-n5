@@ -60,6 +60,7 @@ const defaultProgress = {
   bestScore: 0,
   lastScore: 0,
   darkMode: false,
+  showReading: true,
   streak: 0,
   lastStudyDate: "",
   dailyDone: {},
@@ -112,6 +113,17 @@ const setTheme = (dark) => {
   document.documentElement.dataset.theme = dark ? "dark" : "light";
 };
 
+const setReadingMode = (show) => {
+  progress.showReading = show;
+  saveProgress();
+  document.body.classList.toggle("hide-reading", !show);
+  const button = $("#readingButton");
+  if (button) {
+    button.classList.toggle("active-control", show);
+    button.setAttribute("aria-pressed", String(show));
+  }
+};
+
 const fetchJson = async (key) => {
   if (state.cache.has(key)) return state.cache.get(key);
   const response = await fetch(DATA[key]);
@@ -123,6 +135,13 @@ const fetchJson = async (key) => {
 
 const escapeHtml = (value) =>
   String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
+
+const readingText = (item) => item.kana || item.kunyomi || item.onyomi || "";
+
+const rubyText = (text, reading, className = "ruby-word") =>
+  reading ? `<ruby class="${className}">${text}<rt>${reading}</rt></ruby>` : text;
+
+const readingHint = (label, reading) => (reading ? `<p class="reading-aid">${label}: ${reading}</p>` : "");
 
 const speakJapanese = (text) => {
   if (!("speechSynthesis" in window)) return;
@@ -166,6 +185,7 @@ nav.addEventListener("click", (event) => {
 });
 
 $("#themeButton").addEventListener("click", () => setTheme(!progress.darkMode));
+$("#readingButton").addEventListener("click", () => setReadingMode(!progress.showReading));
 $("#menuButton").addEventListener("click", () => nav.scrollIntoView({ behavior: "smooth", block: "start" }));
 
 const loading = (label = "Memuat data...") => {
@@ -304,7 +324,7 @@ const renderVocab = async () => {
         .map(
           (item) => `
         <article class="item" data-study="vocab:${item.id}">
-          <div class="japanese">${item.jp} <span class="romaji">${item.kana}</span></div>
+          <div class="japanese">${rubyText(item.jp, item.kana)} <span class="romaji reading-aid">${item.kana}</span></div>
           <h3>${item.meaning}</h3>
           <p><button class="mini-sound" data-speak="${escapeHtml(item.example.jp)}">Dengar</button> ${item.romaji} - ${item.example.jp}</p>
           <p>${item.example.id}</p>
@@ -341,14 +361,16 @@ const renderKanji = async () => {
       <div class="progress-track"><span style="width:${percent}%"></span></div>
       <article class="kanji-card" data-study="kanji:${item.id}">
         <p class="kanji-label">${item.level} - ${item.category}</p>
-        <div class="kanji-symbol">${item.kanji}</div>
+        <div class="kanji-symbol">${rubyText(item.kanji, readingText(item), "kanji-ruby")}</div>
         <h2>${item.meaning}</h2>
+        ${readingHint("Bacaan utama", readingText(item))}
         <div class="reading-grid">
           <div><span>Onyomi</span><strong>${item.onyomi || "-"}</strong></div>
           <div><span>Kunyomi</span><strong>${item.kunyomi || "-"}</strong></div>
         </div>
         <div class="example-panel">
           <p><button class="mini-sound" data-speak="${escapeHtml(item.example.jp)}">Dengar</button> <strong>${item.example.jp}</strong></p>
+          ${readingHint("On / Kun", [item.onyomi, item.kunyomi].filter(Boolean).join(" / "))}
           <p>${item.example.id}</p>
         </div>
       </article>
@@ -401,6 +423,7 @@ const renderGrammar = async () => {
           <h3>${item.title}</h3>
           <p>${item.explanation}</p>
           <p><button class="mini-sound" data-speak="${escapeHtml(item.example.jp)}">Dengar</button> ${item.example.jp}</p>
+          ${readingHint("Tips baca", "dengarkan audio lalu ulangi pelan-pelan")}
           <p>${item.example.id}</p>
           <div class="tag-row"><span class="tag">${item.level}</span><span class="tag">${item.use}</span></div>
         </article>`
@@ -432,6 +455,7 @@ const renderConversation = async () => {
             <div class="dialog-line">
               <span class="speaker">${line.speaker}</span>
               <span class="japanese"><button class="mini-sound" data-speak="${escapeHtml(line.jp)}">Dengar</button> ${line.jp}</span>
+              ${readingHint("Latihan", "dengar lalu tirukan satu kalimat")}
               <span>${line.id}</span>
             </div>`
             )
@@ -460,7 +484,7 @@ const renderScenario = async () => {
           <h3>${item.sector}</h3>
           <p>${item.goal}</p>
           <p class="hint">${item.dailyMission}</p>
-          ${item.phrases.map((phrase) => `<p><button class="mini-sound" data-speak="${escapeHtml(phrase.jp)}">Dengar</button> <strong>${phrase.jp}</strong><br>${phrase.id}</p>`).join("")}
+          ${item.phrases.map((phrase) => `<p><button class="mini-sound" data-speak="${escapeHtml(phrase.jp)}">Dengar</button> <strong>${phrase.jp}</strong><br><span class="reading-aid">Latih ucapkan setelah audio</span><br>${phrase.id}</p>`).join("")}
           <div class="tag-row"><span class="tag">kerja</span><span class="tag">praktis</span></div>
         </article>`
         )
@@ -712,7 +736,7 @@ const renderProgress = () => {
       <button class="ghost" id="resetProgress">Reset progress</button>
     </section>`;
   $("#resetProgress").addEventListener("click", () => {
-    progress = { ...defaultProgress, darkMode: progress.darkMode };
+    progress = { ...defaultProgress, darkMode: progress.darkMode, showReading: progress.showReading };
     saveProgress();
     renderProgress();
   });
@@ -725,6 +749,7 @@ view.addEventListener("click", (event) => {
 
 const render = async () => {
   setNav();
+  document.body.dataset.route = state.route;
   if (state.route !== "kanji") clearKanjiTimer();
   if (state.route !== "practice") {
     state.screenshotMode = false;
@@ -758,5 +783,6 @@ if ("serviceWorker" in navigator) {
 }
 
 setTheme(progress.darkMode);
+setReadingMode(progress.showReading);
 state.route = location.hash.replace("#", "") || "home";
 render();

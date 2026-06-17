@@ -17,6 +17,8 @@ Aplikasi web ringan untuk pengguna Indonesia yang baru belajar bahasa Jepang, te
 - Mode Screenshot untuk menyembunyikan navigasi saat mengambil tangkapan layar
 - Skenario kerja: pabrik, kaigo, restoran, konbini, konstruksi
 - Tombol dengar pelafalan Jepang memakai Web Speech API jika didukung browser
+- Mode bacaan/furigana yang bisa dinyalakan atau dimatikan untuk pemula
+- Latar layar ringan berbasis CSS, tanpa gambar berat
 - Soal reading dimuat berdasarkan passage
 - Pencarian kosakata
 - Dark mode
