@@ -8,6 +8,10 @@ const APP_SHELL = [
   "./src/styles.css",
   "./manifest.webmanifest",
   "./assets/icon.svg",
+  "./assets/backgrounds/bg-sakura.jpg",
+  "./assets/backgrounds/bg-ninja.jpg",
+  "./assets/backgrounds/bg-temple.jpg",
+  "./assets/backgrounds/bg-street.jpg",
   "./data/scenarios-work-n5.json"
 ];
 

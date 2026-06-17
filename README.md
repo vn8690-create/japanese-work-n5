@@ -19,6 +19,7 @@ Aplikasi web ringan untuk pengguna Indonesia yang baru belajar bahasa Jepang, te
 - Tombol dengar pelafalan Jepang memakai Web Speech API jika didukung browser
 - Mode bacaan/furigana yang bisa dinyalakan atau dimatikan untuk pemula
 - Latar layar ringan berbasis CSS, tanpa gambar berat
+- 4 background anime-style ringan: sakura, ninja, kuil Jepang, dan jalan kota Jepang
 - Soal reading dimuat berdasarkan passage
 - Pencarian kosakata
 - Dark mode

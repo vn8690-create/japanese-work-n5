@@ -1,5 +1,6 @@
 :root {
   color-scheme: light;
+  --screen-art: url("../assets/backgrounds/bg-sakura.jpg");
   --bg: #f7faf8;
   --surface: #ffffff;
   --surface-2: #eef7f4;
@@ -49,28 +50,41 @@ body::before {
   inset: 0;
   z-index: -1;
   background:
+    linear-gradient(180deg, color-mix(in srgb, var(--bg) 16%, transparent), color-mix(in srgb, var(--bg) 88%, transparent)),
+    var(--screen-art) center / cover no-repeat,
     linear-gradient(180deg, color-mix(in srgb, var(--route-accent, var(--primary)) 10%, transparent), transparent 34%),
     repeating-linear-gradient(90deg, transparent 0 42px, color-mix(in srgb, var(--route-accent, var(--primary)) 7%, transparent) 42px 43px);
+  opacity: 0.95;
   pointer-events: none;
 }
 
 body[data-route="kanji"] {
   --route-accent: #b91c1c;
+  --screen-art: url("../assets/backgrounds/bg-temple.jpg");
 }
 
 body[data-route="vocab"],
 body[data-route="daily"] {
   --route-accent: #0f766e;
+  --screen-art: url("../assets/backgrounds/bg-sakura.jpg");
 }
 
 body[data-route="grammar"],
 body[data-route="practice"] {
   --route-accent: #7c3aed;
+  --screen-art: url("../assets/backgrounds/bg-ninja.jpg");
 }
 
 body[data-route="conversation"],
 body[data-route="scenario"] {
   --route-accent: #b7791f;
+  --screen-art: url("../assets/backgrounds/bg-street.jpg");
+}
+
+body[data-route="flashcard"],
+body[data-route="progress"] {
+  --route-accent: #b91c1c;
+  --screen-art: url("../assets/backgrounds/bg-temple.jpg");
 }
 
 button,
@@ -87,7 +101,7 @@ button {
   width: min(100%, 920px);
   margin: 0 auto;
   min-height: 100vh;
-  background: var(--bg);
+  background: color-mix(in srgb, var(--bg) 72%, transparent);
 }
 
 .topbar {
@@ -157,7 +171,8 @@ h1 {
   overflow-x: auto;
   padding: 10px 14px;
   border-bottom: 1px solid var(--line);
-  background: var(--bg);
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  backdrop-filter: blur(12px);
   scrollbar-width: none;
 }
 
@@ -213,7 +228,8 @@ h1 {
   padding: 10px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(8px);
 }
 
 .stat strong {
@@ -239,8 +255,9 @@ h1 {
 .flashcard {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
   box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
 }
 
 .module-card {
@@ -445,9 +462,10 @@ rt {
   border-radius: 8px;
   background:
     radial-gradient(circle at 50% 8%, color-mix(in srgb, var(--primary) 12%, transparent), transparent 32%),
-    var(--surface);
+    color-mix(in srgb, var(--surface) 90%, transparent);
   box-shadow: var(--shadow);
   text-align: center;
+  backdrop-filter: blur(10px);
 }
 
 .kanji-label {
@@ -622,6 +640,10 @@ rt {
 
 .screenshot-mode {
   background: var(--surface);
+}
+
+.screenshot-mode::before {
+  display: none;
 }
 
 .screenshot-mode .topbar,
