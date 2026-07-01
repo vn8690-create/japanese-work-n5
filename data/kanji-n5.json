@@ -785,7 +785,7 @@
     "meaning": "tinggi/mahal",
     "onyomi": "コウ",
     "kunyomi": "たかい",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "sifat",
     "example": {
       "jp": "給料が高いです。",
@@ -798,7 +798,7 @@
     "meaning": "murah/aman",
     "onyomi": "アン",
     "kunyomi": "やすい",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "sifat",
     "example": {
       "jp": "安全を確認します。",
@@ -811,7 +811,7 @@
     "meaning": "panjang/pemimpin",
     "onyomi": "チョウ",
     "kunyomi": "ながい",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "sifat",
     "example": {
       "jp": "長い時間働きます。",
@@ -824,7 +824,7 @@
     "meaning": "pendek",
     "onyomi": "タン",
     "kunyomi": "みじかい",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "sifat",
     "example": {
       "jp": "休み時間は短いです。",
@@ -837,7 +837,7 @@
     "meaning": "kanan",
     "onyomi": "ウ, ユウ",
     "kunyomi": "みぎ",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "arah",
     "example": {
       "jp": "右へ行ってください。",
@@ -850,7 +850,7 @@
     "meaning": "kiri",
     "onyomi": "サ",
     "kunyomi": "ひだり",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "arah",
     "example": {
       "jp": "左にあります。",
@@ -863,7 +863,7 @@
     "meaning": "timur",
     "onyomi": "トウ",
     "kunyomi": "ひがし",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "arah",
     "example": {
       "jp": "駅は東口です。",
@@ -876,7 +876,7 @@
     "meaning": "barat",
     "onyomi": "セイ, サイ",
     "kunyomi": "にし",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "arah",
     "example": {
       "jp": "西口で待ちます。",
@@ -889,7 +889,7 @@
     "meaning": "selatan",
     "onyomi": "ナン",
     "kunyomi": "みなみ",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "arah",
     "example": {
       "jp": "南へ行きます。",
@@ -902,7 +902,7 @@
     "meaning": "utara",
     "onyomi": "ホク",
     "kunyomi": "きた",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "arah",
     "example": {
       "jp": "北口はどこですか。",
@@ -915,7 +915,7 @@
     "meaning": "mulut/pintu",
     "onyomi": "コウ, ク",
     "kunyomi": "くち",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "arah",
     "example": {
       "jp": "入口はここです。",
@@ -928,7 +928,7 @@
     "meaning": "keluar",
     "onyomi": "シュツ",
     "kunyomi": "でる, だす",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "aksi",
     "example": {
       "jp": "出口から出ます。",
@@ -941,7 +941,7 @@
     "meaning": "masuk",
     "onyomi": "ニュウ",
     "kunyomi": "はいる, いれる",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "aksi",
     "example": {
       "jp": "部屋に入ります。",
@@ -954,7 +954,7 @@
     "meaning": "berdiri",
     "onyomi": "リツ",
     "kunyomi": "たつ",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "aksi",
     "example": {
       "jp": "ここに立ってください。",
@@ -967,7 +967,7 @@
     "meaning": "listrik",
     "onyomi": "デン",
     "kunyomi": "",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "kerja",
     "example": {
       "jp": "電気を消します。",
@@ -980,7 +980,7 @@
     "meaning": "energi/perasaan",
     "onyomi": "キ",
     "kunyomi": "き",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "dasar",
     "example": {
       "jp": "気をつけてください。",
@@ -993,7 +993,7 @@
     "meaning": "putih",
     "onyomi": "ハク",
     "kunyomi": "しろい",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "warna",
     "example": {
       "jp": "白い紙です。",
@@ -1006,7 +1006,7 @@
     "meaning": "hitam",
     "onyomi": "コク",
     "kunyomi": "くろい",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "warna",
     "example": {
       "jp": "黒いペンです。",
@@ -1019,7 +1019,7 @@
     "meaning": "merah",
     "onyomi": "セキ",
     "kunyomi": "あかい",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "warna",
     "example": {
       "jp": "赤いボタンを押します。",
@@ -1032,11 +1032,1051 @@
     "meaning": "biru",
     "onyomi": "セイ",
     "kunyomi": "あおい",
-    "level": "N4 dasar",
+    "level": "N4",
     "category": "warna",
     "example": {
       "jp": "青い線を見てください。",
       "id": "Tolong lihat garis biru."
+    }
+  },
+  {
+    "id": "k081",
+    "kanji": "言",
+    "meaning": "mengatakan/kata",
+    "onyomi": "ゲン, ゴン",
+    "kunyomi": "いう",
+    "category": "bahasa",
+    "level": "N4",
+    "example": {
+      "jp": "意見を言います。",
+      "id": "Saya menyampaikan pendapat."
+    }
+  },
+  {
+    "id": "k082",
+    "kanji": "読",
+    "meaning": "membaca",
+    "onyomi": "ドク",
+    "kunyomi": "よむ",
+    "category": "belajar",
+    "level": "N4",
+    "example": {
+      "jp": "文章を読みます。",
+      "id": "Saya membaca teks."
+    }
+  },
+  {
+    "id": "k083",
+    "kanji": "話",
+    "meaning": "bicara/cerita",
+    "onyomi": "ワ",
+    "kunyomi": "はなす",
+    "category": "komunikasi",
+    "level": "N4",
+    "example": {
+      "jp": "電話で話します。",
+      "id": "Saya berbicara lewat telepon."
+    }
+  },
+  {
+    "id": "k084",
+    "kanji": "買",
+    "meaning": "membeli",
+    "onyomi": "バイ",
+    "kunyomi": "かう",
+    "category": "hidup",
+    "level": "N4",
+    "example": {
+      "jp": "切符を買います。",
+      "id": "Saya membeli tiket."
+    }
+  },
+  {
+    "id": "k085",
+    "kanji": "売",
+    "meaning": "menjual",
+    "onyomi": "バイ",
+    "kunyomi": "うる",
+    "category": "bisnis",
+    "level": "N4",
+    "example": {
+      "jp": "商品を売ります。",
+      "id": "Menjual produk."
+    }
+  },
+  {
+    "id": "k086",
+    "kanji": "使",
+    "meaning": "menggunakan",
+    "onyomi": "シ",
+    "kunyomi": "つかう",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "道具を使います。",
+      "id": "Saya menggunakan alat."
+    }
+  },
+  {
+    "id": "k087",
+    "kanji": "作",
+    "meaning": "membuat",
+    "onyomi": "サク, サ",
+    "kunyomi": "つくる",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "計画を作ります。",
+      "id": "Saya membuat rencana."
+    }
+  },
+  {
+    "id": "k088",
+    "kanji": "思",
+    "meaning": "berpikir",
+    "onyomi": "シ",
+    "kunyomi": "おもう",
+    "category": "komunikasi",
+    "level": "N4",
+    "example": {
+      "jp": "いいと思います。",
+      "id": "Saya pikir bagus."
+    }
+  },
+  {
+    "id": "k089",
+    "kanji": "考",
+    "meaning": "memikirkan",
+    "onyomi": "コウ",
+    "kunyomi": "かんがえる",
+    "category": "belajar",
+    "level": "N4",
+    "example": {
+      "jp": "理由を考えます。",
+      "id": "Saya memikirkan alasan."
+    }
+  },
+  {
+    "id": "k090",
+    "kanji": "待",
+    "meaning": "menunggu",
+    "onyomi": "タイ",
+    "kunyomi": "まつ",
+    "category": "aksi",
+    "level": "N4",
+    "example": {
+      "jp": "返事を待ちます。",
+      "id": "Saya menunggu balasan."
+    }
+  },
+  {
+    "id": "k091",
+    "kanji": "持",
+    "meaning": "membawa/memiliki",
+    "onyomi": "ジ",
+    "kunyomi": "もつ",
+    "category": "aksi",
+    "level": "N4",
+    "example": {
+      "jp": "責任を持ちます。",
+      "id": "Saya memegang tanggung jawab."
+    }
+  },
+  {
+    "id": "k092",
+    "kanji": "知",
+    "meaning": "tahu",
+    "onyomi": "チ",
+    "kunyomi": "しる",
+    "category": "belajar",
+    "level": "N4",
+    "example": {
+      "jp": "結果を知っています。",
+      "id": "Saya tahu hasilnya."
+    }
+  },
+  {
+    "id": "k093",
+    "kanji": "住",
+    "meaning": "tinggal",
+    "onyomi": "ジュウ",
+    "kunyomi": "すむ",
+    "category": "hidup",
+    "level": "N4",
+    "example": {
+      "jp": "日本に住んでいます。",
+      "id": "Saya tinggal di Jepang."
+    }
+  },
+  {
+    "id": "k094",
+    "kanji": "正",
+    "meaning": "benar",
+    "onyomi": "セイ, ショウ",
+    "kunyomi": "ただしい",
+    "category": "sifat",
+    "level": "N4",
+    "example": {
+      "jp": "正しい答えです。",
+      "id": "Jawaban yang benar."
+    }
+  },
+  {
+    "id": "k095",
+    "kanji": "員",
+    "meaning": "anggota/pegawai",
+    "onyomi": "イン",
+    "kunyomi": "",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "会社員です。",
+      "id": "Saya pegawai perusahaan."
+    }
+  },
+  {
+    "id": "k096",
+    "kanji": "事",
+    "meaning": "hal/perkara",
+    "onyomi": "ジ",
+    "kunyomi": "こと",
+    "category": "umum",
+    "level": "N4",
+    "example": {
+      "jp": "大事なことです。",
+      "id": "Itu hal penting."
+    }
+  },
+  {
+    "id": "k097",
+    "kanji": "仕",
+    "meaning": "melayani/kerja",
+    "onyomi": "シ",
+    "kunyomi": "",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "仕事を探します。",
+      "id": "Saya mencari pekerjaan."
+    }
+  },
+  {
+    "id": "k098",
+    "kanji": "者",
+    "meaning": "orang/pelaku",
+    "onyomi": "シャ",
+    "kunyomi": "もの",
+    "category": "umum",
+    "level": "N4",
+    "example": {
+      "jp": "経験者を募集します。",
+      "id": "Mencari orang berpengalaman."
+    }
+  },
+  {
+    "id": "k099",
+    "kanji": "用",
+    "meaning": "kegunaan/urusan",
+    "onyomi": "ヨウ",
+    "kunyomi": "もちいる",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "用事があります。",
+      "id": "Ada urusan."
+    }
+  },
+  {
+    "id": "k100",
+    "kanji": "室",
+    "meaning": "ruangan",
+    "onyomi": "シツ",
+    "kunyomi": "むろ",
+    "category": "tempat",
+    "level": "N4",
+    "example": {
+      "jp": "会議室にいます。",
+      "id": "Saya ada di ruang rapat."
+    }
+  },
+  {
+    "id": "k101",
+    "kanji": "業",
+    "meaning": "pekerjaan/industri",
+    "onyomi": "ギョウ, ゴウ",
+    "kunyomi": "",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "作業を始めます。",
+      "id": "Memulai pekerjaan."
+    }
+  },
+  {
+    "id": "k102",
+    "kanji": "題",
+    "meaning": "topik/masalah",
+    "onyomi": "ダイ",
+    "kunyomi": "",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "課題を提出します。",
+      "id": "Saya menyerahkan tugas."
+    }
+  },
+  {
+    "id": "k103",
+    "kanji": "問",
+    "meaning": "bertanya/masalah",
+    "onyomi": "モン",
+    "kunyomi": "とう",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "問題を解きます。",
+      "id": "Saya menyelesaikan soal."
+    }
+  },
+  {
+    "id": "k104",
+    "kanji": "題",
+    "meaning": "soal/topik",
+    "onyomi": "ダイ",
+    "kunyomi": "",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "題名を読みます。",
+      "id": "Saya membaca judul."
+    }
+  },
+  {
+    "id": "k105",
+    "kanji": "答",
+    "meaning": "jawaban",
+    "onyomi": "トウ",
+    "kunyomi": "こたえる",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "答えを選びます。",
+      "id": "Saya memilih jawaban."
+    }
+  },
+  {
+    "id": "k106",
+    "kanji": "説",
+    "meaning": "penjelasan",
+    "onyomi": "セツ",
+    "kunyomi": "とく",
+    "category": "komunikasi",
+    "level": "N3",
+    "example": {
+      "jp": "説明を聞きます。",
+      "id": "Saya mendengar penjelasan."
+    }
+  },
+  {
+    "id": "k107",
+    "kanji": "明",
+    "meaning": "jelas/terang",
+    "onyomi": "メイ, ミョウ",
+    "kunyomi": "あかるい",
+    "category": "sifat",
+    "level": "N3",
+    "example": {
+      "jp": "明確に説明します。",
+      "id": "Menjelaskan dengan jelas."
+    }
+  },
+  {
+    "id": "k108",
+    "kanji": "暗",
+    "meaning": "gelap",
+    "onyomi": "アン",
+    "kunyomi": "くらい",
+    "category": "sifat",
+    "level": "N3",
+    "example": {
+      "jp": "暗い道を歩きます。",
+      "id": "Berjalan di jalan gelap."
+    }
+  },
+  {
+    "id": "k109",
+    "kanji": "味",
+    "meaning": "rasa/makna",
+    "onyomi": "ミ",
+    "kunyomi": "あじ",
+    "category": "umum",
+    "level": "N3",
+    "example": {
+      "jp": "意味を調べます。",
+      "id": "Saya mencari arti."
+    }
+  },
+  {
+    "id": "k110",
+    "kanji": "意",
+    "meaning": "pikiran/makna",
+    "onyomi": "イ",
+    "kunyomi": "",
+    "category": "komunikasi",
+    "level": "N3",
+    "example": {
+      "jp": "意見を言います。",
+      "id": "Saya menyampaikan opini."
+    }
+  },
+  {
+    "id": "k111",
+    "kanji": "見",
+    "meaning": "melihat/pendapat",
+    "onyomi": "ケン",
+    "kunyomi": "みる",
+    "category": "komunikasi",
+    "level": "N3",
+    "example": {
+      "jp": "意見を聞きます。",
+      "id": "Saya mendengarkan opini."
+    }
+  },
+  {
+    "id": "k112",
+    "kanji": "運",
+    "meaning": "mengangkut/nasib",
+    "onyomi": "ウン",
+    "kunyomi": "はこぶ",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "荷物を運びます。",
+      "id": "Saya mengangkut barang."
+    }
+  },
+  {
+    "id": "k113",
+    "kanji": "転",
+    "meaning": "berputar/pindah",
+    "onyomi": "テン",
+    "kunyomi": "ころがる",
+    "category": "transportasi",
+    "level": "N3",
+    "example": {
+      "jp": "運転に注意します。",
+      "id": "Hati-hati saat mengemudi."
+    }
+  },
+  {
+    "id": "k114",
+    "kanji": "送",
+    "meaning": "mengirim",
+    "onyomi": "ソウ",
+    "kunyomi": "おくる",
+    "category": "komunikasi",
+    "level": "N3",
+    "example": {
+      "jp": "メールを送ります。",
+      "id": "Saya mengirim email."
+    }
+  },
+  {
+    "id": "k115",
+    "kanji": "受",
+    "meaning": "menerima",
+    "onyomi": "ジュ",
+    "kunyomi": "うける",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "研修を受けます。",
+      "id": "Saya menerima pelatihan."
+    }
+  },
+  {
+    "id": "k116",
+    "kanji": "験",
+    "meaning": "ujian/pengalaman",
+    "onyomi": "ケン",
+    "kunyomi": "",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "試験を受けます。",
+      "id": "Saya mengikuti ujian."
+    }
+  },
+  {
+    "id": "k117",
+    "kanji": "試",
+    "meaning": "mencoba/ujian",
+    "onyomi": "シ",
+    "kunyomi": "ためす",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "試験に合格します。",
+      "id": "Lulus ujian."
+    }
+  },
+  {
+    "id": "k118",
+    "kanji": "合",
+    "meaning": "cocok/bergabung",
+    "onyomi": "ゴウ",
+    "kunyomi": "あう",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "合格したいです。",
+      "id": "Saya ingin lulus."
+    }
+  },
+  {
+    "id": "k119",
+    "kanji": "格",
+    "meaning": "status/standar",
+    "onyomi": "カク",
+    "kunyomi": "",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "資格を取ります。",
+      "id": "Mengambil sertifikat."
+    }
+  },
+  {
+    "id": "k120",
+    "kanji": "果",
+    "meaning": "hasil/buah",
+    "onyomi": "カ",
+    "kunyomi": "はたす",
+    "category": "umum",
+    "level": "N3",
+    "example": {
+      "jp": "結果を確認します。",
+      "id": "Mengecek hasil."
+    }
+  },
+  {
+    "id": "k121",
+    "kanji": "効",
+    "meaning": "efek",
+    "onyomi": "コウ",
+    "kunyomi": "きく",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "効果を測ります。",
+      "id": "Mengukur efek."
+    }
+  },
+  {
+    "id": "k122",
+    "kanji": "率",
+    "meaning": "rasio/efisiensi",
+    "onyomi": "リツ",
+    "kunyomi": "",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "効率を上げます。",
+      "id": "Meningkatkan efisiensi."
+    }
+  },
+  {
+    "id": "k123",
+    "kanji": "責",
+    "meaning": "tanggung jawab",
+    "onyomi": "セキ",
+    "kunyomi": "せめる",
+    "category": "kerja",
+    "level": "N2",
+    "example": {
+      "jp": "責任があります。",
+      "id": "Ada tanggung jawab."
+    }
+  },
+  {
+    "id": "k124",
+    "kanji": "任",
+    "meaning": "tugas/jabatan",
+    "onyomi": "ニン",
+    "kunyomi": "まかせる",
+    "category": "kerja",
+    "level": "N2",
+    "example": {
+      "jp": "担当を任されます。",
+      "id": "Dipercayai tugas."
+    }
+  },
+  {
+    "id": "k125",
+    "kanji": "判",
+    "meaning": "menilai",
+    "onyomi": "ハン, バン",
+    "kunyomi": "",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "判断が必要です。",
+      "id": "Keputusan diperlukan."
+    }
+  },
+  {
+    "id": "k126",
+    "kanji": "断",
+    "meaning": "memutus",
+    "onyomi": "ダン",
+    "kunyomi": "たつ",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "断定できません。",
+      "id": "Tidak bisa memastikan."
+    }
+  },
+  {
+    "id": "k127",
+    "kanji": "検",
+    "meaning": "memeriksa",
+    "onyomi": "ケン",
+    "kunyomi": "",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "検査を行います。",
+      "id": "Melakukan inspeksi."
+    }
+  },
+  {
+    "id": "k128",
+    "kanji": "討",
+    "meaning": "mendiskusikan",
+    "onyomi": "トウ",
+    "kunyomi": "うつ",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "検討します。",
+      "id": "Mempertimbangkan."
+    }
+  },
+  {
+    "id": "k129",
+    "kanji": "導",
+    "meaning": "membimbing/memperkenalkan",
+    "onyomi": "ドウ",
+    "kunyomi": "みちびく",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "新制度を導入します。",
+      "id": "Menerapkan sistem baru."
+    }
+  },
+  {
+    "id": "k130",
+    "kanji": "入",
+    "meaning": "masuk/memasukkan",
+    "onyomi": "ニュウ",
+    "kunyomi": "いれる",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "導入しました。",
+      "id": "Sudah diterapkan."
+    }
+  },
+  {
+    "id": "k131",
+    "kanji": "維",
+    "meaning": "mempertahankan",
+    "onyomi": "イ",
+    "kunyomi": "",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "品質を維持します。",
+      "id": "Mempertahankan kualitas."
+    }
+  },
+  {
+    "id": "k132",
+    "kanji": "持",
+    "meaning": "menjaga/memiliki",
+    "onyomi": "ジ",
+    "kunyomi": "もつ",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "維持が大切です。",
+      "id": "Mempertahankan itu penting."
+    }
+  },
+  {
+    "id": "k133",
+    "kanji": "評",
+    "meaning": "menilai",
+    "onyomi": "ヒョウ",
+    "kunyomi": "",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "評価を受けます。",
+      "id": "Menerima evaluasi."
+    }
+  },
+  {
+    "id": "k134",
+    "kanji": "価",
+    "meaning": "nilai/harga",
+    "onyomi": "カ",
+    "kunyomi": "あたい",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "価値があります。",
+      "id": "Ada nilainya."
+    }
+  },
+  {
+    "id": "k135",
+    "kanji": "析",
+    "meaning": "menganalisis",
+    "onyomi": "セキ",
+    "kunyomi": "",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "分析します。",
+      "id": "Menganalisis."
+    }
+  },
+  {
+    "id": "k136",
+    "kanji": "資",
+    "meaning": "modal/materi",
+    "onyomi": "シ",
+    "kunyomi": "",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "資料を準備します。",
+      "id": "Menyiapkan materi."
+    }
+  },
+  {
+    "id": "k137",
+    "kanji": "料",
+    "meaning": "materi/biaya",
+    "onyomi": "リョウ",
+    "kunyomi": "",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "資料を読みます。",
+      "id": "Membaca materi."
+    }
+  },
+  {
+    "id": "k138",
+    "kanji": "策",
+    "meaning": "rencana/langkah",
+    "onyomi": "サク",
+    "kunyomi": "",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "対策を考えます。",
+      "id": "Memikirkan langkah."
+    }
+  },
+  {
+    "id": "k139",
+    "kanji": "苦",
+    "meaning": "sulit/pahit",
+    "onyomi": "ク",
+    "kunyomi": "くるしい",
+    "category": "umum",
+    "level": "N2",
+    "example": {
+      "jp": "苦情に対応します。",
+      "id": "Menangani keluhan."
+    }
+  },
+  {
+    "id": "k140",
+    "kanji": "情",
+    "meaning": "perasaan/kondisi",
+    "onyomi": "ジョウ",
+    "kunyomi": "なさけ",
+    "category": "umum",
+    "level": "N2",
+    "example": {
+      "jp": "情報を集めます。",
+      "id": "Mengumpulkan informasi."
+    }
+  },
+  {
+    "id": "k141",
+    "kanji": "概",
+    "meaning": "umum/garis besar",
+    "onyomi": "ガイ",
+    "kunyomi": "",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "概要を説明します。",
+      "id": "Menjelaskan ringkasan."
+    }
+  },
+  {
+    "id": "k142",
+    "kanji": "念",
+    "meaning": "pikiran",
+    "onyomi": "ネン",
+    "kunyomi": "",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "概念を理解します。",
+      "id": "Memahami konsep."
+    }
+  },
+  {
+    "id": "k143",
+    "kanji": "妥",
+    "meaning": "layak",
+    "onyomi": "ダ",
+    "kunyomi": "",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "妥当性を検討します。",
+      "id": "Memeriksa validitas."
+    }
+  },
+  {
+    "id": "k144",
+    "kanji": "当",
+    "meaning": "sesuai/kena",
+    "onyomi": "トウ",
+    "kunyomi": "あたる",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "妥当だと思います。",
+      "id": "Saya pikir layak."
+    }
+  },
+  {
+    "id": "k145",
+    "kanji": "顕",
+    "meaning": "tampak jelas",
+    "onyomi": "ケン",
+    "kunyomi": "",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "顕著な変化です。",
+      "id": "Perubahan yang jelas."
+    }
+  },
+  {
+    "id": "k146",
+    "kanji": "著",
+    "meaning": "menonjol/menulis",
+    "onyomi": "チョ",
+    "kunyomi": "あらわす",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "著しい増加です。",
+      "id": "Peningkatan signifikan."
+    }
+  },
+  {
+    "id": "k147",
+    "kanji": "阻",
+    "meaning": "menghalangi",
+    "onyomi": "ソ",
+    "kunyomi": "はばむ",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "成長を阻害します。",
+      "id": "Menghambat pertumbuhan."
+    }
+  },
+  {
+    "id": "k148",
+    "kanji": "害",
+    "meaning": "bahaya/kerusakan",
+    "onyomi": "ガイ",
+    "kunyomi": "そこなう",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "被害を減らします。",
+      "id": "Mengurangi kerugian."
+    }
+  },
+  {
+    "id": "k149",
+    "kanji": "促",
+    "meaning": "mendorong",
+    "onyomi": "ソク",
+    "kunyomi": "うながす",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "交流を促進します。",
+      "id": "Mendorong pertukaran."
+    }
+  },
+  {
+    "id": "k150",
+    "kanji": "進",
+    "meaning": "maju",
+    "onyomi": "シン",
+    "kunyomi": "すすむ",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "進歩が見られます。",
+      "id": "Terlihat kemajuan."
+    }
+  },
+  {
+    "id": "k151",
+    "kanji": "緩",
+    "meaning": "longgar/ringan",
+    "onyomi": "カン",
+    "kunyomi": "ゆるい",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "規制を緩和します。",
+      "id": "Melonggarkan regulasi."
+    }
+  },
+  {
+    "id": "k152",
+    "kanji": "和",
+    "meaning": "harmoni/Jepang",
+    "onyomi": "ワ",
+    "kunyomi": "やわらぐ",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "負担が緩和されます。",
+      "id": "Beban diringankan."
+    }
+  },
+  {
+    "id": "k153",
+    "kanji": "是",
+    "meaning": "benar",
+    "onyomi": "ゼ",
+    "kunyomi": "",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "是正が必要です。",
+      "id": "Koreksi diperlukan."
+    }
+  },
+  {
+    "id": "k154",
+    "kanji": "正",
+    "meaning": "benar",
+    "onyomi": "セイ",
+    "kunyomi": "ただしい",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "不正を是正します。",
+      "id": "Mengoreksi ketidakbenaran."
+    }
+  },
+  {
+    "id": "k155",
+    "kanji": "逸",
+    "meaning": "menyimpang",
+    "onyomi": "イツ",
+    "kunyomi": "",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "基準を逸脱します。",
+      "id": "Menyimpang dari standar."
+    }
+  },
+  {
+    "id": "k156",
+    "kanji": "脱",
+    "meaning": "lepas",
+    "onyomi": "ダツ",
+    "kunyomi": "ぬぐ",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "制限から脱します。",
+      "id": "Lepas dari batasan."
+    }
+  },
+  {
+    "id": "k157",
+    "kanji": "整",
+    "meaning": "merapikan",
+    "onyomi": "セイ",
+    "kunyomi": "ととのえる",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "整合性を確認します。",
+      "id": "Mengecek konsistensi."
+    }
+  },
+  {
+    "id": "k158",
+    "kanji": "抽",
+    "meaning": "menarik/mengambil",
+    "onyomi": "チュウ",
+    "kunyomi": "",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "要点を抽出します。",
+      "id": "Mengekstrak poin utama."
+    }
+  },
+  {
+    "id": "k159",
+    "kanji": "象",
+    "meaning": "gajah/fenomena",
+    "onyomi": "ショウ, ゾウ",
+    "kunyomi": "",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "現象を分析します。",
+      "id": "Menganalisis fenomena."
+    }
+  },
+  {
+    "id": "k160",
+    "kanji": "倫",
+    "meaning": "etika",
+    "onyomi": "リン",
+    "kunyomi": "",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "倫理を重視します。",
+      "id": "Menekankan etika."
     }
   }
 ]

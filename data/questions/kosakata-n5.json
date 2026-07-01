@@ -12,7 +12,8 @@
         "obat"
       ],
       "answer": "perusahaan",
-      "explanation": "会社 dibaca kaisha, artinya perusahaan."
+      "explanation": "会社 dibaca kaisha, artinya perusahaan.",
+      "level": "N5"
     },
     {
       "id": "qv002",
@@ -25,7 +26,8 @@
         "駅"
       ],
       "answer": "工場",
-      "explanation": "工場 dibaca koujou, artinya pabrik."
+      "explanation": "工場 dibaca koujou, artinya pabrik.",
+      "level": "N5"
     },
     {
       "id": "qv003",
@@ -38,7 +40,8 @@
         "bahaya"
       ],
       "answer": "libur/istirahat",
-      "explanation": "休み atau やすみ dipakai untuk libur atau istirahat."
+      "explanation": "休み atau やすみ dipakai untuk libur atau istirahat.",
+      "level": "N5"
     },
     {
       "id": "qv004",
@@ -51,7 +54,8 @@
         "待つ"
       ],
       "answer": "働く",
-      "explanation": "働く berarti bekerja."
+      "explanation": "働く berarti bekerja.",
+      "level": "N5"
     },
     {
       "id": "qv005",
@@ -64,7 +68,8 @@
         "sedikit"
       ],
       "answer": "berbahaya",
-      "explanation": "危ない dibaca abunai, artinya berbahaya."
+      "explanation": "危ない dibaca abunai, artinya berbahaya.",
+      "level": "N5"
     },
     {
       "id": "qv006",
@@ -77,7 +82,8 @@
         "membeli makan"
       ],
       "answer": "melindungi tangan",
-      "explanation": "手袋 berarti sarung tangan."
+      "explanation": "手袋 berarti sarung tangan.",
+      "level": "N5"
     },
     {
       "id": "qv007",
@@ -90,7 +96,8 @@
         "帰る"
       ],
       "answer": "聞く",
-      "explanation": "聞く berarti mendengar atau bertanya."
+      "explanation": "聞く berarti mendengar atau bertanya.",
+      "level": "N5"
     },
     {
       "id": "qv008",
@@ -103,7 +110,8 @@
         "ryou"
       ],
       "answer": "kusuri",
-      "explanation": "薬 dibaca kusuri, artinya obat."
+      "explanation": "薬 dibaca kusuri, artinya obat.",
+      "level": "N5"
     },
     {
       "id": "qv009",
@@ -116,7 +124,8 @@
         "perusahaan"
       ],
       "answer": "kereta",
-      "explanation": "電車 dibaca densha, artinya kereta."
+      "explanation": "電車 dibaca densha, artinya kereta.",
+      "level": "N5"
     },
     {
       "id": "qv010",
@@ -129,7 +138,8 @@
         "行きたいです"
       ],
       "answer": "分かりました",
-      "explanation": "分かりました berarti saya mengerti."
+      "explanation": "分かりました berarti saya mengerti.",
+      "level": "N5"
     },
     {
       "id": "qv011",
@@ -142,7 +152,8 @@
         "kantor pos"
       ],
       "answer": "atasan",
-      "explanation": "上司 berarti atasan."
+      "explanation": "上司 berarti atasan.",
+      "level": "N5"
     },
     {
       "id": "qv012",
@@ -155,7 +166,8 @@
         "掃除"
       ],
       "answer": "残業",
-      "explanation": "残業 berarti lembur."
+      "explanation": "残業 berarti lembur.",
+      "level": "N5"
     },
     {
       "id": "qv013",
@@ -168,7 +180,8 @@
         "peta"
       ],
       "answer": "cek/konfirmasi",
-      "explanation": "確認 dipakai untuk mengecek atau mengonfirmasi."
+      "explanation": "確認 dipakai untuk mengecek atau mengonfirmasi.",
+      "level": "N5"
     },
     {
       "id": "qv014",
@@ -181,7 +194,8 @@
         "belanja"
       ],
       "answer": "terlambat",
-      "explanation": "遅刻 berarti terlambat."
+      "explanation": "遅刻 berarti terlambat.",
+      "level": "N5"
     },
     {
       "id": "qv015",
@@ -194,7 +208,8 @@
         "alamat"
       ],
       "answer": "gaji",
-      "explanation": "給料 berarti gaji."
+      "explanation": "給料 berarti gaji.",
+      "level": "N5"
     },
     {
       "id": "qv016",
@@ -207,7 +222,8 @@
         "asrama"
       ],
       "answer": "balai kota",
-      "explanation": "市役所 adalah balai kota."
+      "explanation": "市役所 adalah balai kota.",
+      "level": "N5"
     },
     {
       "id": "qv017",
@@ -220,7 +236,8 @@
         "洗濯"
       ],
       "answer": "壊れる",
-      "explanation": "壊れる berarti rusak."
+      "explanation": "壊れる berarti rusak.",
+      "level": "N5"
     },
     {
       "id": "qv018",
@@ -233,7 +250,8 @@
         "mencari pintu"
       ],
       "answer": "mengangkut barang",
-      "explanation": "運ぶ berarti membawa atau mengangkut."
+      "explanation": "運ぶ berarti membawa atau mengangkut.",
+      "level": "N5"
     },
     {
       "id": "qv019",
@@ -246,7 +264,8 @@
         "alamat"
       ],
       "answer": "dompet",
-      "explanation": "財布 adalah dompet."
+      "explanation": "財布 adalah dompet.",
+      "level": "N5"
     },
     {
       "id": "qv020",
@@ -259,7 +278,8 @@
         "kantor pos"
       ],
       "answer": "pintu masuk",
-      "explanation": "入口 adalah pintu masuk."
+      "explanation": "入口 adalah pintu masuk.",
+      "level": "N5"
     },
     {
       "id": "qv021",
@@ -272,7 +292,8 @@
         "alat rusak"
       ],
       "answer": "kondisi badan tidak baik",
-      "explanation": "具合 adalah kondisi badan."
+      "explanation": "具合 adalah kondisi badan.",
+      "level": "N5"
     },
     {
       "id": "qv022",
@@ -285,7 +306,8 @@
         "sepeda"
       ],
       "answer": "prosedur administrasi",
-      "explanation": "手続き sering dipakai di kantor/balai kota."
+      "explanation": "手続き sering dipakai di kantor/balai kota.",
+      "level": "N5"
     },
     {
       "id": "qv023",
@@ -298,7 +320,8 @@
         "warna"
       ],
       "answer": "nomor",
-      "explanation": "番号 berarti nomor."
+      "explanation": "番号 berarti nomor.",
+      "level": "N5"
     },
     {
       "id": "qv024",
@@ -311,7 +334,8 @@
         "sudah membaca"
       ],
       "answer": "sudah lupa",
-      "explanation": "忘れる berarti lupa."
+      "explanation": "忘れる berarti lupa.",
+      "level": "N5"
     },
     {
       "id": "qv025",
@@ -324,7 +348,1128 @@
         "mengirim paket"
       ],
       "answer": "melihat peta",
-      "explanation": "地図 berarti peta."
+      "explanation": "地図 berarti peta.",
+      "level": "N5"
+    },
+    {
+      "id": "qv_n4_01",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 壊れる adalah...",
+      "options": [
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi",
+        "menekan"
+      ],
+      "answer": "rusak",
+      "explanation": "壊れる dibaca こわれる, artinya rusak."
+    },
+    {
+      "id": "qv_n4_02",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 止める adalah...",
+      "options": [
+        "menghentikan",
+        "rusak",
+        "bergerak/berfungsi",
+        "menekan"
+      ],
+      "answer": "menghentikan",
+      "explanation": "止める dibaca とめる, artinya menghentikan."
+    },
+    {
+      "id": "qv_n4_03",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 動く adalah...",
+      "options": [
+        "bergerak/berfungsi",
+        "rusak",
+        "menghentikan",
+        "menekan"
+      ],
+      "answer": "bergerak/berfungsi",
+      "explanation": "動く dibaca うごく, artinya bergerak/berfungsi."
+    },
+    {
+      "id": "qv_n4_04",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 押す adalah...",
+      "options": [
+        "menekan",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "menekan",
+      "explanation": "押す dibaca おす, artinya menekan."
+    },
+    {
+      "id": "qv_n4_05",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 引く adalah...",
+      "options": [
+        "menarik",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "menarik",
+      "explanation": "引く dibaca ひく, artinya menarik."
+    },
+    {
+      "id": "qv_n4_06",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 入れる adalah...",
+      "options": [
+        "memasukkan",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "memasukkan",
+      "explanation": "入れる dibaca いれる, artinya memasukkan."
+    },
+    {
+      "id": "qv_n4_07",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 出す adalah...",
+      "options": [
+        "mengeluarkan/menyerahkan",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "mengeluarkan/menyerahkan",
+      "explanation": "出す dibaca だす, artinya mengeluarkan/menyerahkan."
+    },
+    {
+      "id": "qv_n4_08",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 運ぶ adalah...",
+      "options": [
+        "membawa/mengangkut",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "membawa/mengangkut",
+      "explanation": "運ぶ dibaca はこぶ, artinya membawa/mengangkut."
+    },
+    {
+      "id": "qv_n4_09",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 重い adalah...",
+      "options": [
+        "berat",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "berat",
+      "explanation": "重い dibaca おもい, artinya berat."
+    },
+    {
+      "id": "qv_n4_10",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 軽い adalah...",
+      "options": [
+        "ringan",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "ringan",
+      "explanation": "軽い dibaca かるい, artinya ringan."
+    },
+    {
+      "id": "qv_n4_11",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 狭い adalah...",
+      "options": [
+        "sempit",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "sempit",
+      "explanation": "狭い dibaca せまい, artinya sempit."
+    },
+    {
+      "id": "qv_n4_12",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 広い adalah...",
+      "options": [
+        "luas",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "luas",
+      "explanation": "広い dibaca ひろい, artinya luas."
+    },
+    {
+      "id": "qv_n4_13",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 暑い adalah...",
+      "options": [
+        "panas/cuaca",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "panas/cuaca",
+      "explanation": "暑い dibaca あつい, artinya panas/cuaca."
+    },
+    {
+      "id": "qv_n4_14",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 寒い adalah...",
+      "options": [
+        "dingin/cuaca",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "dingin/cuaca",
+      "explanation": "寒い dibaca さむい, artinya dingin/cuaca."
+    },
+    {
+      "id": "qv_n4_15",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 眠い adalah...",
+      "options": [
+        "mengantuk",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "mengantuk",
+      "explanation": "眠い dibaca ねむい, artinya mengantuk."
+    },
+    {
+      "id": "qv_n4_16",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 疲れる adalah...",
+      "options": [
+        "lelah",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "lelah",
+      "explanation": "疲れる dibaca つかれる, artinya lelah."
+    },
+    {
+      "id": "qv_n4_17",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 具合 adalah...",
+      "options": [
+        "kondisi badan",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "kondisi badan",
+      "explanation": "具合 dibaca ぐあい, artinya kondisi badan."
+    },
+    {
+      "id": "qv_n4_18",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 咳 adalah...",
+      "options": [
+        "batuk",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "batuk",
+      "explanation": "咳 dibaca せき, artinya batuk."
+    },
+    {
+      "id": "qv_n4_19",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari けが adalah...",
+      "options": [
+        "luka/cedera",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "luka/cedera",
+      "explanation": "けが dibaca けが, artinya luka/cedera."
+    },
+    {
+      "id": "qv_n4_20",
+      "source": "kosakata",
+      "level": "N4",
+      "prompt": "Arti dari 病気 adalah...",
+      "options": [
+        "sakit/penyakit",
+        "rusak",
+        "menghentikan",
+        "bergerak/berfungsi"
+      ],
+      "answer": "sakit/penyakit",
+      "explanation": "病気 dibaca びょうき, artinya sakit/penyakit."
+    },
+    {
+      "id": "qv_n3_01",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 影響 adalah...",
+      "options": [
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan",
+        "kurang pengecekan"
+      ],
+      "answer": "pengaruh",
+      "explanation": "影響 dibaca えいきょう, artinya pengaruh."
+    },
+    {
+      "id": "qv_n3_02",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 対応 adalah...",
+      "options": [
+        "penanganan/respons",
+        "pengaruh",
+        "perbaikan",
+        "kurang pengecekan"
+      ],
+      "answer": "penanganan/respons",
+      "explanation": "対応 dibaca たいおう, artinya penanganan/respons."
+    },
+    {
+      "id": "qv_n3_03",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 改善 adalah...",
+      "options": [
+        "perbaikan",
+        "pengaruh",
+        "penanganan/respons",
+        "kurang pengecekan"
+      ],
+      "answer": "perbaikan",
+      "explanation": "改善 dibaca かいぜん, artinya perbaikan."
+    },
+    {
+      "id": "qv_n3_04",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 確認不足 adalah...",
+      "options": [
+        "kurang pengecekan",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "kurang pengecekan",
+      "explanation": "確認不足 dibaca かくにんぶそく, artinya kurang pengecekan."
+    },
+    {
+      "id": "qv_n3_05",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 報告書 adalah...",
+      "options": [
+        "laporan tertulis",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "laporan tertulis",
+      "explanation": "報告書 dibaca ほうこくしょ, artinya laporan tertulis."
+    },
+    {
+      "id": "qv_n3_06",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 提出 adalah...",
+      "options": [
+        "menyerahkan",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "menyerahkan",
+      "explanation": "提出 dibaca ていしゅつ, artinya menyerahkan."
+    },
+    {
+      "id": "qv_n3_07",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 変更 adalah...",
+      "options": [
+        "perubahan",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "perubahan",
+      "explanation": "変更 dibaca へんこう, artinya perubahan."
+    },
+    {
+      "id": "qv_n3_08",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 延期 adalah...",
+      "options": [
+        "penundaan",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "penundaan",
+      "explanation": "延期 dibaca えんき, artinya penundaan."
+    },
+    {
+      "id": "qv_n3_09",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 中止 adalah...",
+      "options": [
+        "pembatalan/penghentian",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "pembatalan/penghentian",
+      "explanation": "中止 dibaca ちゅうし, artinya pembatalan/penghentian."
+    },
+    {
+      "id": "qv_n3_10",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 原因 adalah...",
+      "options": [
+        "penyebab",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "penyebab",
+      "explanation": "原因 dibaca げんいん, artinya penyebab."
+    },
+    {
+      "id": "qv_n3_11",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 結果 adalah...",
+      "options": [
+        "hasil",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "hasil",
+      "explanation": "結果 dibaca けっか, artinya hasil."
+    },
+    {
+      "id": "qv_n3_12",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 努力 adalah...",
+      "options": [
+        "usaha",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "usaha",
+      "explanation": "努力 dibaca どりょく, artinya usaha."
+    },
+    {
+      "id": "qv_n3_13",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 目標 adalah...",
+      "options": [
+        "target",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "target",
+      "explanation": "目標 dibaca もくひょう, artinya target."
+    },
+    {
+      "id": "qv_n3_14",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 理解 adalah...",
+      "options": [
+        "pemahaman",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "pemahaman",
+      "explanation": "理解 dibaca りかい, artinya pemahaman."
+    },
+    {
+      "id": "qv_n3_15",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 表現 adalah...",
+      "options": [
+        "ungkapan/ekspresi",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "ungkapan/ekspresi",
+      "explanation": "表現 dibaca ひょうげん, artinya ungkapan/ekspresi."
+    },
+    {
+      "id": "qv_n3_16",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 状況 adalah...",
+      "options": [
+        "situasi/kondisi",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "situasi/kondisi",
+      "explanation": "状況 dibaca じょうきょう, artinya situasi/kondisi."
+    },
+    {
+      "id": "qv_n3_17",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 確認済み adalah...",
+      "options": [
+        "sudah dicek",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "sudah dicek",
+      "explanation": "確認済み dibaca かくにんずみ, artinya sudah dicek."
+    },
+    {
+      "id": "qv_n3_18",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 担当 adalah...",
+      "options": [
+        "penanggung jawab",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "penanggung jawab",
+      "explanation": "担当 dibaca たんとう, artinya penanggung jawab."
+    },
+    {
+      "id": "qv_n3_19",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 職場 adalah...",
+      "options": [
+        "tempat kerja",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "tempat kerja",
+      "explanation": "職場 dibaca しょくば, artinya tempat kerja."
+    },
+    {
+      "id": "qv_n3_20",
+      "source": "kosakata",
+      "level": "N3",
+      "prompt": "Arti dari 研修 adalah...",
+      "options": [
+        "pelatihan",
+        "pengaruh",
+        "penanganan/respons",
+        "perbaikan"
+      ],
+      "answer": "pelatihan",
+      "explanation": "研修 dibaca けんしゅう, artinya pelatihan."
+    },
+    {
+      "id": "qv_n2_01",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 方針 adalah...",
+      "options": [
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas",
+        "memahami/menguasai kondisi"
+      ],
+      "answer": "kebijakan/arah",
+      "explanation": "方針 dibaca ほうしん, artinya kebijakan/arah."
+    },
+    {
+      "id": "qv_n2_02",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 効率 adalah...",
+      "options": [
+        "efisiensi",
+        "kebijakan/arah",
+        "tantangan/tugas",
+        "memahami/menguasai kondisi"
+      ],
+      "answer": "efisiensi",
+      "explanation": "効率 dibaca こうりつ, artinya efisiensi."
+    },
+    {
+      "id": "qv_n2_03",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 課題 adalah...",
+      "options": [
+        "tantangan/tugas",
+        "kebijakan/arah",
+        "efisiensi",
+        "memahami/menguasai kondisi"
+      ],
+      "answer": "tantangan/tugas",
+      "explanation": "課題 dibaca かだい, artinya tantangan/tugas."
+    },
+    {
+      "id": "qv_n2_04",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 把握 adalah...",
+      "options": [
+        "memahami/menguasai kondisi",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "memahami/menguasai kondisi",
+      "explanation": "把握 dibaca はあく, artinya memahami/menguasai kondisi."
+    },
+    {
+      "id": "qv_n2_05",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 判断 adalah...",
+      "options": [
+        "penilaian/keputusan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "penilaian/keputusan",
+      "explanation": "判断 dibaca はんだん, artinya penilaian/keputusan."
+    },
+    {
+      "id": "qv_n2_06",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 検討 adalah...",
+      "options": [
+        "mempertimbangkan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "mempertimbangkan",
+      "explanation": "検討 dibaca けんとう, artinya mempertimbangkan."
+    },
+    {
+      "id": "qv_n2_07",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 実施 adalah...",
+      "options": [
+        "pelaksanaan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "pelaksanaan",
+      "explanation": "実施 dibaca じっし, artinya pelaksanaan."
+    },
+    {
+      "id": "qv_n2_08",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 導入 adalah...",
+      "options": [
+        "penerapan/pengenalan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "penerapan/pengenalan",
+      "explanation": "導入 dibaca どうにゅう, artinya penerapan/pengenalan."
+    },
+    {
+      "id": "qv_n2_09",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 従業員 adalah...",
+      "options": [
+        "karyawan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "karyawan",
+      "explanation": "従業員 dibaca じゅうぎょういん, artinya karyawan."
+    },
+    {
+      "id": "qv_n2_10",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 責任 adalah...",
+      "options": [
+        "tanggung jawab",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "tanggung jawab",
+      "explanation": "責任 dibaca せきにん, artinya tanggung jawab."
+    },
+    {
+      "id": "qv_n2_11",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 期限 adalah...",
+      "options": [
+        "batas waktu",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "batas waktu",
+      "explanation": "期限 dibaca きげん, artinya batas waktu."
+    },
+    {
+      "id": "qv_n2_12",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 資料 adalah...",
+      "options": [
+        "materi/dokumen referensi",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "materi/dokumen referensi",
+      "explanation": "資料 dibaca しりょう, artinya materi/dokumen referensi."
+    },
+    {
+      "id": "qv_n2_13",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 依頼 adalah...",
+      "options": [
+        "permintaan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "permintaan",
+      "explanation": "依頼 dibaca いらい, artinya permintaan."
+    },
+    {
+      "id": "qv_n2_14",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 対応策 adalah...",
+      "options": [
+        "langkah penanganan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "langkah penanganan",
+      "explanation": "対応策 dibaca たいおうさく, artinya langkah penanganan."
+    },
+    {
+      "id": "qv_n2_15",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 苦情 adalah...",
+      "options": [
+        "keluhan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "keluhan",
+      "explanation": "苦情 dibaca くじょう, artinya keluhan."
+    },
+    {
+      "id": "qv_n2_16",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 需要 adalah...",
+      "options": [
+        "permintaan pasar",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "permintaan pasar",
+      "explanation": "需要 dibaca じゅよう, artinya permintaan pasar."
+    },
+    {
+      "id": "qv_n2_17",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 供給 adalah...",
+      "options": [
+        "pasokan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "pasokan",
+      "explanation": "供給 dibaca きょうきゅう, artinya pasokan."
+    },
+    {
+      "id": "qv_n2_18",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 維持 adalah...",
+      "options": [
+        "mempertahankan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "mempertahankan",
+      "explanation": "維持 dibaca いじ, artinya mempertahankan."
+    },
+    {
+      "id": "qv_n2_19",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 向上 adalah...",
+      "options": [
+        "peningkatan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "peningkatan",
+      "explanation": "向上 dibaca こうじょう, artinya peningkatan."
+    },
+    {
+      "id": "qv_n2_20",
+      "source": "kosakata",
+      "level": "N2",
+      "prompt": "Arti dari 削減 adalah...",
+      "options": [
+        "pengurangan",
+        "kebijakan/arah",
+        "efisiensi",
+        "tantangan/tugas"
+      ],
+      "answer": "pengurangan",
+      "explanation": "削減 dibaca さくげん, artinya pengurangan."
+    },
+    {
+      "id": "qv_n1_01",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 概念 adalah...",
+      "options": [
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas",
+        "menghambat"
+      ],
+      "answer": "konsep",
+      "explanation": "概念 dibaca がいねん, artinya konsep."
+    },
+    {
+      "id": "qv_n1_02",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 妥当 adalah...",
+      "options": [
+        "layak/valid",
+        "konsep",
+        "menonjol/jelas",
+        "menghambat"
+      ],
+      "answer": "layak/valid",
+      "explanation": "妥当 dibaca だとう, artinya layak/valid."
+    },
+    {
+      "id": "qv_n1_03",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 顕著 adalah...",
+      "options": [
+        "menonjol/jelas",
+        "konsep",
+        "layak/valid",
+        "menghambat"
+      ],
+      "answer": "menonjol/jelas",
+      "explanation": "顕著 dibaca けんちょ, artinya menonjol/jelas."
+    },
+    {
+      "id": "qv_n1_04",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 阻害 adalah...",
+      "options": [
+        "menghambat",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "menghambat",
+      "explanation": "阻害 dibaca そがい, artinya menghambat."
+    },
+    {
+      "id": "qv_n1_05",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 促進 adalah...",
+      "options": [
+        "mendorong/mempercepat",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "mendorong/mempercepat",
+      "explanation": "促進 dibaca そくしん, artinya mendorong/mempercepat."
+    },
+    {
+      "id": "qv_n1_06",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 緩和 adalah...",
+      "options": [
+        "meringankan/relaksasi",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "meringankan/relaksasi",
+      "explanation": "緩和 dibaca かんわ, artinya meringankan/relaksasi."
+    },
+    {
+      "id": "qv_n1_07",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 是正 adalah...",
+      "options": [
+        "koreksi/perbaikan",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "koreksi/perbaikan",
+      "explanation": "是正 dibaca ぜせい, artinya koreksi/perbaikan."
+    },
+    {
+      "id": "qv_n1_08",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 逸脱 adalah...",
+      "options": [
+        "penyimpangan",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "penyimpangan",
+      "explanation": "逸脱 dibaca いつだつ, artinya penyimpangan."
+    },
+    {
+      "id": "qv_n1_09",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 整合性 adalah...",
+      "options": [
+        "konsistensi/kesesuaian",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "konsistensi/kesesuaian",
+      "explanation": "整合性 dibaca せいごうせい, artinya konsistensi/kesesuaian."
+    },
+    {
+      "id": "qv_n1_10",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 抽象的 adalah...",
+      "options": [
+        "abstrak",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "abstrak",
+      "explanation": "抽象的 dibaca ちゅうしょうてき, artinya abstrak."
+    },
+    {
+      "id": "qv_n1_11",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 体系的 adalah...",
+      "options": [
+        "sistematis",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "sistematis",
+      "explanation": "体系的 dibaca たいけいてき, artinya sistematis."
+    },
+    {
+      "id": "qv_n1_12",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 包括的 adalah...",
+      "options": [
+        "komprehensif",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "komprehensif",
+      "explanation": "包括的 dibaca ほうかつてき, artinya komprehensif."
+    },
+    {
+      "id": "qv_n1_13",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 暫定的 adalah...",
+      "options": [
+        "sementara/provisional",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "sementara/provisional",
+      "explanation": "暫定的 dibaca ざんていてき, artinya sementara/provisional."
+    },
+    {
+      "id": "qv_n1_14",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 一貫性 adalah...",
+      "options": [
+        "konsistensi",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "konsistensi",
+      "explanation": "一貫性 dibaca いっかんせい, artinya konsistensi."
+    },
+    {
+      "id": "qv_n1_15",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 根拠 adalah...",
+      "options": [
+        "dasar/alasan",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "dasar/alasan",
+      "explanation": "根拠 dibaca こんきょ, artinya dasar/alasan."
+    },
+    {
+      "id": "qv_n1_16",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 反映 adalah...",
+      "options": [
+        "mencerminkan/memasukkan",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "mencerminkan/memasukkan",
+      "explanation": "反映 dibaca はんえい, artinya mencerminkan/memasukkan."
+    },
+    {
+      "id": "qv_n1_17",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 検証 adalah...",
+      "options": [
+        "verifikasi",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "verifikasi",
+      "explanation": "検証 dibaca けんしょう, artinya verifikasi."
+    },
+    {
+      "id": "qv_n1_18",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 仮説 adalah...",
+      "options": [
+        "hipotesis",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "hipotesis",
+      "explanation": "仮説 dibaca かせつ, artinya hipotesis."
+    },
+    {
+      "id": "qv_n1_19",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 示唆 adalah...",
+      "options": [
+        "implikasi/saran tersirat",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "implikasi/saran tersirat",
+      "explanation": "示唆 dibaca しさ, artinya implikasi/saran tersirat."
+    },
+    {
+      "id": "qv_n1_20",
+      "source": "kosakata",
+      "level": "N1",
+      "prompt": "Arti dari 推移 adalah...",
+      "options": [
+        "perubahan/tren",
+        "konsep",
+        "layak/valid",
+        "menonjol/jelas"
+      ],
+      "answer": "perubahan/tren",
+      "explanation": "推移 dibaca すいい, artinya perubahan/tren."
     }
   ]
 }

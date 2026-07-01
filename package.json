@@ -1,0 +1,13 @@
+{
+  "name": "nihongo-kerja-jlpt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PWA belajar bahasa Jepang untuk pengguna Indonesia, kerja di Jepang, dan JLPT N5-N1.",
+  "scripts": {
+    "serve": "npx serve .",
+    "android:init": "npm install @capacitor/core @capacitor/cli @capacitor/android && npx cap add android",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "devDependencies": {}
+}

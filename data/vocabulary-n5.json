@@ -1176,7 +1176,7 @@
     "romaji": "kowareru",
     "meaning": "rusak",
     "category": "kerja",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "機械が壊れました。",
       "id": "Mesinnya rusak."
@@ -1189,7 +1189,7 @@
     "romaji": "tomeru",
     "meaning": "menghentikan",
     "category": "kerja",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "機械を止めてください。",
       "id": "Tolong hentikan mesin."
@@ -1202,7 +1202,7 @@
     "romaji": "ugoku",
     "meaning": "bergerak/berfungsi",
     "category": "kerja",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "機械が動きません。",
       "id": "Mesinnya tidak berjalan."
@@ -1215,7 +1215,7 @@
     "romaji": "osu",
     "meaning": "menekan",
     "category": "kerja",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "ボタンを押します。",
       "id": "Saya menekan tombol."
@@ -1228,7 +1228,7 @@
     "romaji": "hiku",
     "meaning": "menarik",
     "category": "kerja",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "ドアを引いてください。",
       "id": "Tolong tarik pintu."
@@ -1241,7 +1241,7 @@
     "romaji": "ireru",
     "meaning": "memasukkan",
     "category": "kerja",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "部品を箱に入れます。",
       "id": "Saya memasukkan komponen ke kotak."
@@ -1254,7 +1254,7 @@
     "romaji": "dasu",
     "meaning": "mengeluarkan/menyerahkan",
     "category": "kerja",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "書類を出します。",
       "id": "Saya menyerahkan dokumen."
@@ -1267,7 +1267,7 @@
     "romaji": "hakobu",
     "meaning": "membawa/mengangkut",
     "category": "kerja",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "荷物を運びます。",
       "id": "Saya mengangkut barang."
@@ -1280,7 +1280,7 @@
     "romaji": "omoi",
     "meaning": "berat",
     "category": "sifat",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "この箱は重いです。",
       "id": "Kotak ini berat."
@@ -1293,7 +1293,7 @@
     "romaji": "karui",
     "meaning": "ringan",
     "category": "sifat",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "この荷物は軽いです。",
       "id": "Barang ini ringan."
@@ -1306,7 +1306,7 @@
     "romaji": "semai",
     "meaning": "sempit",
     "category": "sifat",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "部屋は狭いです。",
       "id": "Kamarnya sempit."
@@ -1319,7 +1319,7 @@
     "romaji": "hiroi",
     "meaning": "luas",
     "category": "sifat",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "工場は広いです。",
       "id": "Pabriknya luas."
@@ -1332,7 +1332,7 @@
     "romaji": "atsui",
     "meaning": "panas/cuaca",
     "category": "sifat",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "今日は暑いです。",
       "id": "Hari ini panas."
@@ -1345,7 +1345,7 @@
     "romaji": "samui",
     "meaning": "dingin/cuaca",
     "category": "sifat",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "朝は寒いです。",
       "id": "Pagi dingin."
@@ -1358,7 +1358,7 @@
     "romaji": "nemui",
     "meaning": "mengantuk",
     "category": "kesehatan",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "少し眠いです。",
       "id": "Saya agak mengantuk."
@@ -1371,7 +1371,7 @@
     "romaji": "tsukareru",
     "meaning": "lelah",
     "category": "kesehatan",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "仕事で疲れました。",
       "id": "Saya lelah karena kerja."
@@ -1384,7 +1384,7 @@
     "romaji": "guai",
     "meaning": "kondisi badan",
     "category": "kesehatan",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "具合が悪いです。",
       "id": "Kondisi badan saya tidak baik."
@@ -1397,7 +1397,7 @@
     "romaji": "seki",
     "meaning": "batuk",
     "category": "kesehatan",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "咳が出ます。",
       "id": "Saya batuk."
@@ -1410,7 +1410,7 @@
     "romaji": "kega",
     "meaning": "luka/cedera",
     "category": "kesehatan",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "手にけがをしました。",
       "id": "Tangan saya terluka."
@@ -1423,7 +1423,7 @@
     "romaji": "byouki",
     "meaning": "sakit/penyakit",
     "category": "kesehatan",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "病気で休みます。",
       "id": "Saya libur karena sakit."
@@ -1436,7 +1436,7 @@
     "romaji": "yoyaku",
     "meaning": "reservasi/janji",
     "category": "hidup",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "病院を予約します。",
       "id": "Saya membuat janji rumah sakit."
@@ -1449,7 +1449,7 @@
     "romaji": "uketsuke",
     "meaning": "resepsionis/loket",
     "category": "hidup",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "受付で名前を言います。",
       "id": "Saya menyebut nama di resepsionis."
@@ -1462,7 +1462,7 @@
     "romaji": "saifu",
     "meaning": "dompet",
     "category": "hidup",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "財布を忘れました。",
       "id": "Saya lupa dompet."
@@ -1475,7 +1475,7 @@
     "romaji": "kagi",
     "meaning": "kunci",
     "category": "hidup",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "鍵をなくしました。",
       "id": "Saya kehilangan kunci."
@@ -1488,7 +1488,7 @@
     "romaji": "sentaku",
     "meaning": "mencuci pakaian",
     "category": "hidup",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "日曜日に洗濯します。",
       "id": "Saya mencuci pakaian hari Minggu."
@@ -1501,7 +1501,7 @@
     "romaji": "ryouri",
     "meaning": "masakan/memasak",
     "category": "hidup",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "寮で料理します。",
       "id": "Saya memasak di asrama."
@@ -1514,7 +1514,7 @@
     "romaji": "kaimono",
     "meaning": "belanja",
     "category": "hidup",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "スーパーで買い物します。",
       "id": "Saya belanja di supermarket."
@@ -1527,7 +1527,7 @@
     "romaji": "chizu",
     "meaning": "peta",
     "category": "transportasi",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "地図を見ます。",
       "id": "Saya melihat peta."
@@ -1540,7 +1540,7 @@
     "romaji": "deguchi",
     "meaning": "pintu keluar",
     "category": "transportasi",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "出口はどこですか。",
       "id": "Di mana pintu keluar?"
@@ -1553,10 +1553,1570 @@
     "romaji": "iriguchi",
     "meaning": "pintu masuk",
     "category": "transportasi",
-    "level": "N4 dasar",
+    "level": "N4",
     "example": {
       "jp": "入口で待っています。",
       "id": "Saya menunggu di pintu masuk."
+    }
+  },
+  {
+    "id": "v121",
+    "jp": "経験",
+    "kana": "けいけん",
+    "romaji": "keiken",
+    "meaning": "pengalaman",
+    "category": "belajar",
+    "level": "N4",
+    "example": {
+      "jp": "日本で働いた経験があります。",
+      "id": "Saya punya pengalaman bekerja di Jepang."
+    }
+  },
+  {
+    "id": "v122",
+    "jp": "予定",
+    "kana": "よてい",
+    "romaji": "yotei",
+    "meaning": "rencana/jadwal",
+    "category": "jadwal",
+    "level": "N4",
+    "example": {
+      "jp": "明日の予定を確認します。",
+      "id": "Saya mengecek jadwal besok."
+    }
+  },
+  {
+    "id": "v123",
+    "jp": "必要",
+    "kana": "ひつよう",
+    "romaji": "hitsuyou",
+    "meaning": "perlu/diperlukan",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "この書類が必要です。",
+      "id": "Dokumen ini diperlukan."
+    }
+  },
+  {
+    "id": "v124",
+    "jp": "場合",
+    "kana": "ばあい",
+    "romaji": "baai",
+    "meaning": "kasus/situasi",
+    "category": "komunikasi",
+    "level": "N4",
+    "example": {
+      "jp": "遅れる場合は連絡してください。",
+      "id": "Jika terlambat, tolong hubungi."
+    }
+  },
+  {
+    "id": "v125",
+    "jp": "約束",
+    "kana": "やくそく",
+    "romaji": "yakusoku",
+    "meaning": "janji",
+    "category": "komunikasi",
+    "level": "N4",
+    "example": {
+      "jp": "約束の時間を守ります。",
+      "id": "Saya menepati waktu janji."
+    }
+  },
+  {
+    "id": "v126",
+    "jp": "連れて行く",
+    "kana": "つれていく",
+    "romaji": "tsurete iku",
+    "meaning": "mengantar/membawa pergi",
+    "category": "aksi",
+    "level": "N4",
+    "example": {
+      "jp": "病院へ連れて行きます。",
+      "id": "Saya mengantar ke rumah sakit."
+    }
+  },
+  {
+    "id": "v127",
+    "jp": "間違える",
+    "kana": "まちがえる",
+    "romaji": "machigaeru",
+    "meaning": "salah/keliru",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "番号を間違えました。",
+      "id": "Saya salah nomor."
+    }
+  },
+  {
+    "id": "v128",
+    "jp": "選ぶ",
+    "kana": "えらぶ",
+    "romaji": "erabu",
+    "meaning": "memilih",
+    "category": "aksi",
+    "level": "N4",
+    "example": {
+      "jp": "答えを選んでください。",
+      "id": "Tolong pilih jawaban."
+    }
+  },
+  {
+    "id": "v129",
+    "jp": "足りる",
+    "kana": "たりる",
+    "romaji": "tariru",
+    "meaning": "cukup",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "時間が足りません。",
+      "id": "Waktu tidak cukup."
+    }
+  },
+  {
+    "id": "v130",
+    "jp": "増える",
+    "kana": "ふえる",
+    "romaji": "fueru",
+    "meaning": "bertambah",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "仕事が増えました。",
+      "id": "Pekerjaan bertambah."
+    }
+  },
+  {
+    "id": "v131",
+    "jp": "減る",
+    "kana": "へる",
+    "romaji": "heru",
+    "meaning": "berkurang",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "人数が減りました。",
+      "id": "Jumlah orang berkurang."
+    }
+  },
+  {
+    "id": "v132",
+    "jp": "払う",
+    "kana": "はらう",
+    "romaji": "harau",
+    "meaning": "membayar",
+    "category": "hidup",
+    "level": "N4",
+    "example": {
+      "jp": "家賃を払います。",
+      "id": "Saya membayar sewa."
+    }
+  },
+  {
+    "id": "v133",
+    "jp": "探す",
+    "kana": "さがす",
+    "romaji": "sagasu",
+    "meaning": "mencari",
+    "category": "aksi",
+    "level": "N4",
+    "example": {
+      "jp": "鍵を探しています。",
+      "id": "Saya sedang mencari kunci."
+    }
+  },
+  {
+    "id": "v134",
+    "jp": "知らせる",
+    "kana": "しらせる",
+    "romaji": "shiraseru",
+    "meaning": "memberi tahu",
+    "category": "komunikasi",
+    "level": "N4",
+    "example": {
+      "jp": "結果を知らせます。",
+      "id": "Saya memberi tahu hasilnya."
+    }
+  },
+  {
+    "id": "v135",
+    "jp": "続ける",
+    "kana": "つづける",
+    "romaji": "tsuzukeru",
+    "meaning": "melanjutkan",
+    "category": "belajar",
+    "level": "N4",
+    "example": {
+      "jp": "勉強を続けます。",
+      "id": "Saya melanjutkan belajar."
+    }
+  },
+  {
+    "id": "v136",
+    "jp": "止まる",
+    "kana": "とまる",
+    "romaji": "tomaru",
+    "meaning": "berhenti",
+    "category": "transportasi",
+    "level": "N4",
+    "example": {
+      "jp": "電車が止まりました。",
+      "id": "Kereta berhenti."
+    }
+  },
+  {
+    "id": "v137",
+    "jp": "変える",
+    "kana": "かえる",
+    "romaji": "kaeru",
+    "meaning": "mengubah",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "予定を変えます。",
+      "id": "Saya mengubah jadwal."
+    }
+  },
+  {
+    "id": "v138",
+    "jp": "比べる",
+    "kana": "くらべる",
+    "romaji": "kuraberu",
+    "meaning": "membandingkan",
+    "category": "belajar",
+    "level": "N4",
+    "example": {
+      "jp": "二つの文を比べます。",
+      "id": "Saya membandingkan dua kalimat."
+    }
+  },
+  {
+    "id": "v139",
+    "jp": "習慣",
+    "kana": "しゅうかん",
+    "romaji": "shuukan",
+    "meaning": "kebiasaan",
+    "category": "hidup",
+    "level": "N4",
+    "example": {
+      "jp": "毎日勉強する習慣があります。",
+      "id": "Saya punya kebiasaan belajar setiap hari."
+    }
+  },
+  {
+    "id": "v140",
+    "jp": "生活",
+    "kana": "せいかつ",
+    "romaji": "seikatsu",
+    "meaning": "kehidupan",
+    "category": "hidup",
+    "level": "N4",
+    "example": {
+      "jp": "日本の生活に慣れました。",
+      "id": "Saya sudah terbiasa dengan kehidupan Jepang."
+    }
+  },
+  {
+    "id": "v141",
+    "jp": "N4語彙",
+    "kana": "えぬよんごい",
+    "romaji": "n4 goi",
+    "meaning": "kosakata N4",
+    "category": "belajar",
+    "level": "N4",
+    "example": {
+      "jp": "N4語彙を復習します。",
+      "id": "Saya meninjau kosakata N4."
+    }
+  },
+  {
+    "id": "v142",
+    "jp": "N4読解",
+    "kana": "えぬよんどっかい",
+    "romaji": "n4 dokkai",
+    "meaning": "reading N4",
+    "category": "belajar",
+    "level": "N4",
+    "example": {
+      "jp": "N4読解を練習します。",
+      "id": "Saya latihan reading N4."
+    }
+  },
+  {
+    "id": "v143",
+    "jp": "N4文法",
+    "kana": "えぬよんぶんぽう",
+    "romaji": "n4 bunpou",
+    "meaning": "grammar N4",
+    "category": "belajar",
+    "level": "N4",
+    "example": {
+      "jp": "N4文法は大切です。",
+      "id": "Grammar N4 penting."
+    }
+  },
+  {
+    "id": "v144",
+    "jp": "説明会",
+    "kana": "せつめいかい",
+    "romaji": "setsumeikai",
+    "meaning": "sesi penjelasan",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "説明会に参加します。",
+      "id": "Saya ikut sesi penjelasan."
+    }
+  },
+  {
+    "id": "v145",
+    "jp": "申込書",
+    "kana": "もうしこみしょ",
+    "romaji": "moushikomisho",
+    "meaning": "form pendaftaran",
+    "category": "dokumen",
+    "level": "N4",
+    "example": {
+      "jp": "申込書を書きます。",
+      "id": "Saya menulis form pendaftaran."
+    }
+  },
+  {
+    "id": "v146",
+    "jp": "確認表",
+    "kana": "かくにんひょう",
+    "romaji": "kakuninhyou",
+    "meaning": "checklist",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "確認表を見ます。",
+      "id": "Saya melihat checklist."
+    }
+  },
+  {
+    "id": "v147",
+    "jp": "交通費",
+    "kana": "こうつうひ",
+    "romaji": "koutsuuhi",
+    "meaning": "biaya transport",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "交通費をもらいます。",
+      "id": "Saya menerima biaya transport."
+    }
+  },
+  {
+    "id": "v148",
+    "jp": "制服",
+    "kana": "せいふく",
+    "romaji": "seifuku",
+    "meaning": "seragam",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "制服を着ます。",
+      "id": "Saya memakai seragam."
+    }
+  },
+  {
+    "id": "v149",
+    "jp": "安全靴",
+    "kana": "あんぜんぐつ",
+    "romaji": "anzengutsu",
+    "meaning": "sepatu safety",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "安全靴を履きます。",
+      "id": "Saya memakai sepatu safety."
+    }
+  },
+  {
+    "id": "v150",
+    "jp": "勤務",
+    "kana": "きんむ",
+    "romaji": "kinmu",
+    "meaning": "dinas/kerja",
+    "category": "kerja",
+    "level": "N4",
+    "example": {
+      "jp": "夜勤で勤務します。",
+      "id": "Saya bekerja shift malam."
+    }
+  },
+  {
+    "id": "v151",
+    "jp": "影響",
+    "kana": "えいきょう",
+    "romaji": "eikyou",
+    "meaning": "pengaruh",
+    "category": "umum",
+    "level": "N3",
+    "example": {
+      "jp": "台風の影響で電車が遅れました。",
+      "id": "Kereta terlambat karena pengaruh topan."
+    }
+  },
+  {
+    "id": "v152",
+    "jp": "対応",
+    "kana": "たいおう",
+    "romaji": "taiou",
+    "meaning": "penanganan/respons",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "問題に対応します。",
+      "id": "Saya menangani masalah."
+    }
+  },
+  {
+    "id": "v153",
+    "jp": "改善",
+    "kana": "かいぜん",
+    "romaji": "kaizen",
+    "meaning": "perbaikan",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "作業の流れを改善します。",
+      "id": "Saya memperbaiki alur kerja."
+    }
+  },
+  {
+    "id": "v154",
+    "jp": "確認不足",
+    "kana": "かくにんぶそく",
+    "romaji": "kakunin busoku",
+    "meaning": "kurang pengecekan",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "確認不足でミスが出ました。",
+      "id": "Kesalahan muncul karena kurang pengecekan."
+    }
+  },
+  {
+    "id": "v155",
+    "jp": "報告書",
+    "kana": "ほうこくしょ",
+    "romaji": "houkokusho",
+    "meaning": "laporan tertulis",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "報告書を提出します。",
+      "id": "Saya menyerahkan laporan tertulis."
+    }
+  },
+  {
+    "id": "v156",
+    "jp": "提出",
+    "kana": "ていしゅつ",
+    "romaji": "teishutsu",
+    "meaning": "menyerahkan",
+    "category": "dokumen",
+    "level": "N3",
+    "example": {
+      "jp": "書類を提出しました。",
+      "id": "Saya sudah menyerahkan dokumen."
+    }
+  },
+  {
+    "id": "v157",
+    "jp": "変更",
+    "kana": "へんこう",
+    "romaji": "henkou",
+    "meaning": "perubahan",
+    "category": "jadwal",
+    "level": "N3",
+    "example": {
+      "jp": "予定が変更になりました。",
+      "id": "Jadwal berubah."
+    }
+  },
+  {
+    "id": "v158",
+    "jp": "延期",
+    "kana": "えんき",
+    "romaji": "enki",
+    "meaning": "penundaan",
+    "category": "jadwal",
+    "level": "N3",
+    "example": {
+      "jp": "会議は来週に延期です。",
+      "id": "Rapat ditunda ke minggu depan."
+    }
+  },
+  {
+    "id": "v159",
+    "jp": "中止",
+    "kana": "ちゅうし",
+    "romaji": "chuushi",
+    "meaning": "pembatalan/penghentian",
+    "category": "jadwal",
+    "level": "N3",
+    "example": {
+      "jp": "雨でイベントが中止になりました。",
+      "id": "Acara dibatalkan karena hujan."
+    }
+  },
+  {
+    "id": "v160",
+    "jp": "原因",
+    "kana": "げんいん",
+    "romaji": "genin",
+    "meaning": "penyebab",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "原因を調べます。",
+      "id": "Saya menyelidiki penyebabnya."
+    }
+  },
+  {
+    "id": "v161",
+    "jp": "結果",
+    "kana": "けっか",
+    "romaji": "kekka",
+    "meaning": "hasil",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "試験の結果を見ます。",
+      "id": "Saya melihat hasil ujian."
+    }
+  },
+  {
+    "id": "v162",
+    "jp": "努力",
+    "kana": "どりょく",
+    "romaji": "doryoku",
+    "meaning": "usaha",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "毎日努力しています。",
+      "id": "Saya berusaha setiap hari."
+    }
+  },
+  {
+    "id": "v163",
+    "jp": "目標",
+    "kana": "もくひょう",
+    "romaji": "mokuhyou",
+    "meaning": "target",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "N3合格が目標です。",
+      "id": "Target saya lulus N3."
+    }
+  },
+  {
+    "id": "v164",
+    "jp": "理解",
+    "kana": "りかい",
+    "romaji": "rikai",
+    "meaning": "pemahaman",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "内容を理解しました。",
+      "id": "Saya memahami isinya."
+    }
+  },
+  {
+    "id": "v165",
+    "jp": "表現",
+    "kana": "ひょうげん",
+    "romaji": "hyougen",
+    "meaning": "ungkapan/ekspresi",
+    "category": "belajar",
+    "level": "N3",
+    "example": {
+      "jp": "自然な表現を覚えます。",
+      "id": "Saya menghafal ungkapan alami."
+    }
+  },
+  {
+    "id": "v166",
+    "jp": "状況",
+    "kana": "じょうきょう",
+    "romaji": "joukyou",
+    "meaning": "situasi/kondisi",
+    "category": "komunikasi",
+    "level": "N3",
+    "example": {
+      "jp": "今の状況を説明します。",
+      "id": "Saya menjelaskan situasi sekarang."
+    }
+  },
+  {
+    "id": "v167",
+    "jp": "確認済み",
+    "kana": "かくにんずみ",
+    "romaji": "kakunin zumi",
+    "meaning": "sudah dicek",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "この項目は確認済みです。",
+      "id": "Item ini sudah dicek."
+    }
+  },
+  {
+    "id": "v168",
+    "jp": "担当",
+    "kana": "たんとう",
+    "romaji": "tantou",
+    "meaning": "penanggung jawab",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "私は検査を担当しています。",
+      "id": "Saya bertanggung jawab atas inspeksi."
+    }
+  },
+  {
+    "id": "v169",
+    "jp": "職場",
+    "kana": "しょくば",
+    "romaji": "shokuba",
+    "meaning": "tempat kerja",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "職場のルールを守ります。",
+      "id": "Saya mematuhi aturan tempat kerja."
+    }
+  },
+  {
+    "id": "v170",
+    "jp": "研修",
+    "kana": "けんしゅう",
+    "romaji": "kenshuu",
+    "meaning": "pelatihan",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "新しい研修を受けます。",
+      "id": "Saya mengikuti pelatihan baru."
+    }
+  },
+  {
+    "id": "v171",
+    "jp": "資格",
+    "kana": "しかく",
+    "romaji": "shikaku",
+    "meaning": "sertifikat/kualifikasi",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "資格を取りたいです。",
+      "id": "Saya ingin mengambil sertifikat."
+    }
+  },
+  {
+    "id": "v172",
+    "jp": "経験者",
+    "kana": "けいけんしゃ",
+    "romaji": "keikensha",
+    "meaning": "orang berpengalaman",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "経験者を募集しています。",
+      "id": "Sedang mencari orang berpengalaman."
+    }
+  },
+  {
+    "id": "v173",
+    "jp": "未経験",
+    "kana": "みけいけん",
+    "romaji": "mikeiken",
+    "meaning": "belum berpengalaman",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "未経験でも応募できます。",
+      "id": "Walau belum berpengalaman bisa melamar."
+    }
+  },
+  {
+    "id": "v174",
+    "jp": "応募",
+    "kana": "おうぼ",
+    "romaji": "oubo",
+    "meaning": "melamar/mendaftar",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "仕事に応募します。",
+      "id": "Saya melamar pekerjaan."
+    }
+  },
+  {
+    "id": "v175",
+    "jp": "採用",
+    "kana": "さいよう",
+    "romaji": "saiyou",
+    "meaning": "diterima/rekrutmen",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "採用の連絡が来ました。",
+      "id": "Ada kabar diterima kerja."
+    }
+  },
+  {
+    "id": "v176",
+    "jp": "制度",
+    "kana": "せいど",
+    "romaji": "seido",
+    "meaning": "sistem/aturan",
+    "category": "umum",
+    "level": "N3",
+    "example": {
+      "jp": "会社の制度を学びます。",
+      "id": "Saya mempelajari sistem perusahaan."
+    }
+  },
+  {
+    "id": "v177",
+    "jp": "条件",
+    "kana": "じょうけん",
+    "romaji": "jouken",
+    "meaning": "syarat/kondisi",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "条件を確認してください。",
+      "id": "Tolong cek syaratnya."
+    }
+  },
+  {
+    "id": "v178",
+    "jp": "契約",
+    "kana": "けいやく",
+    "romaji": "keiyaku",
+    "meaning": "kontrak",
+    "category": "dokumen",
+    "level": "N3",
+    "example": {
+      "jp": "契約を更新します。",
+      "id": "Saya memperbarui kontrak."
+    }
+  },
+  {
+    "id": "v179",
+    "jp": "更新",
+    "kana": "こうしん",
+    "romaji": "koushin",
+    "meaning": "perpanjangan/update",
+    "category": "dokumen",
+    "level": "N3",
+    "example": {
+      "jp": "在留カードを更新します。",
+      "id": "Saya memperpanjang kartu tinggal."
+    }
+  },
+  {
+    "id": "v180",
+    "jp": "手当",
+    "kana": "てあて",
+    "romaji": "teate",
+    "meaning": "tunjangan",
+    "category": "kerja",
+    "level": "N3",
+    "example": {
+      "jp": "夜勤手当があります。",
+      "id": "Ada tunjangan shift malam."
+    }
+  },
+  {
+    "id": "v181",
+    "jp": "方針",
+    "kana": "ほうしん",
+    "romaji": "houshin",
+    "meaning": "kebijakan/arah",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "会社の方針を理解します。",
+      "id": "Saya memahami kebijakan perusahaan."
+    }
+  },
+  {
+    "id": "v182",
+    "jp": "効率",
+    "kana": "こうりつ",
+    "romaji": "kouritsu",
+    "meaning": "efisiensi",
+    "category": "kerja",
+    "level": "N2",
+    "example": {
+      "jp": "作業効率を上げます。",
+      "id": "Saya meningkatkan efisiensi kerja."
+    }
+  },
+  {
+    "id": "v183",
+    "jp": "課題",
+    "kana": "かだい",
+    "romaji": "kadai",
+    "meaning": "tantangan/tugas",
+    "category": "belajar",
+    "level": "N2",
+    "example": {
+      "jp": "今後の課題を整理します。",
+      "id": "Saya merapikan tantangan ke depan."
+    }
+  },
+  {
+    "id": "v184",
+    "jp": "把握",
+    "kana": "はあく",
+    "romaji": "haaku",
+    "meaning": "memahami/menguasai kondisi",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "状況を把握します。",
+      "id": "Saya memahami situasinya."
+    }
+  },
+  {
+    "id": "v185",
+    "jp": "判断",
+    "kana": "はんだん",
+    "romaji": "handan",
+    "meaning": "penilaian/keputusan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "正しく判断します。",
+      "id": "Saya mengambil keputusan dengan benar."
+    }
+  },
+  {
+    "id": "v186",
+    "jp": "検討",
+    "kana": "けんとう",
+    "romaji": "kentou",
+    "meaning": "mempertimbangkan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "改善案を検討します。",
+      "id": "Saya mempertimbangkan usulan perbaikan."
+    }
+  },
+  {
+    "id": "v187",
+    "jp": "実施",
+    "kana": "じっし",
+    "romaji": "jisshi",
+    "meaning": "pelaksanaan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "研修を実施します。",
+      "id": "Kami melaksanakan pelatihan."
+    }
+  },
+  {
+    "id": "v188",
+    "jp": "導入",
+    "kana": "どうにゅう",
+    "romaji": "dounyuu",
+    "meaning": "penerapan/pengenalan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "新しい制度を導入します。",
+      "id": "Kami menerapkan sistem baru."
+    }
+  },
+  {
+    "id": "v189",
+    "jp": "従業員",
+    "kana": "じゅうぎょういん",
+    "romaji": "juugyouin",
+    "meaning": "karyawan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "従業員の意見を聞きます。",
+      "id": "Kami mendengarkan pendapat karyawan."
+    }
+  },
+  {
+    "id": "v190",
+    "jp": "責任",
+    "kana": "せきにん",
+    "romaji": "sekinin",
+    "meaning": "tanggung jawab",
+    "category": "kerja",
+    "level": "N2",
+    "example": {
+      "jp": "責任を持って働きます。",
+      "id": "Saya bekerja dengan tanggung jawab."
+    }
+  },
+  {
+    "id": "v191",
+    "jp": "期限",
+    "kana": "きげん",
+    "romaji": "kigen",
+    "meaning": "batas waktu",
+    "category": "dokumen",
+    "level": "N2",
+    "example": {
+      "jp": "提出期限を守ります。",
+      "id": "Saya mematuhi batas penyerahan."
+    }
+  },
+  {
+    "id": "v192",
+    "jp": "資料",
+    "kana": "しりょう",
+    "romaji": "shiryou",
+    "meaning": "materi/dokumen referensi",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "会議の資料を準備します。",
+      "id": "Saya menyiapkan materi rapat."
+    }
+  },
+  {
+    "id": "v193",
+    "jp": "依頼",
+    "kana": "いらい",
+    "romaji": "irai",
+    "meaning": "permintaan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "修理を依頼します。",
+      "id": "Saya meminta perbaikan."
+    }
+  },
+  {
+    "id": "v194",
+    "jp": "対応策",
+    "kana": "たいおうさく",
+    "romaji": "taiousaku",
+    "meaning": "langkah penanganan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "対応策を考えます。",
+      "id": "Saya memikirkan langkah penanganan."
+    }
+  },
+  {
+    "id": "v195",
+    "jp": "苦情",
+    "kana": "くじょう",
+    "romaji": "kujou",
+    "meaning": "keluhan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "お客様の苦情に対応します。",
+      "id": "Kami menangani keluhan pelanggan."
+    }
+  },
+  {
+    "id": "v196",
+    "jp": "需要",
+    "kana": "じゅよう",
+    "romaji": "juyou",
+    "meaning": "permintaan pasar",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "需要が増えています。",
+      "id": "Permintaan sedang meningkat."
+    }
+  },
+  {
+    "id": "v197",
+    "jp": "供給",
+    "kana": "きょうきゅう",
+    "romaji": "kyoukyuu",
+    "meaning": "pasokan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "部品の供給が遅れています。",
+      "id": "Pasokan komponen terlambat."
+    }
+  },
+  {
+    "id": "v198",
+    "jp": "維持",
+    "kana": "いじ",
+    "romaji": "iji",
+    "meaning": "mempertahankan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "品質を維持します。",
+      "id": "Kami mempertahankan kualitas."
+    }
+  },
+  {
+    "id": "v199",
+    "jp": "向上",
+    "kana": "こうじょう",
+    "romaji": "koujou",
+    "meaning": "peningkatan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "日本語力を向上させます。",
+      "id": "Saya meningkatkan kemampuan Jepang."
+    }
+  },
+  {
+    "id": "v200",
+    "jp": "削減",
+    "kana": "さくげん",
+    "romaji": "sakugen",
+    "meaning": "pengurangan",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "コストを削減します。",
+      "id": "Kami mengurangi biaya."
+    }
+  },
+  {
+    "id": "v201",
+    "jp": "分析",
+    "kana": "ぶんせき",
+    "romaji": "bunseki",
+    "meaning": "analisis",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "データを分析します。",
+      "id": "Saya menganalisis data."
+    }
+  },
+  {
+    "id": "v202",
+    "jp": "評価",
+    "kana": "ひょうか",
+    "romaji": "hyouka",
+    "meaning": "evaluasi/penilaian",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "仕事の評価を受けます。",
+      "id": "Saya menerima evaluasi kerja."
+    }
+  },
+  {
+    "id": "v203",
+    "jp": "採算",
+    "kana": "さいさん",
+    "romaji": "saisan",
+    "meaning": "profitabilitas",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "採算を考えます。",
+      "id": "Kami mempertimbangkan profitabilitas."
+    }
+  },
+  {
+    "id": "v204",
+    "jp": "交渉",
+    "kana": "こうしょう",
+    "romaji": "koushou",
+    "meaning": "negosiasi",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "条件について交渉します。",
+      "id": "Kami bernegosiasi tentang syarat."
+    }
+  },
+  {
+    "id": "v205",
+    "jp": "手順",
+    "kana": "てじゅん",
+    "romaji": "tejun",
+    "meaning": "prosedur/langkah",
+    "category": "kerja",
+    "level": "N2",
+    "example": {
+      "jp": "正しい手順で作業します。",
+      "id": "Saya bekerja dengan prosedur benar."
+    }
+  },
+  {
+    "id": "v206",
+    "jp": "徹底",
+    "kana": "てってい",
+    "romaji": "tettei",
+    "meaning": "menyeluruh/ketat",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "安全確認を徹底します。",
+      "id": "Kami mengecek keselamatan secara ketat."
+    }
+  },
+  {
+    "id": "v207",
+    "jp": "柔軟",
+    "kana": "じゅうなん",
+    "romaji": "juunan",
+    "meaning": "fleksibel",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "柔軟に対応します。",
+      "id": "Kami merespons secara fleksibel."
+    }
+  },
+  {
+    "id": "v208",
+    "jp": "円滑",
+    "kana": "えんかつ",
+    "romaji": "enkatsu",
+    "meaning": "lancar",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "円滑なコミュニケーションが必要です。",
+      "id": "Komunikasi lancar diperlukan."
+    }
+  },
+  {
+    "id": "v209",
+    "jp": "見直し",
+    "kana": "みなおし",
+    "romaji": "minaoshi",
+    "meaning": "peninjauan ulang",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "作業手順を見直します。",
+      "id": "Kami meninjau ulang prosedur kerja."
+    }
+  },
+  {
+    "id": "v210",
+    "jp": "負担",
+    "kana": "ふたん",
+    "romaji": "futan",
+    "meaning": "beban",
+    "category": "bisnis",
+    "level": "N2",
+    "example": {
+      "jp": "従業員の負担を減らします。",
+      "id": "Kami mengurangi beban karyawan."
+    }
+  },
+  {
+    "id": "v211",
+    "jp": "概念",
+    "kana": "がいねん",
+    "romaji": "gainen",
+    "meaning": "konsep",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "新しい概念を理解します。",
+      "id": "Saya memahami konsep baru."
+    }
+  },
+  {
+    "id": "v212",
+    "jp": "妥当",
+    "kana": "だとう",
+    "romaji": "datou",
+    "meaning": "layak/valid",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "妥当な判断だと思います。",
+      "id": "Saya pikir itu keputusan yang layak."
+    }
+  },
+  {
+    "id": "v213",
+    "jp": "顕著",
+    "kana": "けんちょ",
+    "romaji": "kencho",
+    "meaning": "menonjol/jelas",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "効果が顕著に現れました。",
+      "id": "Efeknya tampak jelas."
+    }
+  },
+  {
+    "id": "v214",
+    "jp": "阻害",
+    "kana": "そがい",
+    "romaji": "sogai",
+    "meaning": "menghambat",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "成長を阻害する要因です。",
+      "id": "Itu faktor yang menghambat pertumbuhan."
+    }
+  },
+  {
+    "id": "v215",
+    "jp": "促進",
+    "kana": "そくしん",
+    "romaji": "sokushin",
+    "meaning": "mendorong/mempercepat",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "交流を促進します。",
+      "id": "Kami mendorong pertukaran."
+    }
+  },
+  {
+    "id": "v216",
+    "jp": "緩和",
+    "kana": "かんわ",
+    "romaji": "kanwa",
+    "meaning": "meringankan/relaksasi",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "負担を緩和します。",
+      "id": "Kami meringankan beban."
+    }
+  },
+  {
+    "id": "v217",
+    "jp": "是正",
+    "kana": "ぜせい",
+    "romaji": "zesei",
+    "meaning": "koreksi/perbaikan",
+    "category": "bisnis",
+    "level": "N1",
+    "example": {
+      "jp": "問題を是正します。",
+      "id": "Kami mengoreksi masalah."
+    }
+  },
+  {
+    "id": "v218",
+    "jp": "逸脱",
+    "kana": "いつだつ",
+    "romaji": "itsudatsu",
+    "meaning": "penyimpangan",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "基準から逸脱しています。",
+      "id": "Itu menyimpang dari standar."
+    }
+  },
+  {
+    "id": "v219",
+    "jp": "整合性",
+    "kana": "せいごうせい",
+    "romaji": "seigousei",
+    "meaning": "konsistensi/kesesuaian",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "データの整合性を確認します。",
+      "id": "Kami mengecek konsistensi data."
+    }
+  },
+  {
+    "id": "v220",
+    "jp": "抽象的",
+    "kana": "ちゅうしょうてき",
+    "romaji": "chuushouteki",
+    "meaning": "abstrak",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "抽象的な説明は分かりにくいです。",
+      "id": "Penjelasan abstrak sulit dipahami."
+    }
+  },
+  {
+    "id": "v221",
+    "jp": "体系的",
+    "kana": "たいけいてき",
+    "romaji": "taikeiteki",
+    "meaning": "sistematis",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "体系的に学習します。",
+      "id": "Saya belajar secara sistematis."
+    }
+  },
+  {
+    "id": "v222",
+    "jp": "包括的",
+    "kana": "ほうかつてき",
+    "romaji": "houkatsuteki",
+    "meaning": "komprehensif",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "包括的な支援が必要です。",
+      "id": "Dukungan komprehensif diperlukan."
+    }
+  },
+  {
+    "id": "v223",
+    "jp": "暫定的",
+    "kana": "ざんていてき",
+    "romaji": "zanteiteki",
+    "meaning": "sementara/provisional",
+    "category": "bisnis",
+    "level": "N1",
+    "example": {
+      "jp": "暫定的な対応を行います。",
+      "id": "Kami melakukan penanganan sementara."
+    }
+  },
+  {
+    "id": "v224",
+    "jp": "一貫性",
+    "kana": "いっかんせい",
+    "romaji": "ikkansei",
+    "meaning": "konsistensi",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "説明に一貫性があります。",
+      "id": "Penjelasannya konsisten."
+    }
+  },
+  {
+    "id": "v225",
+    "jp": "根拠",
+    "kana": "こんきょ",
+    "romaji": "konkyo",
+    "meaning": "dasar/alasan",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "根拠を示してください。",
+      "id": "Tolong tunjukkan dasarnya."
+    }
+  },
+  {
+    "id": "v226",
+    "jp": "反映",
+    "kana": "はんえい",
+    "romaji": "hanei",
+    "meaning": "mencerminkan/memasukkan",
+    "category": "bisnis",
+    "level": "N1",
+    "example": {
+      "jp": "意見を計画に反映します。",
+      "id": "Kami memasukkan pendapat ke rencana."
+    }
+  },
+  {
+    "id": "v227",
+    "jp": "検証",
+    "kana": "けんしょう",
+    "romaji": "kenshou",
+    "meaning": "verifikasi",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "仮説を検証します。",
+      "id": "Kami memverifikasi hipotesis."
+    }
+  },
+  {
+    "id": "v228",
+    "jp": "仮説",
+    "kana": "かせつ",
+    "romaji": "kasetsu",
+    "meaning": "hipotesis",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "仮説を立てます。",
+      "id": "Kami membuat hipotesis."
+    }
+  },
+  {
+    "id": "v229",
+    "jp": "示唆",
+    "kana": "しさ",
+    "romaji": "shisa",
+    "meaning": "implikasi/saran tersirat",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "結果は重要な示唆を含みます。",
+      "id": "Hasilnya mengandung implikasi penting."
+    }
+  },
+  {
+    "id": "v230",
+    "jp": "推移",
+    "kana": "すいい",
+    "romaji": "suii",
+    "meaning": "perubahan/tren",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "売上の推移を分析します。",
+      "id": "Kami menganalisis tren penjualan."
+    }
+  },
+  {
+    "id": "v231",
+    "jp": "倫理",
+    "kana": "りんり",
+    "romaji": "rinri",
+    "meaning": "etika",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "倫理を守る必要があります。",
+      "id": "Perlu mematuhi etika."
+    }
+  },
+  {
+    "id": "v232",
+    "jp": "偏見",
+    "kana": "へんけん",
+    "romaji": "henken",
+    "meaning": "prasangka/bias",
+    "category": "sosial",
+    "level": "N1",
+    "example": {
+      "jp": "偏見をなくしたいです。",
+      "id": "Saya ingin menghilangkan prasangka."
+    }
+  },
+  {
+    "id": "v233",
+    "jp": "多様性",
+    "kana": "たようせい",
+    "romaji": "tayousei",
+    "meaning": "keberagaman",
+    "category": "sosial",
+    "level": "N1",
+    "example": {
+      "jp": "多様性を尊重します。",
+      "id": "Kami menghargai keberagaman."
+    }
+  },
+  {
+    "id": "v234",
+    "jp": "持続可能",
+    "kana": "じぞくかのう",
+    "romaji": "jizoku kanou",
+    "meaning": "berkelanjutan",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "持続可能な社会を目指します。",
+      "id": "Kami menargetkan masyarakat berkelanjutan."
+    }
+  },
+  {
+    "id": "v235",
+    "jp": "介入",
+    "kana": "かいにゅう",
+    "romaji": "kainyuu",
+    "meaning": "intervensi",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "早期の介入が効果的です。",
+      "id": "Intervensi dini efektif."
+    }
+  },
+  {
+    "id": "v236",
+    "jp": "葛藤",
+    "kana": "かっとう",
+    "romaji": "kattou",
+    "meaning": "konflik batin",
+    "category": "sosial",
+    "level": "N1",
+    "example": {
+      "jp": "彼は葛藤を抱えています。",
+      "id": "Dia memendam konflik batin."
+    }
+  },
+  {
+    "id": "v237",
+    "jp": "克服",
+    "kana": "こくふく",
+    "romaji": "kokufuku",
+    "meaning": "mengatasi",
+    "category": "sosial",
+    "level": "N1",
+    "example": {
+      "jp": "困難を克服します。",
+      "id": "Kami mengatasi kesulitan."
+    }
+  },
+  {
+    "id": "v238",
+    "jp": "模索",
+    "kana": "もさく",
+    "romaji": "mosaku",
+    "meaning": "mencari-cari jalan",
+    "category": "akademik",
+    "level": "N1",
+    "example": {
+      "jp": "解決策を模索しています。",
+      "id": "Kami sedang mencari solusi."
+    }
+  },
+  {
+    "id": "v239",
+    "jp": "合意",
+    "kana": "ごうい",
+    "romaji": "goui",
+    "meaning": "kesepakatan",
+    "category": "bisnis",
+    "level": "N1",
+    "example": {
+      "jp": "合意に達しました。",
+      "id": "Kami mencapai kesepakatan."
+    }
+  },
+  {
+    "id": "v240",
+    "jp": "紛争",
+    "kana": "ふんそう",
+    "romaji": "funsou",
+    "meaning": "konflik/sengketa",
+    "category": "sosial",
+    "level": "N1",
+    "example": {
+      "jp": "紛争を避ける努力が必要です。",
+      "id": "Perlu usaha menghindari konflik."
     }
   }
 ]

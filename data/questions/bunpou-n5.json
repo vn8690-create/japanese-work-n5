@@ -12,7 +12,8 @@
         "私は研修生へです"
       ],
       "answer": "私は研修生です",
-      "explanation": "A は B です menyatakan A adalah B."
+      "explanation": "A は B です menyatakan A adalah B.",
+      "level": "N5"
     },
     {
       "id": "qb002",
@@ -25,7 +26,8 @@
         "の"
       ],
       "answer": "を",
-      "explanation": "を menandai objek yang dikenai aksi."
+      "explanation": "を menandai objek yang dikenai aksi.",
+      "level": "N5"
     },
     {
       "id": "qb003",
@@ -38,7 +40,8 @@
         "名前を書いてはいけません"
       ],
       "answer": "名前を書いてください",
-      "explanation": "Vてください dipakai untuk meminta/instruksi."
+      "explanation": "Vてください dipakai untuk meminta/instruksi.",
+      "level": "N5"
     },
     {
       "id": "qb004",
@@ -51,7 +54,8 @@
         "休みましたか"
       ],
       "answer": "休んでもいいですか",
-      "explanation": "Vてもいいですか dipakai untuk meminta izin."
+      "explanation": "Vてもいいですか dipakai untuk meminta izin.",
+      "level": "N5"
     },
     {
       "id": "qb005",
@@ -64,7 +68,8 @@
         "Vませんか"
       ],
       "answer": "Vてはいけません",
-      "explanation": "Vてはいけません berarti tidak boleh melakukan."
+      "explanation": "Vてはいけません berarti tidak boleh melakukan.",
+      "level": "N5"
     },
     {
       "id": "qb006",
@@ -77,7 +82,8 @@
         "sesudah jam lima"
       ],
       "answer": "dari jam sembilan sampai lima",
-      "explanation": "A から B まで berarti dari A sampai B."
+      "explanation": "A から B まで berarti dari A sampai B.",
+      "level": "N5"
     },
     {
       "id": "qb007",
@@ -90,7 +96,8 @@
         "の"
       ],
       "answer": "に",
-      "explanation": "に dipakai untuk waktu spesifik."
+      "explanation": "に dipakai untuk waktu spesifik.",
+      "level": "N5"
     },
     {
       "id": "qb008",
@@ -103,7 +110,8 @@
         "病院へ行ってはいけません"
       ],
       "answer": "病院へ行きたいです",
-      "explanation": "Vたいです menyatakan ingin melakukan."
+      "explanation": "Vたいです menyatakan ingin melakukan.",
+      "level": "N5"
     },
     {
       "id": "qb009",
@@ -116,7 +124,8 @@
         "tidak boleh bersihkan"
       ],
       "answer": "sudah membersihkan",
-      "explanation": "もう + Vました berarti sudah melakukan."
+      "explanation": "もう + Vました berarti sudah melakukan.",
+      "level": "N5"
     },
     {
       "id": "qb010",
@@ -129,7 +138,8 @@
         "boleh cek"
       ],
       "answer": "belum mengecek",
-      "explanation": "まだ + bentuk negatif berarti belum."
+      "explanation": "まだ + bentuk negatif berarti belum.",
+      "level": "N5"
     },
     {
       "id": "qb011",
@@ -142,7 +152,8 @@
         "入りましょう"
       ],
       "answer": "入らないでください",
-      "explanation": "Vないでください berarti tolong jangan."
+      "explanation": "Vないでください berarti tolong jangan.",
+      "level": "N5"
     },
     {
       "id": "qb012",
@@ -155,7 +166,8 @@
         "Vましょう"
       ],
       "answer": "Vなければなりません",
-      "explanation": "Vなければなりません berarti harus."
+      "explanation": "Vなければなりません berarti harus.",
+      "level": "N5"
     },
     {
       "id": "qb013",
@@ -168,7 +180,8 @@
         "ingin pulang"
       ],
       "answer": "pulang setelah pekerjaan selesai",
-      "explanation": "Vた後で berarti setelah melakukan."
+      "explanation": "Vた後で berarti setelah melakukan.",
+      "level": "N5"
     },
     {
       "id": "qb014",
@@ -181,7 +194,8 @@
         "ingin memakai"
       ],
       "answer": "cek sebelum memakai",
-      "explanation": "Vる前に berarti sebelum melakukan."
+      "explanation": "Vる前に berarti sebelum melakukan.",
+      "level": "N5"
     },
     {
       "id": "qb015",
@@ -194,7 +208,8 @@
         "ingin belajar Jepang"
       ],
       "answer": "bisa melapor dalam bahasa Jepang",
-      "explanation": "Vることができます berarti bisa melakukan."
+      "explanation": "Vることができます berarti bisa melakukan.",
+      "level": "N5"
     },
     {
       "id": "qb016",
@@ -207,7 +222,8 @@
         "hari ini sedang lembur"
       ],
       "answer": "hari ini tidak perlu lembur",
-      "explanation": "Vなくてもいいです berarti tidak perlu."
+      "explanation": "Vなくてもいいです berarti tidak perlu.",
+      "level": "N5"
     },
     {
       "id": "qb017",
@@ -220,7 +236,8 @@
         "kereta tidak cepat"
       ],
       "answer": "kereta lebih cepat daripada sepeda",
-      "explanation": "より dipakai untuk perbandingan."
+      "explanation": "より dipakai untuk perbandingan.",
+      "level": "N5"
     },
     {
       "id": "qb018",
@@ -233,7 +250,8 @@
         "keselamatan mahal"
       ],
       "answer": "keselamatan paling penting",
-      "explanation": "一番 berarti paling."
+      "explanation": "一番 berarti paling.",
+      "level": "N5"
     },
     {
       "id": "qb019",
@@ -246,7 +264,8 @@
         "ingin melihat catatan"
       ],
       "answer": "berbicara sambil melihat catatan",
-      "explanation": "Vながら berarti sambil."
+      "explanation": "Vながら berarti sambil.",
+      "level": "N5"
     },
     {
       "id": "qb020",
@@ -259,7 +278,8 @@
         "harus pergi ke Jepang"
       ],
       "answer": "pernah pergi ke Jepang",
-      "explanation": "Vたことがあります menyatakan pengalaman."
+      "explanation": "Vたことがあります menyatakan pengalaman.",
+      "level": "N5"
     },
     {
       "id": "qb021",
@@ -272,7 +292,8 @@
         "ingin membereskan"
       ],
       "answer": "bersih-bersih dan membereskan",
-      "explanation": "Vたり Vたり します menyebut beberapa kegiatan."
+      "explanation": "Vたり Vたり します menyebut beberapa kegiatan.",
+      "level": "N5"
     },
     {
       "id": "qb022",
@@ -285,7 +306,8 @@
         "barang ini paling berat"
       ],
       "answer": "barang ini terlihat berat",
-      "explanation": "そうです menyatakan kesan."
+      "explanation": "そうです menyatakan kesan.",
+      "level": "N5"
     },
     {
       "id": "qb023",
@@ -298,7 +320,8 @@
         "kereta sudah cepat"
       ],
       "answer": "kereta sedang terlambat",
-      "explanation": "Vている bisa menyatakan kondisi berlangsung."
+      "explanation": "Vている bisa menyatakan kondisi berlangsung.",
+      "level": "N5"
     },
     {
       "id": "qb024",
@@ -311,7 +334,8 @@
         "ingin bekerja"
       ],
       "answer": "berbicara tentang pekerjaan",
-      "explanation": "Nについて berarti tentang."
+      "explanation": "Nについて berarti tentang.",
+      "level": "N5"
     },
     {
       "id": "qb025",
@@ -324,7 +348,848 @@
         "hujan itu sulit"
       ],
       "answer": "saya pikir besok hujan",
-      "explanation": "と思います menyampaikan pendapat."
+      "explanation": "と思います menyampaikan pendapat.",
+      "level": "N5"
+    },
+    {
+      "id": "qb_n4_01",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola Vなければなりません dipakai untuk...",
+      "options": [
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan",
+        "Sebelum melakukan"
+      ],
+      "answer": "Harus melakukan",
+      "explanation": "Vなければなりません: Menyatakan kewajiban. Contoh: 安全靴を履かなければなりません。"
+    },
+    {
+      "id": "qb_n4_02",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola Vなくてもいいです dipakai untuk...",
+      "options": [
+        "Tidak perlu",
+        "Harus melakukan",
+        "Bisa melakukan",
+        "Sebelum melakukan"
+      ],
+      "answer": "Tidak perlu",
+      "explanation": "Vなくてもいいです: Menyatakan tidak wajib. Contoh: 今日は残業しなくてもいいです。"
+    },
+    {
+      "id": "qb_n4_03",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola Vることができます dipakai untuk...",
+      "options": [
+        "Bisa melakukan",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Sebelum melakukan"
+      ],
+      "answer": "Bisa melakukan",
+      "explanation": "Vることができます: Menyatakan kemampuan atau izin. Contoh: 日本語で報告することができます。"
+    },
+    {
+      "id": "qb_n4_04",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola Vる前に dipakai untuk...",
+      "options": [
+        "Sebelum melakukan",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Sebelum melakukan",
+      "explanation": "Vる前に: Menyatakan aksi sebelum aksi lain. Contoh: 使う前に確認します。"
+    },
+    {
+      "id": "qb_n4_05",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola Vた後で dipakai untuk...",
+      "options": [
+        "Setelah melakukan",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Setelah melakukan",
+      "explanation": "Vた後で: Menyatakan aksi setelah aksi lain. Contoh: 仕事が終わった後で帰ります。"
+    },
+    {
+      "id": "qb_n4_06",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola Vてから dipakai untuk...",
+      "options": [
+        "Setelah lalu",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Setelah lalu",
+      "explanation": "Vてから: Urutan aksi yang jelas. Contoh: 手を洗ってから食べます。"
+    },
+    {
+      "id": "qb_n4_07",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola N だけ dipakai untuk...",
+      "options": [
+        "Hanya",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Hanya",
+      "explanation": "N だけ: Membatasi jumlah atau hal. Contoh: 今日は午前だけ働きます。"
+    },
+    {
+      "id": "qb_n4_08",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola N しか Vません dipakai untuk...",
+      "options": [
+        "Hanya",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Hanya",
+      "explanation": "N しか Vません: Bentuk pembatasan dengan negatif. Contoh: 千円しかありません。"
+    },
+    {
+      "id": "qb_n4_09",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola N より dipakai untuk...",
+      "options": [
+        "Dibanding",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Dibanding",
+      "explanation": "N より: Membandingkan dua hal. Contoh: 電車は自転車より速いです。"
+    },
+    {
+      "id": "qb_n4_10",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola N のほうが dipakai untuk...",
+      "options": [
+        "Lebih",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Lebih",
+      "explanation": "N のほうが: Menyatakan pilihan yang lebih. Contoh: この道具のほうが使いやすいです。"
+    },
+    {
+      "id": "qb_n4_11",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola 一番 dipakai untuk...",
+      "options": [
+        "Paling",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Paling",
+      "explanation": "一番: Menyatakan yang paling dalam kelompok. Contoh: 安全が一番大切です。"
+    },
+    {
+      "id": "qb_n4_12",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola Vそうです dipakai untuk...",
+      "options": [
+        "Sepertinya",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Sepertinya",
+      "explanation": "Vそうです: Menyatakan kesan dari tampilan. Contoh: この荷物は重そうです。"
+    },
+    {
+      "id": "qb_n4_13",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola Vている dipakai untuk...",
+      "options": [
+        "Sedang/keadaan",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Sedang/keadaan",
+      "explanation": "Vている: Menyatakan aktivitas berlangsung atau keadaan. Contoh: 電車が遅れています。"
+    },
+    {
+      "id": "qb_n4_14",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola Vても dipakai untuk...",
+      "options": [
+        "Walaupun",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Walaupun",
+      "explanation": "Vても: Menyatakan kondisi berlawanan. Contoh: 忙しくても確認します。"
+    },
+    {
+      "id": "qb_n4_15",
+      "source": "bunpou",
+      "level": "N4",
+      "prompt": "Pola N について dipakai untuk...",
+      "options": [
+        "Tentang",
+        "Harus melakukan",
+        "Tidak perlu",
+        "Bisa melakukan"
+      ],
+      "answer": "Tentang",
+      "explanation": "N について: Menyatakan topik. Contoh: 仕事について話します。"
+    },
+    {
+      "id": "qb_n3_01",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vべきです dipakai untuk...",
+      "options": [
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja",
+        "Tergantung/oleh"
+      ],
+      "answer": "Sebaiknya/seharusnya",
+      "explanation": "Vべきです: Menyatakan saran kuat atau kewajiban moral. Contoh: 安全ルールを守るべきです。"
+    },
+    {
+      "id": "qb_n3_02",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vわけではありません dipakai untuk...",
+      "options": [
+        "Bukan berarti",
+        "Sebaiknya/seharusnya",
+        "Tidak bisa begitu saja",
+        "Tergantung/oleh"
+      ],
+      "answer": "Bukan berarti",
+      "explanation": "Vわけではありません: Menyangkal kesimpulan umum. Contoh: 日本語が嫌いなわけではありません。"
+    },
+    {
+      "id": "qb_n3_03",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vわけにはいきません dipakai untuk...",
+      "options": [
+        "Tidak bisa begitu saja",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tergantung/oleh"
+      ],
+      "answer": "Tidak bisa begitu saja",
+      "explanation": "Vわけにはいきません: Menyatakan tidak bisa karena alasan sosial/moral. Contoh: 仕事を途中でやめるわけにはいきません。"
+    },
+    {
+      "id": "qb_n3_04",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola N によって dipakai untuk...",
+      "options": [
+        "Tergantung/oleh",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Tergantung/oleh",
+      "explanation": "N によって: Menyatakan variasi atau pelaku pasif. Contoh: 会社によってルールが違います。"
+    },
+    {
+      "id": "qb_n3_05",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vたとたん dipakai untuk...",
+      "options": [
+        "Begitu... langsung",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Begitu... langsung",
+      "explanation": "Vたとたん: Aksi terjadi segera setelah aksi lain. Contoh: 外に出たとたん雨が降りました。"
+    },
+    {
+      "id": "qb_n3_06",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vついでに dipakai untuk...",
+      "options": [
+        "Sekalian",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Sekalian",
+      "explanation": "Vついでに: Melakukan sesuatu bersamaan dengan kesempatan. Contoh: 銀行へ行くついでに買い物します。"
+    },
+    {
+      "id": "qb_n3_07",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola V最中に dipakai untuk...",
+      "options": [
+        "Saat sedang",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Saat sedang",
+      "explanation": "V最中に: Terjadi di tengah aktivitas. Contoh: 会議の最中に電話が鳴りました。"
+    },
+    {
+      "id": "qb_n3_08",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola N について dipakai untuk...",
+      "options": [
+        "Tentang",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Tentang",
+      "explanation": "N について: Menunjukkan topik. Contoh: 契約について説明します。"
+    },
+    {
+      "id": "qb_n3_09",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola N に対して dipakai untuk...",
+      "options": [
+        "Terhadap",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Terhadap",
+      "explanation": "N に対して: Arah sikap/aksi. Contoh: お客様に対して丁寧に話します。"
+    },
+    {
+      "id": "qb_n3_10",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vことはない dipakai untuk...",
+      "options": [
+        "Tidak perlu",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Tidak perlu",
+      "explanation": "Vことはない: Menyatakan tidak perlu khawatir/bertindak. Contoh: 心配することはありません。"
+    },
+    {
+      "id": "qb_n3_11",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vほど...ない dipakai untuk...",
+      "options": [
+        "Tidak se...",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Tidak se...",
+      "explanation": "Vほど...ない: Perbandingan negatif. Contoh: 今日は昨日ほど忙しくありません。"
+    },
+    {
+      "id": "qb_n3_12",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vたまま dipakai untuk...",
+      "options": [
+        "Tetap dalam kondisi",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Tetap dalam kondisi",
+      "explanation": "Vたまま: Kondisi dibiarkan setelah aksi. Contoh: 電気をつけたまま寝ました。"
+    },
+    {
+      "id": "qb_n3_13",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vようとする dipakai untuk...",
+      "options": [
+        "Mencoba akan",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Mencoba akan",
+      "explanation": "Vようとする: Berusaha melakukan. Contoh: 説明しようとしました。"
+    },
+    {
+      "id": "qb_n3_14",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola Vことになっている dipakai untuk...",
+      "options": [
+        "Aturan/jadwalnya",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Aturan/jadwalnya",
+      "explanation": "Vことになっている: Sesuatu sudah ditetapkan. Contoh: ここでは帽子をかぶることになっています。"
+    },
+    {
+      "id": "qb_n3_15",
+      "source": "bunpou",
+      "level": "N3",
+      "prompt": "Pola N に比べて dipakai untuk...",
+      "options": [
+        "Dibanding",
+        "Sebaiknya/seharusnya",
+        "Bukan berarti",
+        "Tidak bisa begitu saja"
+      ],
+      "answer": "Dibanding",
+      "explanation": "N に比べて: Membandingkan dua hal. Contoh: 去年に比べて仕事が増えました。"
+    },
+    {
+      "id": "qb_n2_01",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N に伴って dipakai untuk...",
+      "options": [
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan",
+        "Tanpa memandang"
+      ],
+      "answer": "Seiring dengan",
+      "explanation": "N に伴って: Perubahan yang mengikuti perubahan lain. Contoh: 需要の増加に伴って生産も増えました。"
+    },
+    {
+      "id": "qb_n2_02",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N に応じて dipakai untuk...",
+      "options": [
+        "Sesuai dengan",
+        "Seiring dengan",
+        "Berdasarkan",
+        "Tanpa memandang"
+      ],
+      "answer": "Sesuai dengan",
+      "explanation": "N に応じて: Menyesuaikan respons dengan kondisi. Contoh: 経験に応じて仕事を任せます。"
+    },
+    {
+      "id": "qb_n2_03",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N に基づいて dipakai untuk...",
+      "options": [
+        "Berdasarkan",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Tanpa memandang"
+      ],
+      "answer": "Berdasarkan",
+      "explanation": "N に基づいて: Dasar keputusan atau tindakan. Contoh: データに基づいて判断します。"
+    },
+    {
+      "id": "qb_n2_04",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N を問わず dipakai untuk...",
+      "options": [
+        "Tanpa memandang",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Tanpa memandang",
+      "explanation": "N を問わず: Tidak membatasi oleh kategori. Contoh: 経験を問わず応募できます。"
+    },
+    {
+      "id": "qb_n2_05",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola Vざるを得ない dipakai untuk...",
+      "options": [
+        "Terpaksa harus",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Terpaksa harus",
+      "explanation": "Vざるを得ない: Tidak ada pilihan selain melakukan. Contoh: 計画を変更せざるを得ません。"
+    },
+    {
+      "id": "qb_n2_06",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N に限らず dipakai untuk...",
+      "options": [
+        "Tidak hanya",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Tidak hanya",
+      "explanation": "N に限らず: Cakupan luas. Contoh: 日本語に限らず文化も学びます。"
+    },
+    {
+      "id": "qb_n2_07",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola Vかねない dipakai untuk...",
+      "options": [
+        "Bisa saja terjadi buruk",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Bisa saja terjadi buruk",
+      "explanation": "Vかねない: Kemungkinan negatif. Contoh: 確認しないと事故が起こりかねません。"
+    },
+    {
+      "id": "qb_n2_08",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola Vかねる dipakai untuk...",
+      "options": [
+        "Sulit/tidak bisa",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Sulit/tidak bisa",
+      "explanation": "Vかねる: Ungkapan formal menolak. Contoh: その質問には答えかねます。"
+    },
+    {
+      "id": "qb_n2_09",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N に際して dipakai untuk...",
+      "options": [
+        "Pada saat",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Pada saat",
+      "explanation": "N に際して: Situasi formal ketika melakukan. Contoh: 面接に際して資料を準備します。"
+    },
+    {
+      "id": "qb_n2_10",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N をめぐって dipakai untuk...",
+      "options": [
+        "Seputar",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Seputar",
+      "explanation": "N をめぐって: Konflik/diskusi seputar topik. Contoh: 条件をめぐって話し合います。"
+    },
+    {
+      "id": "qb_n2_11",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N とともに dipakai untuk...",
+      "options": [
+        "Bersama/seiring",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Bersama/seiring",
+      "explanation": "N とともに: Bersama atau perubahan paralel. Contoh: 経験とともに自信がつきます。"
+    },
+    {
+      "id": "qb_n2_12",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N に反して dipakai untuk...",
+      "options": [
+        "Bertentangan dengan",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Bertentangan dengan",
+      "explanation": "N に反して: Hasil berlawanan dengan harapan. Contoh: 予想に反して合格しました。"
+    },
+    {
+      "id": "qb_n2_13",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N からすると dipakai untuk...",
+      "options": [
+        "Dilihat dari",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Dilihat dari",
+      "explanation": "N からすると: Sudut pandang penilaian. Contoh: 結果からすると改善が必要です。"
+    },
+    {
+      "id": "qb_n2_14",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola V上で dipakai untuk...",
+      "options": [
+        "Setelah/dalam hal",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Setelah/dalam hal",
+      "explanation": "V上で: Syarat proses atau bidang. Contoh: 内容を確認した上で署名します。"
+    },
+    {
+      "id": "qb_n2_15",
+      "source": "bunpou",
+      "level": "N2",
+      "prompt": "Pola N をきっかけに dipakai untuk...",
+      "options": [
+        "Berkat/sejak pemicu",
+        "Seiring dengan",
+        "Sesuai dengan",
+        "Berdasarkan"
+      ],
+      "answer": "Berkat/sejak pemicu",
+      "explanation": "N をきっかけに: Titik awal perubahan. Contoh: 日本語学習をきっかけに友達が増えました。"
+    },
+    {
+      "id": "qb_n1_01",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N いかんで dipakai untuk...",
+      "options": [
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan",
+        "Meskipun dikatakan"
+      ],
+      "answer": "Tergantung pada",
+      "explanation": "N いかんで: Bentuk formal kondisi penentu. Contoh: 結果いかんで方針を変えます。"
+    },
+    {
+      "id": "qb_n1_02",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N を余儀なくされる dipakai untuk...",
+      "options": [
+        "Terpaksa mengalami",
+        "Tergantung pada",
+        "Sesuai dengan",
+        "Meskipun dikatakan"
+      ],
+      "answer": "Terpaksa mengalami",
+      "explanation": "N を余儀なくされる: Dipaksa oleh keadaan. Contoh: 台風で延期を余儀なくされました。"
+    },
+    {
+      "id": "qb_n1_03",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N に即して dipakai untuk...",
+      "options": [
+        "Sesuai dengan",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Meskipun dikatakan"
+      ],
+      "answer": "Sesuai dengan",
+      "explanation": "N に即して: Mengikuti fakta/aturan nyata. Contoh: 現場の状況に即して判断します。"
+    },
+    {
+      "id": "qb_n1_04",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N とはいえ dipakai untuk...",
+      "options": [
+        "Meskipun dikatakan",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Meskipun dikatakan",
+      "explanation": "N とはいえ: Mengakui lalu membatasi. Contoh: 経験者とはいえ確認は必要です。"
+    },
+    {
+      "id": "qb_n1_05",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N を皮切りに dipakai untuk...",
+      "options": [
+        "Dimulai dari",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Dimulai dari",
+      "explanation": "N を皮切りに: Awal dari rangkaian. Contoh: 東京を皮切りに説明会を行います。"
+    },
+    {
+      "id": "qb_n1_06",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N に至るまで dipakai untuk...",
+      "options": [
+        "Sampai bahkan",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Sampai bahkan",
+      "explanation": "N に至るまで: Cakupan sampai detail ekstrem. Contoh: 準備から片付けに至るまで担当します。"
+    },
+    {
+      "id": "qb_n1_07",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N ならでは dipakai untuk...",
+      "options": [
+        "Khas hanya",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Khas hanya",
+      "explanation": "N ならでは: Keunikan khusus. Contoh: 日本ならではの習慣です。"
+    },
+    {
+      "id": "qb_n1_08",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola Vずにはおかない dipakai untuk...",
+      "options": [
+        "Pasti akan membuat",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Pasti akan membuat",
+      "explanation": "Vずにはおかない: Kekuatan yang menyebabkan hasil. Contoh: この経験は成長させずにはおきません。"
+    },
+    {
+      "id": "qb_n1_09",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola Vまい dipakai untuk...",
+      "options": [
+        "Tidak akan/mungkin tidak",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Tidak akan/mungkin tidak",
+      "explanation": "Vまい: Tekad negatif atau dugaan formal. Contoh: 同じミスはするまい。"
+    },
+    {
+      "id": "qb_n1_10",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N と相まって dipakai untuk...",
+      "options": [
+        "Bersama dengan",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Bersama dengan",
+      "explanation": "N と相まって: Dua faktor bekerja bersama. Contoh: 努力と経験が相まって成果が出ました。"
+    },
+    {
+      "id": "qb_n1_11",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N をものともせず dipakai untuk...",
+      "options": [
+        "Tanpa gentar oleh",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Tanpa gentar oleh",
+      "explanation": "N をものともせず: Mengatasi kondisi sulit. Contoh: 困難をものともせず挑戦します。"
+    },
+    {
+      "id": "qb_n1_12",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N にかたくない dipakai untuk...",
+      "options": [
+        "Tidak sulit untuk",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Tidak sulit untuk",
+      "explanation": "N にかたくない: Mudah dibayangkan/dipahami. Contoh: 苦労は想像にかたくありません。"
+    },
+    {
+      "id": "qb_n1_13",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola Vべく dipakai untuk...",
+      "options": [
+        "Demi/untuk",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Demi/untuk",
+      "explanation": "Vべく: Tujuan formal. Contoh: 合格すべく努力します。"
+    },
+    {
+      "id": "qb_n1_14",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N に照らして dipakai untuk...",
+      "options": [
+        "Berdasarkan standar",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Berdasarkan standar",
+      "explanation": "N に照らして: Menilai dengan standar. Contoh: 規則に照らして判断します。"
+    },
+    {
+      "id": "qb_n1_15",
+      "source": "bunpou",
+      "level": "N1",
+      "prompt": "Pola N を禁じ得ない dipakai untuk...",
+      "options": [
+        "Tidak bisa menahan",
+        "Tergantung pada",
+        "Terpaksa mengalami",
+        "Sesuai dengan"
+      ],
+      "answer": "Tidak bisa menahan",
+      "explanation": "N を禁じ得ない: Emosi kuat yang muncul. Contoh: 結果に驚きを禁じ得ません。"
     }
   ]
 }

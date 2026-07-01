@@ -1,0 +1,8 @@
+{
+  "appId": "com.nihongokerja.jlpt",
+  "appName": "Nihongo Kerja JLPT",
+  "webDir": ".",
+  "server": {
+    "androidScheme": "https"
+  }
+}

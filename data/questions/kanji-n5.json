@@ -12,7 +12,8 @@
         "orang"
       ],
       "answer": "hari/matahari",
-      "explanation": "日 punya arti hari atau matahari."
+      "explanation": "日 punya arti hari atau matahari.",
+      "level": "N5"
     },
     {
       "id": "qk002",
@@ -25,7 +26,8 @@
         "金"
       ],
       "answer": "水",
-      "explanation": "水 dibaca mizu atau sui."
+      "explanation": "水 dibaca mizu atau sui.",
+      "level": "N5"
     },
     {
       "id": "qk003",
@@ -38,7 +40,8 @@
         "asrama"
       ],
       "answer": "perusahaan",
-      "explanation": "会社 berarti perusahaan."
+      "explanation": "会社 berarti perusahaan.",
+      "level": "N5"
     },
     {
       "id": "qk004",
@@ -51,7 +54,8 @@
         "bahasa"
       ],
       "answer": "orang",
-      "explanation": "人 dibaca hito/jin/nin, artinya orang."
+      "explanation": "人 dibaca hito/jin/nin, artinya orang.",
+      "level": "N5"
     },
     {
       "id": "qk005",
@@ -64,7 +68,8 @@
         "melihat"
       ],
       "answer": "pergi",
-      "explanation": "行く berarti pergi."
+      "explanation": "行く berarti pergi.",
+      "level": "N5"
     },
     {
       "id": "qk006",
@@ -77,7 +82,8 @@
         "書きます"
       ],
       "answer": "帰ります",
-      "explanation": "帰ります berarti pulang."
+      "explanation": "帰ります berarti pulang.",
+      "level": "N5"
     },
     {
       "id": "qk007",
@@ -90,7 +96,8 @@
         "bahasa"
       ],
       "answer": "kendaraan/mobil",
-      "explanation": "車 berarti mobil atau kendaraan."
+      "explanation": "車 berarti mobil atau kendaraan.",
+      "level": "N5"
     },
     {
       "id": "qk008",
@@ -103,7 +110,8 @@
         "tanah"
       ],
       "answer": "bahasa/kata",
-      "explanation": "語 berarti bahasa atau kata."
+      "explanation": "語 berarti bahasa atau kata.",
+      "level": "N5"
     },
     {
       "id": "qk009",
@@ -116,7 +124,8 @@
         "pohon/Kamis"
       ],
       "answer": "uang/emas/Jumat",
-      "explanation": "金 punya arti uang, emas, dan Jumat."
+      "explanation": "金 punya arti uang, emas, dan Jumat.",
+      "level": "N5"
     },
     {
       "id": "qk010",
@@ -129,7 +138,8 @@
         "makan"
       ],
       "answer": "mendengar/bertanya",
-      "explanation": "聞く berarti mendengar atau bertanya."
+      "explanation": "聞く berarti mendengar atau bertanya.",
+      "level": "N5"
     },
     {
       "id": "qk011",
@@ -142,7 +152,8 @@
         "sepuluh"
       ],
       "answer": "satu",
-      "explanation": "一 berarti satu."
+      "explanation": "一 berarti satu.",
+      "level": "N5"
     },
     {
       "id": "qk012",
@@ -155,7 +166,8 @@
         "pintu"
       ],
       "answer": "jam/waktu",
-      "explanation": "時 berarti jam atau waktu."
+      "explanation": "時 berarti jam atau waktu.",
+      "level": "N5"
     },
     {
       "id": "qk013",
@@ -168,7 +180,8 @@
         "murah"
       ],
       "answer": "keluar",
-      "explanation": "出 berarti keluar."
+      "explanation": "出 berarti keluar.",
+      "level": "N5"
     },
     {
       "id": "qk014",
@@ -181,7 +194,8 @@
         "pintu timur"
       ],
       "answer": "pintu masuk",
-      "explanation": "入口 berarti pintu masuk."
+      "explanation": "入口 berarti pintu masuk.",
+      "level": "N5"
     },
     {
       "id": "qk015",
@@ -194,7 +208,8 @@
         "warna"
       ],
       "answer": "istirahat/libur",
-      "explanation": "休 berarti istirahat atau libur."
+      "explanation": "休 berarti istirahat atau libur.",
+      "level": "N5"
     },
     {
       "id": "qk016",
@@ -207,7 +222,8 @@
         "teman"
       ],
       "answer": "nama",
-      "explanation": "名 berarti nama."
+      "explanation": "名 berarti nama.",
+      "level": "N5"
     },
     {
       "id": "qk017",
@@ -220,7 +236,8 @@
         "selatan"
       ],
       "answer": "kanan",
-      "explanation": "右 berarti kanan."
+      "explanation": "右 berarti kanan.",
+      "level": "N5"
     },
     {
       "id": "qk018",
@@ -233,7 +250,8 @@
         "dalam"
       ],
       "answer": "kiri",
-      "explanation": "左 berarti kiri."
+      "explanation": "左 berarti kiri.",
+      "level": "N5"
     },
     {
       "id": "qk019",
@@ -246,7 +264,8 @@
         "pendek"
       ],
       "answer": "tinggi/mahal",
-      "explanation": "高 berarti tinggi atau mahal."
+      "explanation": "高 berarti tinggi atau mahal.",
+      "level": "N5"
     },
     {
       "id": "qk020",
@@ -259,7 +278,8 @@
         "hitam"
       ],
       "answer": "aman/murah",
-      "explanation": "安 berhubungan dengan aman atau murah."
+      "explanation": "安 berhubungan dengan aman atau murah.",
+      "level": "N5"
     },
     {
       "id": "qk021",
@@ -272,7 +292,8 @@
         "tanah"
       ],
       "answer": "listrik",
-      "explanation": "電 berarti listrik."
+      "explanation": "電 berarti listrik.",
+      "level": "N5"
     },
     {
       "id": "qk022",
@@ -285,7 +306,8 @@
         "biru"
       ],
       "answer": "putih",
-      "explanation": "白 berarti putih."
+      "explanation": "白 berarti putih.",
+      "level": "N5"
     },
     {
       "id": "qk023",
@@ -298,7 +320,8 @@
         "hitam"
       ],
       "answer": "merah",
-      "explanation": "赤 berarti merah."
+      "explanation": "赤 berarti merah.",
+      "level": "N5"
     },
     {
       "id": "qk024",
@@ -311,7 +334,8 @@
         "pendek"
       ],
       "answer": "baru",
-      "explanation": "新 berarti baru."
+      "explanation": "新 berarti baru.",
+      "level": "N5"
     },
     {
       "id": "qk025",
@@ -324,7 +348,1016 @@
         "setelah"
       ],
       "answer": "dalam/tengah",
-      "explanation": "中 berarti dalam atau tengah."
+      "explanation": "中 berarti dalam atau tengah.",
+      "level": "N5"
+    },
+    {
+      "id": "qk_n4_01",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 高 berarti...",
+      "options": [
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin",
+        "pendek"
+      ],
+      "answer": "tinggi/mahal",
+      "explanation": "高 memiliki arti tinggi/mahal. Contoh: 給料が高いです。"
+    },
+    {
+      "id": "qk_n4_02",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 安 berarti...",
+      "options": [
+        "murah/aman",
+        "tinggi/mahal",
+        "panjang/pemimpin",
+        "pendek"
+      ],
+      "answer": "murah/aman",
+      "explanation": "安 memiliki arti murah/aman. Contoh: 安全を確認します。"
+    },
+    {
+      "id": "qk_n4_03",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 長 berarti...",
+      "options": [
+        "panjang/pemimpin",
+        "tinggi/mahal",
+        "murah/aman",
+        "pendek"
+      ],
+      "answer": "panjang/pemimpin",
+      "explanation": "長 memiliki arti panjang/pemimpin. Contoh: 長い時間働きます。"
+    },
+    {
+      "id": "qk_n4_04",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 短 berarti...",
+      "options": [
+        "pendek",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "pendek",
+      "explanation": "短 memiliki arti pendek. Contoh: 休み時間は短いです。"
+    },
+    {
+      "id": "qk_n4_05",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 右 berarti...",
+      "options": [
+        "kanan",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "kanan",
+      "explanation": "右 memiliki arti kanan. Contoh: 右へ行ってください。"
+    },
+    {
+      "id": "qk_n4_06",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 左 berarti...",
+      "options": [
+        "kiri",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "kiri",
+      "explanation": "左 memiliki arti kiri. Contoh: 左にあります。"
+    },
+    {
+      "id": "qk_n4_07",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 東 berarti...",
+      "options": [
+        "timur",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "timur",
+      "explanation": "東 memiliki arti timur. Contoh: 駅は東口です。"
+    },
+    {
+      "id": "qk_n4_08",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 西 berarti...",
+      "options": [
+        "barat",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "barat",
+      "explanation": "西 memiliki arti barat. Contoh: 西口で待ちます。"
+    },
+    {
+      "id": "qk_n4_09",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 南 berarti...",
+      "options": [
+        "selatan",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "selatan",
+      "explanation": "南 memiliki arti selatan. Contoh: 南へ行きます。"
+    },
+    {
+      "id": "qk_n4_10",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 北 berarti...",
+      "options": [
+        "utara",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "utara",
+      "explanation": "北 memiliki arti utara. Contoh: 北口はどこですか。"
+    },
+    {
+      "id": "qk_n4_11",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 口 berarti...",
+      "options": [
+        "mulut/pintu",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "mulut/pintu",
+      "explanation": "口 memiliki arti mulut/pintu. Contoh: 入口はここです。"
+    },
+    {
+      "id": "qk_n4_12",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 出 berarti...",
+      "options": [
+        "keluar",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "keluar",
+      "explanation": "出 memiliki arti keluar. Contoh: 出口から出ます。"
+    },
+    {
+      "id": "qk_n4_13",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 入 berarti...",
+      "options": [
+        "masuk",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "masuk",
+      "explanation": "入 memiliki arti masuk. Contoh: 部屋に入ります。"
+    },
+    {
+      "id": "qk_n4_14",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 立 berarti...",
+      "options": [
+        "berdiri",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "berdiri",
+      "explanation": "立 memiliki arti berdiri. Contoh: ここに立ってください。"
+    },
+    {
+      "id": "qk_n4_15",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 電 berarti...",
+      "options": [
+        "listrik",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "listrik",
+      "explanation": "電 memiliki arti listrik. Contoh: 電気を消します。"
+    },
+    {
+      "id": "qk_n4_16",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 気 berarti...",
+      "options": [
+        "energi/perasaan",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "energi/perasaan",
+      "explanation": "気 memiliki arti energi/perasaan. Contoh: 気をつけてください。"
+    },
+    {
+      "id": "qk_n4_17",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 白 berarti...",
+      "options": [
+        "putih",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "putih",
+      "explanation": "白 memiliki arti putih. Contoh: 白い紙です。"
+    },
+    {
+      "id": "qk_n4_18",
+      "source": "kanji",
+      "level": "N4",
+      "prompt": "Kanji 黒 berarti...",
+      "options": [
+        "hitam",
+        "tinggi/mahal",
+        "murah/aman",
+        "panjang/pemimpin"
+      ],
+      "answer": "hitam",
+      "explanation": "黒 memiliki arti hitam. Contoh: 黒いペンです。"
+    },
+    {
+      "id": "qk_n3_01",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 業 berarti...",
+      "options": [
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah",
+        "soal/topik"
+      ],
+      "answer": "pekerjaan/industri",
+      "explanation": "業 memiliki arti pekerjaan/industri. Contoh: 作業を始めます。"
+    },
+    {
+      "id": "qk_n3_02",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 題 berarti...",
+      "options": [
+        "topik/masalah",
+        "pekerjaan/industri",
+        "bertanya/masalah",
+        "soal/topik"
+      ],
+      "answer": "topik/masalah",
+      "explanation": "題 memiliki arti topik/masalah. Contoh: 課題を提出します。"
+    },
+    {
+      "id": "qk_n3_03",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 問 berarti...",
+      "options": [
+        "bertanya/masalah",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "soal/topik"
+      ],
+      "answer": "bertanya/masalah",
+      "explanation": "問 memiliki arti bertanya/masalah. Contoh: 問題を解きます。"
+    },
+    {
+      "id": "qk_n3_04",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 題 berarti...",
+      "options": [
+        "soal/topik",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "soal/topik",
+      "explanation": "題 memiliki arti soal/topik. Contoh: 題名を読みます。"
+    },
+    {
+      "id": "qk_n3_05",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 答 berarti...",
+      "options": [
+        "jawaban",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "jawaban",
+      "explanation": "答 memiliki arti jawaban. Contoh: 答えを選びます。"
+    },
+    {
+      "id": "qk_n3_06",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 説 berarti...",
+      "options": [
+        "penjelasan",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "penjelasan",
+      "explanation": "説 memiliki arti penjelasan. Contoh: 説明を聞きます。"
+    },
+    {
+      "id": "qk_n3_07",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 明 berarti...",
+      "options": [
+        "jelas/terang",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "jelas/terang",
+      "explanation": "明 memiliki arti jelas/terang. Contoh: 明確に説明します。"
+    },
+    {
+      "id": "qk_n3_08",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 暗 berarti...",
+      "options": [
+        "gelap",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "gelap",
+      "explanation": "暗 memiliki arti gelap. Contoh: 暗い道を歩きます。"
+    },
+    {
+      "id": "qk_n3_09",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 味 berarti...",
+      "options": [
+        "rasa/makna",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "rasa/makna",
+      "explanation": "味 memiliki arti rasa/makna. Contoh: 意味を調べます。"
+    },
+    {
+      "id": "qk_n3_10",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 意 berarti...",
+      "options": [
+        "pikiran/makna",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "pikiran/makna",
+      "explanation": "意 memiliki arti pikiran/makna. Contoh: 意見を言います。"
+    },
+    {
+      "id": "qk_n3_11",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 見 berarti...",
+      "options": [
+        "melihat/pendapat",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "melihat/pendapat",
+      "explanation": "見 memiliki arti melihat/pendapat. Contoh: 意見を聞きます。"
+    },
+    {
+      "id": "qk_n3_12",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 運 berarti...",
+      "options": [
+        "mengangkut/nasib",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "mengangkut/nasib",
+      "explanation": "運 memiliki arti mengangkut/nasib. Contoh: 荷物を運びます。"
+    },
+    {
+      "id": "qk_n3_13",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 転 berarti...",
+      "options": [
+        "berputar/pindah",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "berputar/pindah",
+      "explanation": "転 memiliki arti berputar/pindah. Contoh: 運転に注意します。"
+    },
+    {
+      "id": "qk_n3_14",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 送 berarti...",
+      "options": [
+        "mengirim",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "mengirim",
+      "explanation": "送 memiliki arti mengirim. Contoh: メールを送ります。"
+    },
+    {
+      "id": "qk_n3_15",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 受 berarti...",
+      "options": [
+        "menerima",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "menerima",
+      "explanation": "受 memiliki arti menerima. Contoh: 研修を受けます。"
+    },
+    {
+      "id": "qk_n3_16",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 験 berarti...",
+      "options": [
+        "ujian/pengalaman",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "ujian/pengalaman",
+      "explanation": "験 memiliki arti ujian/pengalaman. Contoh: 試験を受けます。"
+    },
+    {
+      "id": "qk_n3_17",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 試 berarti...",
+      "options": [
+        "mencoba/ujian",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "mencoba/ujian",
+      "explanation": "試 memiliki arti mencoba/ujian. Contoh: 試験に合格します。"
+    },
+    {
+      "id": "qk_n3_18",
+      "source": "kanji",
+      "level": "N3",
+      "prompt": "Kanji 合 berarti...",
+      "options": [
+        "cocok/bergabung",
+        "pekerjaan/industri",
+        "topik/masalah",
+        "bertanya/masalah"
+      ],
+      "answer": "cocok/bergabung",
+      "explanation": "合 memiliki arti cocok/bergabung. Contoh: 合格したいです。"
+    },
+    {
+      "id": "qk_n2_01",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 効 berarti...",
+      "options": [
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab",
+        "tugas/jabatan"
+      ],
+      "answer": "efek",
+      "explanation": "効 memiliki arti efek. Contoh: 効果を測ります。"
+    },
+    {
+      "id": "qk_n2_02",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 率 berarti...",
+      "options": [
+        "rasio/efisiensi",
+        "efek",
+        "tanggung jawab",
+        "tugas/jabatan"
+      ],
+      "answer": "rasio/efisiensi",
+      "explanation": "率 memiliki arti rasio/efisiensi. Contoh: 効率を上げます。"
+    },
+    {
+      "id": "qk_n2_03",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 責 berarti...",
+      "options": [
+        "tanggung jawab",
+        "efek",
+        "rasio/efisiensi",
+        "tugas/jabatan"
+      ],
+      "answer": "tanggung jawab",
+      "explanation": "責 memiliki arti tanggung jawab. Contoh: 責任があります。"
+    },
+    {
+      "id": "qk_n2_04",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 任 berarti...",
+      "options": [
+        "tugas/jabatan",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "tugas/jabatan",
+      "explanation": "任 memiliki arti tugas/jabatan. Contoh: 担当を任されます。"
+    },
+    {
+      "id": "qk_n2_05",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 判 berarti...",
+      "options": [
+        "menilai",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "menilai",
+      "explanation": "判 memiliki arti menilai. Contoh: 判断が必要です。"
+    },
+    {
+      "id": "qk_n2_06",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 断 berarti...",
+      "options": [
+        "memutus",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "memutus",
+      "explanation": "断 memiliki arti memutus. Contoh: 断定できません。"
+    },
+    {
+      "id": "qk_n2_07",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 検 berarti...",
+      "options": [
+        "memeriksa",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "memeriksa",
+      "explanation": "検 memiliki arti memeriksa. Contoh: 検査を行います。"
+    },
+    {
+      "id": "qk_n2_08",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 討 berarti...",
+      "options": [
+        "mendiskusikan",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "mendiskusikan",
+      "explanation": "討 memiliki arti mendiskusikan. Contoh: 検討します。"
+    },
+    {
+      "id": "qk_n2_09",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 導 berarti...",
+      "options": [
+        "membimbing/memperkenalkan",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "membimbing/memperkenalkan",
+      "explanation": "導 memiliki arti membimbing/memperkenalkan. Contoh: 新制度を導入します。"
+    },
+    {
+      "id": "qk_n2_10",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 入 berarti...",
+      "options": [
+        "masuk/memasukkan",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "masuk/memasukkan",
+      "explanation": "入 memiliki arti masuk/memasukkan. Contoh: 導入しました。"
+    },
+    {
+      "id": "qk_n2_11",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 維 berarti...",
+      "options": [
+        "mempertahankan",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "mempertahankan",
+      "explanation": "維 memiliki arti mempertahankan. Contoh: 品質を維持します。"
+    },
+    {
+      "id": "qk_n2_12",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 持 berarti...",
+      "options": [
+        "menjaga/memiliki",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "menjaga/memiliki",
+      "explanation": "持 memiliki arti menjaga/memiliki. Contoh: 維持が大切です。"
+    },
+    {
+      "id": "qk_n2_13",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 評 berarti...",
+      "options": [
+        "menilai",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "menilai",
+      "explanation": "評 memiliki arti menilai. Contoh: 評価を受けます。"
+    },
+    {
+      "id": "qk_n2_14",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 価 berarti...",
+      "options": [
+        "nilai/harga",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "nilai/harga",
+      "explanation": "価 memiliki arti nilai/harga. Contoh: 価値があります。"
+    },
+    {
+      "id": "qk_n2_15",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 析 berarti...",
+      "options": [
+        "menganalisis",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "menganalisis",
+      "explanation": "析 memiliki arti menganalisis. Contoh: 分析します。"
+    },
+    {
+      "id": "qk_n2_16",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 資 berarti...",
+      "options": [
+        "modal/materi",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "modal/materi",
+      "explanation": "資 memiliki arti modal/materi. Contoh: 資料を準備します。"
+    },
+    {
+      "id": "qk_n2_17",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 料 berarti...",
+      "options": [
+        "materi/biaya",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "materi/biaya",
+      "explanation": "料 memiliki arti materi/biaya. Contoh: 資料を読みます。"
+    },
+    {
+      "id": "qk_n2_18",
+      "source": "kanji",
+      "level": "N2",
+      "prompt": "Kanji 策 berarti...",
+      "options": [
+        "rencana/langkah",
+        "efek",
+        "rasio/efisiensi",
+        "tanggung jawab"
+      ],
+      "answer": "rencana/langkah",
+      "explanation": "策 memiliki arti rencana/langkah. Contoh: 対策を考えます。"
+    },
+    {
+      "id": "qk_n1_01",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 概 berarti...",
+      "options": [
+        "umum/garis besar",
+        "pikiran",
+        "layak",
+        "sesuai/kena"
+      ],
+      "answer": "umum/garis besar",
+      "explanation": "概 memiliki arti umum/garis besar. Contoh: 概要を説明します。"
+    },
+    {
+      "id": "qk_n1_02",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 念 berarti...",
+      "options": [
+        "pikiran",
+        "umum/garis besar",
+        "layak",
+        "sesuai/kena"
+      ],
+      "answer": "pikiran",
+      "explanation": "念 memiliki arti pikiran. Contoh: 概念を理解します。"
+    },
+    {
+      "id": "qk_n1_03",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 妥 berarti...",
+      "options": [
+        "layak",
+        "umum/garis besar",
+        "pikiran",
+        "sesuai/kena"
+      ],
+      "answer": "layak",
+      "explanation": "妥 memiliki arti layak. Contoh: 妥当性を検討します。"
+    },
+    {
+      "id": "qk_n1_04",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 当 berarti...",
+      "options": [
+        "sesuai/kena",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "sesuai/kena",
+      "explanation": "当 memiliki arti sesuai/kena. Contoh: 妥当だと思います。"
+    },
+    {
+      "id": "qk_n1_05",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 顕 berarti...",
+      "options": [
+        "tampak jelas",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "tampak jelas",
+      "explanation": "顕 memiliki arti tampak jelas. Contoh: 顕著な変化です。"
+    },
+    {
+      "id": "qk_n1_06",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 著 berarti...",
+      "options": [
+        "menonjol/menulis",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "menonjol/menulis",
+      "explanation": "著 memiliki arti menonjol/menulis. Contoh: 著しい増加です。"
+    },
+    {
+      "id": "qk_n1_07",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 阻 berarti...",
+      "options": [
+        "menghalangi",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "menghalangi",
+      "explanation": "阻 memiliki arti menghalangi. Contoh: 成長を阻害します。"
+    },
+    {
+      "id": "qk_n1_08",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 害 berarti...",
+      "options": [
+        "bahaya/kerusakan",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "bahaya/kerusakan",
+      "explanation": "害 memiliki arti bahaya/kerusakan. Contoh: 被害を減らします。"
+    },
+    {
+      "id": "qk_n1_09",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 促 berarti...",
+      "options": [
+        "mendorong",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "mendorong",
+      "explanation": "促 memiliki arti mendorong. Contoh: 交流を促進します。"
+    },
+    {
+      "id": "qk_n1_10",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 進 berarti...",
+      "options": [
+        "maju",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "maju",
+      "explanation": "進 memiliki arti maju. Contoh: 進歩が見られます。"
+    },
+    {
+      "id": "qk_n1_11",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 緩 berarti...",
+      "options": [
+        "longgar/ringan",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "longgar/ringan",
+      "explanation": "緩 memiliki arti longgar/ringan. Contoh: 規制を緩和します。"
+    },
+    {
+      "id": "qk_n1_12",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 和 berarti...",
+      "options": [
+        "harmoni/Jepang",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "harmoni/Jepang",
+      "explanation": "和 memiliki arti harmoni/Jepang. Contoh: 負担が緩和されます。"
+    },
+    {
+      "id": "qk_n1_13",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 是 berarti...",
+      "options": [
+        "benar",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "benar",
+      "explanation": "是 memiliki arti benar. Contoh: 是正が必要です。"
+    },
+    {
+      "id": "qk_n1_14",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 正 berarti...",
+      "options": [
+        "benar",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "benar",
+      "explanation": "正 memiliki arti benar. Contoh: 不正を是正します。"
+    },
+    {
+      "id": "qk_n1_15",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 逸 berarti...",
+      "options": [
+        "menyimpang",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "menyimpang",
+      "explanation": "逸 memiliki arti menyimpang. Contoh: 基準を逸脱します。"
+    },
+    {
+      "id": "qk_n1_16",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 脱 berarti...",
+      "options": [
+        "lepas",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "lepas",
+      "explanation": "脱 memiliki arti lepas. Contoh: 制限から脱します。"
+    },
+    {
+      "id": "qk_n1_17",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 整 berarti...",
+      "options": [
+        "merapikan",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "merapikan",
+      "explanation": "整 memiliki arti merapikan. Contoh: 整合性を確認します。"
+    },
+    {
+      "id": "qk_n1_18",
+      "source": "kanji",
+      "level": "N1",
+      "prompt": "Kanji 抽 berarti...",
+      "options": [
+        "menarik/mengambil",
+        "umum/garis besar",
+        "pikiran",
+        "layak"
+      ],
+      "answer": "menarik/mengambil",
+      "explanation": "抽 memiliki arti menarik/mengambil. Contoh: 要点を抽出します。"
     }
   ]
 }

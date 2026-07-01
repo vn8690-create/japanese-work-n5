@@ -1,15 +1,21 @@
 # Nihongo Kerja N5
 
-Aplikasi web ringan untuk pengguna Indonesia yang baru belajar bahasa Jepang, terutama untuk persiapan kerja di Jepang dan JLPT N5-N4.
+Aplikasi web ringan untuk pengguna Indonesia yang belajar bahasa Jepang untuk kerja di Jepang dan persiapan JLPT N5 sampai N1.
 
 ## Fitur
 
 - UI Bahasa Indonesia
 - Mobile-first dan cepat untuk ponsel low-end
 - Modul Kosakata, Kanji, Tata Bahasa, Percakapan, Latihan Soal, Flashcard, dan Progress
+- Filter level JLPT: Semua, N5, N4, N3, N2, N1
+- Filter jenis soal: campuran, kosakata, kanji, bunpou, reading
+- Random test cerdas yang menyeimbangkan jenis soal dan menghindari pengulangan soal terbaru
+- Bookmark materi penting
+- Target belajar harian yang bisa diatur
+- Analisis skill dan riwayat tes lokal
 - Data konten dipisah ke file JSON
 - Data JSON dimuat hanya saat modul dibuka
-- Tes cepat 10 soal dan tes normal 40 soal
+- Tes cepat 10 soal, tes normal 40 soal, dan simulasi 60 soal
 - Rutinitas harian 7 menit dengan streak
 - Flashcard SRS dengan pilihan Sulit, Lumayan, dan Mudah
 - Review khusus untuk jawaban salah
@@ -26,7 +32,9 @@ Aplikasi web ringan untuk pengguna Indonesia yang baru belajar bahasa Jepang, te
 - Progress tersimpan di localStorage
 - PWA sederhana dengan manifest dan service worker
 - Siap deploy ke GitHub Pages
-- Konten diperluas: 120 kosakata, 80 kanji, 50 grammar, 25 dialog, 10 skenario, 100 soal, dan 10 reading passage
+- Konten diperluas: 240 kosakata, 160 kanji, 110 grammar, 25 dialog, 10 skenario, 348 soal, dan 22 reading passage
+
+Catatan: soal dan bacaan dibuat original dengan gaya latihan JLPT. Aplikasi ini tidak menyalin soal JLPT resmi yang memiliki hak cipta.
 
 ## Struktur
 
@@ -74,6 +82,34 @@ Lalu buka:
 ```text
 http://localhost:5173
 ```
+
+## Memasang sebagai App
+
+### Android / Chrome
+
+1. Buka URL app dari Chrome.
+2. Tekan tombol `Install App` di Beranda, atau menu Chrome → `Add to Home screen`.
+3. Setelah terpasang, app bisa dibuka dari ikon layar utama.
+4. Tekan `Download Offline Pack` agar materi bisa dibuka ulang lebih cepat dan lebih siap offline.
+
+### iPhone / Safari
+
+1. Buka URL app dari Safari.
+2. Tekan tombol Share.
+3. Pilih `Add to Home Screen`.
+4. Buka dari ikon yang muncul di Home Screen.
+
+## Build Android Native Wrapper
+
+Repo ini sudah disiapkan dengan `capacitor.config.json`. Untuk membuat APK/AAB, butuh Node.js, Android Studio, dan koneksi internet untuk install Capacitor.
+
+```bash
+npm run android:init
+npm run android:sync
+npm run android:open
+```
+
+Setelah Android Studio terbuka, build APK/AAB dari menu `Build`. Untuk upload ke Google Play, gunakan AAB dan ikuti proses Play Console.
 
 ## Deploy ke GitHub Pages
 

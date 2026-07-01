@@ -412,7 +412,7 @@
     "pattern": "Vなければなりません",
     "title": "Harus melakukan",
     "explanation": "Menyatakan kewajiban.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "kerja",
     "example": {
       "jp": "安全靴を履かなければなりません。",
@@ -424,7 +424,7 @@
     "pattern": "Vなくてもいいです",
     "title": "Tidak perlu",
     "explanation": "Menyatakan tidak wajib.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "izin",
     "example": {
       "jp": "今日は残業しなくてもいいです。",
@@ -436,7 +436,7 @@
     "pattern": "Vることができます",
     "title": "Bisa melakukan",
     "explanation": "Menyatakan kemampuan atau izin.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "kemampuan",
     "example": {
       "jp": "日本語で報告することができます。",
@@ -448,7 +448,7 @@
     "pattern": "Vる前に",
     "title": "Sebelum melakukan",
     "explanation": "Menyatakan aksi sebelum aksi lain.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "urutan",
     "example": {
       "jp": "使う前に確認します。",
@@ -460,7 +460,7 @@
     "pattern": "Vた後で",
     "title": "Setelah melakukan",
     "explanation": "Menyatakan aksi setelah aksi lain.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "urutan",
     "example": {
       "jp": "仕事が終わった後で帰ります。",
@@ -472,7 +472,7 @@
     "pattern": "Vてから",
     "title": "Setelah lalu",
     "explanation": "Urutan aksi yang jelas.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "urutan",
     "example": {
       "jp": "手を洗ってから食べます。",
@@ -484,7 +484,7 @@
     "pattern": "N だけ",
     "title": "Hanya",
     "explanation": "Membatasi jumlah atau hal.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "dasar",
     "example": {
       "jp": "今日は午前だけ働きます。",
@@ -496,7 +496,7 @@
     "pattern": "N しか Vません",
     "title": "Hanya",
     "explanation": "Bentuk pembatasan dengan negatif.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "dasar",
     "example": {
       "jp": "千円しかありません。",
@@ -508,7 +508,7 @@
     "pattern": "N より",
     "title": "Dibanding",
     "explanation": "Membandingkan dua hal.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "perbandingan",
     "example": {
       "jp": "電車は自転車より速いです。",
@@ -520,7 +520,7 @@
     "pattern": "N のほうが",
     "title": "Lebih",
     "explanation": "Menyatakan pilihan yang lebih.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "perbandingan",
     "example": {
       "jp": "この道具のほうが使いやすいです。",
@@ -532,7 +532,7 @@
     "pattern": "一番",
     "title": "Paling",
     "explanation": "Menyatakan yang paling dalam kelompok.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "perbandingan",
     "example": {
       "jp": "安全が一番大切です。",
@@ -544,7 +544,7 @@
     "pattern": "Vそうです",
     "title": "Sepertinya",
     "explanation": "Menyatakan kesan dari tampilan.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "observasi",
     "example": {
       "jp": "この荷物は重そうです。",
@@ -556,7 +556,7 @@
     "pattern": "Vている",
     "title": "Sedang/keadaan",
     "explanation": "Menyatakan aktivitas berlangsung atau keadaan.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "aktivitas",
     "example": {
       "jp": "電車が遅れています。",
@@ -568,7 +568,7 @@
     "pattern": "Vても",
     "title": "Walaupun",
     "explanation": "Menyatakan kondisi berlawanan.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "komunikasi",
     "example": {
       "jp": "忙しくても確認します。",
@@ -580,7 +580,7 @@
     "pattern": "N について",
     "title": "Tentang",
     "explanation": "Menyatakan topik.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "komunikasi",
     "example": {
       "jp": "仕事について話します。",
@@ -592,11 +592,731 @@
     "pattern": "普通形 と思います",
     "title": "Saya pikir",
     "explanation": "Menyampaikan pendapat dengan sopan.",
-    "level": "N4 dasar",
+    "level": "N4",
     "use": "komunikasi",
     "example": {
       "jp": "明日は雨だと思います。",
       "id": "Saya pikir besok hujan."
+    }
+  },
+  {
+    "id": "g051",
+    "pattern": "Vようになります",
+    "title": "Menjadi bisa/terjadi",
+    "explanation": "Menyatakan perubahan kemampuan atau kebiasaan.",
+    "use": "変化",
+    "level": "N4",
+    "example": {
+      "jp": "日本語で報告できるようになりました。",
+      "id": "Saya menjadi bisa melapor dalam bahasa Jepang."
+    }
+  },
+  {
+    "id": "g052",
+    "pattern": "Vようにします",
+    "title": "Berusaha agar",
+    "explanation": "Menyatakan usaha sadar untuk melakukan sesuatu.",
+    "use": "習慣",
+    "level": "N4",
+    "example": {
+      "jp": "毎日復習するようにします。",
+      "id": "Saya berusaha review setiap hari."
+    }
+  },
+  {
+    "id": "g053",
+    "pattern": "Vておきます",
+    "title": "Melakukan sebagai persiapan",
+    "explanation": "Dipakai untuk tindakan persiapan.",
+    "use": "準備",
+    "level": "N4",
+    "example": {
+      "jp": "会議の前に資料を読んでおきます。",
+      "id": "Saya membaca materi dulu sebelum rapat."
+    }
+  },
+  {
+    "id": "g054",
+    "pattern": "Vてしまいました",
+    "title": "Terlanjur/selesai",
+    "explanation": "Menyatakan selesai atau penyesalan.",
+    "use": "完了",
+    "level": "N4",
+    "example": {
+      "jp": "鍵を忘れてしまいました。",
+      "id": "Saya terlanjur lupa kunci."
+    }
+  },
+  {
+    "id": "g055",
+    "pattern": "Vそうです",
+    "title": "Tampaknya",
+    "explanation": "Menyatakan kesan dari tampilan.",
+    "use": "推量",
+    "level": "N4",
+    "example": {
+      "jp": "この荷物は重そうです。",
+      "id": "Barang ini tampaknya berat."
+    }
+  },
+  {
+    "id": "g056",
+    "pattern": "N なら",
+    "title": "Kalau/topik",
+    "explanation": "Menanggapi topik tertentu.",
+    "use": "条件",
+    "level": "N4",
+    "example": {
+      "jp": "病院なら駅の近くにあります。",
+      "id": "Kalau rumah sakit, ada dekat stasiun."
+    }
+  },
+  {
+    "id": "g057",
+    "pattern": "Vば",
+    "title": "Jika",
+    "explanation": "Bentuk syarat umum.",
+    "use": "条件",
+    "level": "N4",
+    "example": {
+      "jp": "分からなければ聞いてください。",
+      "id": "Jika tidak paham, bertanyalah."
+    }
+  },
+  {
+    "id": "g058",
+    "pattern": "Vても",
+    "title": "Walaupun",
+    "explanation": "Menyatakan kondisi berlawanan.",
+    "use": "逆接",
+    "level": "N4",
+    "example": {
+      "jp": "忙しくても確認します。",
+      "id": "Walau sibuk, saya mengecek."
+    }
+  },
+  {
+    "id": "g059",
+    "pattern": "N みたいです",
+    "title": "Seperti",
+    "explanation": "Menyatakan kemiripan secara kasual.",
+    "use": "比喩",
+    "level": "N4",
+    "example": {
+      "jp": "この町は東京みたいです。",
+      "id": "Kota ini seperti Tokyo."
+    }
+  },
+  {
+    "id": "g060",
+    "pattern": "Vところです",
+    "title": "Sedang tepat akan/sedang/baru",
+    "explanation": "Menunjukkan tahap waktu aksi.",
+    "use": "時間",
+    "level": "N4",
+    "example": {
+      "jp": "今から確認するところです。",
+      "id": "Saya tepat akan mengecek sekarang."
+    }
+  },
+  {
+    "id": "g061",
+    "pattern": "Vたばかりです",
+    "title": "Baru saja",
+    "explanation": "Menyatakan aksi baru selesai.",
+    "use": "時間",
+    "level": "N4",
+    "example": {
+      "jp": "日本に来たばかりです。",
+      "id": "Saya baru saja datang ke Jepang."
+    }
+  },
+  {
+    "id": "g062",
+    "pattern": "N のようです",
+    "title": "Seperti",
+    "explanation": "Bentuk lebih formal dari みたい.",
+    "use": "比喩",
+    "level": "N4",
+    "example": {
+      "jp": "この説明は専門書のようです。",
+      "id": "Penjelasan ini seperti buku spesialis."
+    }
+  },
+  {
+    "id": "g063",
+    "pattern": "V予定です",
+    "title": "Berencana",
+    "explanation": "Menyatakan rencana.",
+    "use": "予定",
+    "level": "N4",
+    "example": {
+      "jp": "来月、試験を受ける予定です。",
+      "id": "Bulan depan saya berencana ikut ujian."
+    }
+  },
+  {
+    "id": "g064",
+    "pattern": "Vことにします",
+    "title": "Memutuskan",
+    "explanation": "Keputusan sendiri.",
+    "use": "決定",
+    "level": "N4",
+    "example": {
+      "jp": "毎日漢字を覚えることにします。",
+      "id": "Saya memutuskan menghafal kanji setiap hari."
+    }
+  },
+  {
+    "id": "g065",
+    "pattern": "Vことになります",
+    "title": "Diputuskan",
+    "explanation": "Keputusan dari luar/keadaan.",
+    "use": "決定",
+    "level": "N4",
+    "example": {
+      "jp": "来週から夜勤することになりました。",
+      "id": "Diputuskan saya shift malam mulai minggu depan."
+    }
+  },
+  {
+    "id": "g066",
+    "pattern": "Vべきです",
+    "title": "Sebaiknya/seharusnya",
+    "explanation": "Menyatakan saran kuat atau kewajiban moral.",
+    "use": "助言",
+    "level": "N3",
+    "example": {
+      "jp": "安全ルールを守るべきです。",
+      "id": "Sebaiknya mematuhi aturan keselamatan."
+    }
+  },
+  {
+    "id": "g067",
+    "pattern": "Vわけではありません",
+    "title": "Bukan berarti",
+    "explanation": "Menyangkal kesimpulan umum.",
+    "use": "否定",
+    "level": "N3",
+    "example": {
+      "jp": "日本語が嫌いなわけではありません。",
+      "id": "Bukan berarti saya tidak suka bahasa Jepang."
+    }
+  },
+  {
+    "id": "g068",
+    "pattern": "Vわけにはいきません",
+    "title": "Tidak bisa begitu saja",
+    "explanation": "Menyatakan tidak bisa karena alasan sosial/moral.",
+    "use": "制約",
+    "level": "N3",
+    "example": {
+      "jp": "仕事を途中でやめるわけにはいきません。",
+      "id": "Tidak bisa begitu saja berhenti di tengah kerja."
+    }
+  },
+  {
+    "id": "g069",
+    "pattern": "N によって",
+    "title": "Tergantung/oleh",
+    "explanation": "Menyatakan variasi atau pelaku pasif.",
+    "use": "関係",
+    "level": "N3",
+    "example": {
+      "jp": "会社によってルールが違います。",
+      "id": "Aturan berbeda tergantung perusahaan."
+    }
+  },
+  {
+    "id": "g070",
+    "pattern": "Vたとたん",
+    "title": "Begitu... langsung",
+    "explanation": "Aksi terjadi segera setelah aksi lain.",
+    "use": "時間",
+    "level": "N3",
+    "example": {
+      "jp": "外に出たとたん雨が降りました。",
+      "id": "Begitu keluar, hujan turun."
+    }
+  },
+  {
+    "id": "g071",
+    "pattern": "Vついでに",
+    "title": "Sekalian",
+    "explanation": "Melakukan sesuatu bersamaan dengan kesempatan.",
+    "use": "追加",
+    "level": "N3",
+    "example": {
+      "jp": "銀行へ行くついでに買い物します。",
+      "id": "Sekalian belanja saat pergi ke bank."
+    }
+  },
+  {
+    "id": "g072",
+    "pattern": "V最中に",
+    "title": "Saat sedang",
+    "explanation": "Terjadi di tengah aktivitas.",
+    "use": "時間",
+    "level": "N3",
+    "example": {
+      "jp": "会議の最中に電話が鳴りました。",
+      "id": "Telepon berbunyi saat rapat berlangsung."
+    }
+  },
+  {
+    "id": "g073",
+    "pattern": "N について",
+    "title": "Tentang",
+    "explanation": "Menunjukkan topik.",
+    "use": "話題",
+    "level": "N3",
+    "example": {
+      "jp": "契約について説明します。",
+      "id": "Saya menjelaskan tentang kontrak."
+    }
+  },
+  {
+    "id": "g074",
+    "pattern": "N に対して",
+    "title": "Terhadap",
+    "explanation": "Arah sikap/aksi.",
+    "use": "対象",
+    "level": "N3",
+    "example": {
+      "jp": "お客様に対して丁寧に話します。",
+      "id": "Berbicara sopan terhadap pelanggan."
+    }
+  },
+  {
+    "id": "g075",
+    "pattern": "Vことはない",
+    "title": "Tidak perlu",
+    "explanation": "Menyatakan tidak perlu khawatir/bertindak.",
+    "use": "不要",
+    "level": "N3",
+    "example": {
+      "jp": "心配することはありません。",
+      "id": "Tidak perlu khawatir."
+    }
+  },
+  {
+    "id": "g076",
+    "pattern": "Vほど...ない",
+    "title": "Tidak se...",
+    "explanation": "Perbandingan negatif.",
+    "use": "比較",
+    "level": "N3",
+    "example": {
+      "jp": "今日は昨日ほど忙しくありません。",
+      "id": "Hari ini tidak sesibuk kemarin."
+    }
+  },
+  {
+    "id": "g077",
+    "pattern": "Vたまま",
+    "title": "Tetap dalam kondisi",
+    "explanation": "Kondisi dibiarkan setelah aksi.",
+    "use": "状態",
+    "level": "N3",
+    "example": {
+      "jp": "電気をつけたまま寝ました。",
+      "id": "Tidur dengan lampu tetap menyala."
+    }
+  },
+  {
+    "id": "g078",
+    "pattern": "Vようとする",
+    "title": "Mencoba akan",
+    "explanation": "Berusaha melakukan.",
+    "use": "意思",
+    "level": "N3",
+    "example": {
+      "jp": "説明しようとしました。",
+      "id": "Saya mencoba menjelaskan."
+    }
+  },
+  {
+    "id": "g079",
+    "pattern": "Vことになっている",
+    "title": "Aturan/jadwalnya",
+    "explanation": "Sesuatu sudah ditetapkan.",
+    "use": "規則",
+    "level": "N3",
+    "example": {
+      "jp": "ここでは帽子をかぶることになっています。",
+      "id": "Di sini ditetapkan memakai topi."
+    }
+  },
+  {
+    "id": "g080",
+    "pattern": "N に比べて",
+    "title": "Dibanding",
+    "explanation": "Membandingkan dua hal.",
+    "use": "比較",
+    "level": "N3",
+    "example": {
+      "jp": "去年に比べて仕事が増えました。",
+      "id": "Dibanding tahun lalu, pekerjaan bertambah."
+    }
+  },
+  {
+    "id": "g081",
+    "pattern": "N に伴って",
+    "title": "Seiring dengan",
+    "explanation": "Perubahan yang mengikuti perubahan lain.",
+    "use": "変化",
+    "level": "N2",
+    "example": {
+      "jp": "需要の増加に伴って生産も増えました。",
+      "id": "Seiring peningkatan permintaan, produksi juga meningkat."
+    }
+  },
+  {
+    "id": "g082",
+    "pattern": "N に応じて",
+    "title": "Sesuai dengan",
+    "explanation": "Menyesuaikan respons dengan kondisi.",
+    "use": "対応",
+    "level": "N2",
+    "example": {
+      "jp": "経験に応じて仕事を任せます。",
+      "id": "Tugas diberikan sesuai pengalaman."
+    }
+  },
+  {
+    "id": "g083",
+    "pattern": "N に基づいて",
+    "title": "Berdasarkan",
+    "explanation": "Dasar keputusan atau tindakan.",
+    "use": "根拠",
+    "level": "N2",
+    "example": {
+      "jp": "データに基づいて判断します。",
+      "id": "Menilai berdasarkan data."
+    }
+  },
+  {
+    "id": "g084",
+    "pattern": "N を問わず",
+    "title": "Tanpa memandang",
+    "explanation": "Tidak membatasi oleh kategori.",
+    "use": "範囲",
+    "level": "N2",
+    "example": {
+      "jp": "経験を問わず応募できます。",
+      "id": "Bisa melamar tanpa memandang pengalaman."
+    }
+  },
+  {
+    "id": "g085",
+    "pattern": "Vざるを得ない",
+    "title": "Terpaksa harus",
+    "explanation": "Tidak ada pilihan selain melakukan.",
+    "use": "制約",
+    "level": "N2",
+    "example": {
+      "jp": "計画を変更せざるを得ません。",
+      "id": "Terpaksa harus mengubah rencana."
+    }
+  },
+  {
+    "id": "g086",
+    "pattern": "N に限らず",
+    "title": "Tidak hanya",
+    "explanation": "Cakupan luas.",
+    "use": "範囲",
+    "level": "N2",
+    "example": {
+      "jp": "日本語に限らず文化も学びます。",
+      "id": "Tidak hanya bahasa Jepang, juga budaya."
+    }
+  },
+  {
+    "id": "g087",
+    "pattern": "Vかねない",
+    "title": "Bisa saja terjadi buruk",
+    "explanation": "Kemungkinan negatif.",
+    "use": "警告",
+    "level": "N2",
+    "example": {
+      "jp": "確認しないと事故が起こりかねません。",
+      "id": "Jika tidak cek, kecelakaan bisa terjadi."
+    }
+  },
+  {
+    "id": "g088",
+    "pattern": "Vかねる",
+    "title": "Sulit/tidak bisa",
+    "explanation": "Ungkapan formal menolak.",
+    "use": "丁寧",
+    "level": "N2",
+    "example": {
+      "jp": "その質問には答えかねます。",
+      "id": "Saya sulit menjawab pertanyaan itu."
+    }
+  },
+  {
+    "id": "g089",
+    "pattern": "N に際して",
+    "title": "Pada saat",
+    "explanation": "Situasi formal ketika melakukan.",
+    "use": "場面",
+    "level": "N2",
+    "example": {
+      "jp": "面接に際して資料を準備します。",
+      "id": "Menyiapkan materi saat wawancara."
+    }
+  },
+  {
+    "id": "g090",
+    "pattern": "N をめぐって",
+    "title": "Seputar",
+    "explanation": "Konflik/diskusi seputar topik.",
+    "use": "話題",
+    "level": "N2",
+    "example": {
+      "jp": "条件をめぐって話し合います。",
+      "id": "Berdiskusi seputar syarat."
+    }
+  },
+  {
+    "id": "g091",
+    "pattern": "N とともに",
+    "title": "Bersama/seiring",
+    "explanation": "Bersama atau perubahan paralel.",
+    "use": "変化",
+    "level": "N2",
+    "example": {
+      "jp": "経験とともに自信がつきます。",
+      "id": "Seiring pengalaman, percaya diri bertambah."
+    }
+  },
+  {
+    "id": "g092",
+    "pattern": "N に反して",
+    "title": "Bertentangan dengan",
+    "explanation": "Hasil berlawanan dengan harapan.",
+    "use": "逆接",
+    "level": "N2",
+    "example": {
+      "jp": "予想に反して合格しました。",
+      "id": "Bertentangan perkiraan, saya lulus."
+    }
+  },
+  {
+    "id": "g093",
+    "pattern": "N からすると",
+    "title": "Dilihat dari",
+    "explanation": "Sudut pandang penilaian.",
+    "use": "視点",
+    "level": "N2",
+    "example": {
+      "jp": "結果からすると改善が必要です。",
+      "id": "Dilihat dari hasil, perlu perbaikan."
+    }
+  },
+  {
+    "id": "g094",
+    "pattern": "V上で",
+    "title": "Setelah/dalam hal",
+    "explanation": "Syarat proses atau bidang.",
+    "use": "条件",
+    "level": "N2",
+    "example": {
+      "jp": "内容を確認した上で署名します。",
+      "id": "Saya tanda tangan setelah mengecek isi."
+    }
+  },
+  {
+    "id": "g095",
+    "pattern": "N をきっかけに",
+    "title": "Berkat/sejak pemicu",
+    "explanation": "Titik awal perubahan.",
+    "use": "契機",
+    "level": "N2",
+    "example": {
+      "jp": "日本語学習をきっかけに友達が増えました。",
+      "id": "Sejak belajar Jepang, teman bertambah."
+    }
+  },
+  {
+    "id": "g096",
+    "pattern": "N いかんで",
+    "title": "Tergantung pada",
+    "explanation": "Bentuk formal kondisi penentu.",
+    "use": "条件",
+    "level": "N1",
+    "example": {
+      "jp": "結果いかんで方針を変えます。",
+      "id": "Tergantung hasil, kebijakan diubah."
+    }
+  },
+  {
+    "id": "g097",
+    "pattern": "N を余儀なくされる",
+    "title": "Terpaksa mengalami",
+    "explanation": "Dipaksa oleh keadaan.",
+    "use": "制約",
+    "level": "N1",
+    "example": {
+      "jp": "台風で延期を余儀なくされました。",
+      "id": "Karena topan, terpaksa ditunda."
+    }
+  },
+  {
+    "id": "g098",
+    "pattern": "N に即して",
+    "title": "Sesuai dengan",
+    "explanation": "Mengikuti fakta/aturan nyata.",
+    "use": "基準",
+    "level": "N1",
+    "example": {
+      "jp": "現場の状況に即して判断します。",
+      "id": "Menilai sesuai situasi lapangan."
+    }
+  },
+  {
+    "id": "g099",
+    "pattern": "N とはいえ",
+    "title": "Meskipun dikatakan",
+    "explanation": "Mengakui lalu membatasi.",
+    "use": "逆接",
+    "level": "N1",
+    "example": {
+      "jp": "経験者とはいえ確認は必要です。",
+      "id": "Meski berpengalaman, pengecekan tetap perlu."
+    }
+  },
+  {
+    "id": "g100",
+    "pattern": "N を皮切りに",
+    "title": "Dimulai dari",
+    "explanation": "Awal dari rangkaian.",
+    "use": "開始",
+    "level": "N1",
+    "example": {
+      "jp": "東京を皮切りに説明会を行います。",
+      "id": "Dimulai dari Tokyo, kami mengadakan sesi penjelasan."
+    }
+  },
+  {
+    "id": "g101",
+    "pattern": "N に至るまで",
+    "title": "Sampai bahkan",
+    "explanation": "Cakupan sampai detail ekstrem.",
+    "use": "範囲",
+    "level": "N1",
+    "example": {
+      "jp": "準備から片付けに至るまで担当します。",
+      "id": "Bertanggung jawab dari persiapan sampai beres-beres."
+    }
+  },
+  {
+    "id": "g102",
+    "pattern": "N ならでは",
+    "title": "Khas hanya",
+    "explanation": "Keunikan khusus.",
+    "use": "特徴",
+    "level": "N1",
+    "example": {
+      "jp": "日本ならではの習慣です。",
+      "id": "Kebiasaan khas Jepang."
+    }
+  },
+  {
+    "id": "g103",
+    "pattern": "Vずにはおかない",
+    "title": "Pasti akan membuat",
+    "explanation": "Kekuatan yang menyebabkan hasil.",
+    "use": "強調",
+    "level": "N1",
+    "example": {
+      "jp": "この経験は成長させずにはおきません。",
+      "id": "Pengalaman ini pasti membuat berkembang."
+    }
+  },
+  {
+    "id": "g104",
+    "pattern": "Vまい",
+    "title": "Tidak akan/mungkin tidak",
+    "explanation": "Tekad negatif atau dugaan formal.",
+    "use": "意思",
+    "level": "N1",
+    "example": {
+      "jp": "同じミスはするまい。",
+      "id": "Saya tidak akan membuat kesalahan sama."
+    }
+  },
+  {
+    "id": "g105",
+    "pattern": "N と相まって",
+    "title": "Bersama dengan",
+    "explanation": "Dua faktor bekerja bersama.",
+    "use": "関係",
+    "level": "N1",
+    "example": {
+      "jp": "努力と経験が相まって成果が出ました。",
+      "id": "Usaha dan pengalaman bersama menghasilkan hasil."
+    }
+  },
+  {
+    "id": "g106",
+    "pattern": "N をものともせず",
+    "title": "Tanpa gentar oleh",
+    "explanation": "Mengatasi kondisi sulit.",
+    "use": "逆境",
+    "level": "N1",
+    "example": {
+      "jp": "困難をものともせず挑戦します。",
+      "id": "Menantang tanpa gentar oleh kesulitan."
+    }
+  },
+  {
+    "id": "g107",
+    "pattern": "N にかたくない",
+    "title": "Tidak sulit untuk",
+    "explanation": "Mudah dibayangkan/dipahami.",
+    "use": "判断",
+    "level": "N1",
+    "example": {
+      "jp": "苦労は想像にかたくありません。",
+      "id": "Kesulitannya tidak sulit dibayangkan."
+    }
+  },
+  {
+    "id": "g108",
+    "pattern": "Vべく",
+    "title": "Demi/untuk",
+    "explanation": "Tujuan formal.",
+    "use": "目的",
+    "level": "N1",
+    "example": {
+      "jp": "合格すべく努力します。",
+      "id": "Berusaha demi lulus."
+    }
+  },
+  {
+    "id": "g109",
+    "pattern": "N に照らして",
+    "title": "Berdasarkan standar",
+    "explanation": "Menilai dengan standar.",
+    "use": "基準",
+    "level": "N1",
+    "example": {
+      "jp": "規則に照らして判断します。",
+      "id": "Menilai berdasarkan aturan."
+    }
+  },
+  {
+    "id": "g110",
+    "pattern": "N を禁じ得ない",
+    "title": "Tidak bisa menahan",
+    "explanation": "Emosi kuat yang muncul.",
+    "use": "感情",
+    "level": "N1",
+    "example": {
+      "jp": "結果に驚きを禁じ得ません。",
+      "id": "Tidak bisa menahan keterkejutan atas hasil."
     }
   }
 ]

@@ -23,14 +23,31 @@ const navItems = [
   ["progress", "Progress"]
 ];
 
+const levelOptions = [
+  ["all", "Semua JLPT"],
+  ["N5", "JLPT N5"],
+  ["N4", "JLPT N4"],
+  ["N3", "JLPT N3"],
+  ["N2", "JLPT N2"],
+  ["N1", "JLPT N1"]
+];
+
+const quizSourceOptions = [
+  ["mix", "Campuran"],
+  ["kosakata", "Kosakata"],
+  ["kanji", "Kanji"],
+  ["bunpou", "Bunpou"],
+  ["reading", "Reading"]
+];
+
 const modules = [
   { id: "daily", title: "Belajar Hari Ini", mark: "7m", detail: "Rutinitas pendek: 5 kata, 1 grammar, review kartu, dan quiz cepat." },
-  { id: "vocab", title: "Kosakata", mark: "Ko", detail: "120 kata N5-N4 dasar untuk kantor, pabrik, dokumen, kesehatan, dan hidup harian." },
-  { id: "kanji", title: "Kanji", mark: "Ka", detail: "80 kanji dasar dengan onyomi, kunyomi, arti, dan contoh kerja." },
-  { id: "grammar", title: "Tata Bahasa", mark: "Gr", detail: "50 pola N5-N4 dasar yang praktis untuk instruksi, izin, laporan, dan pendapat." },
+  { id: "vocab", title: "Kosakata", mark: "Ko", detail: "240 kata N5-N1 untuk kerja, hidup harian, bisnis, dan akademik." },
+  { id: "kanji", title: "Kanji", mark: "Ka", detail: "160 kanji N5-N1 dengan onyomi, kunyomi, arti, dan contoh." },
+  { id: "grammar", title: "Tata Bahasa", mark: "Gr", detail: "110 pola N5-N1 untuk instruksi, laporan, bisnis, dan reading." },
   { id: "conversation", title: "Percakapan", mark: "Pc", detail: "25 dialog kerja: shift, laporan, sakit, bank, hotel, kaigo, konbini, dan interview." },
   { id: "scenario", title: "Skenario Kerja", mark: "Sk", detail: "10 jalur situasi: pabrik, kaigo, restoran, konbini, konstruksi, hotel, gudang, dan hidup harian." },
-  { id: "practice", title: "Latihan Soal", mark: "Qs", detail: "100 soal acak, review jawaban salah, dan reading berbasis passage." },
+  { id: "practice", title: "Latihan Soal", mark: "Qs", detail: "348 soal JLPT-style N5-N1, review salah, dan reading berbasis passage." },
   { id: "flashcard", title: "Flashcard SRS", mark: "SR", detail: "Pilih Sulit, Lumayan, atau Mudah agar jadwal ulang menyesuaikan." }
 ];
 
@@ -39,6 +56,8 @@ const state = {
   cache: new Map(),
   pages: { vocab: 1, kanji: 1, grammar: 1, conversation: 1, scenario: 1 },
   search: "",
+  jlptLevel: "all",
+  quizSource: "mix",
   quiz: null,
   flashcards: [],
   flashIndex: 0,
@@ -46,7 +65,9 @@ const state = {
   screenshotMode: false,
   kanjiIndex: 0,
   kanjiAuto: false,
-  kanjiTimer: null
+  kanjiTimer: null,
+  deferredInstallPrompt: null,
+  isInstalled: window.matchMedia?.("(display-mode: standalone)")?.matches || navigator.standalone === true
 };
 
 const $ = (selector) => document.querySelector(selector);
@@ -65,7 +86,14 @@ const defaultProgress = {
   lastStudyDate: "",
   dailyDone: {},
   srs: {},
-  wrongQuestions: []
+  wrongQuestions: [],
+  bookmarked: {},
+  recentQuizIds: [],
+  skillStats: {},
+  quizHistory: [],
+  dailyGoal: 15,
+  offlineReady: false,
+  installDismissed: false
 };
 
 const todayKey = () => new Date().toISOString().slice(0, 10);
@@ -102,6 +130,72 @@ const markStudied = (type, id) => {
 
 const studiedCount = (prefix) => Object.keys(progress.studied).filter((key) => key.startsWith(`${prefix}:`)).length;
 
+const todayStudiedCount = () => {
+  const start = new Date(todayKey()).getTime();
+  return Object.values(progress.studied).filter((time) => time >= start).length;
+};
+
+const bookmarkKey = (type, id) => `${type}:${id}`;
+
+const isBookmarked = (type, id) => Boolean(progress.bookmarked?.[bookmarkKey(type, id)]);
+
+const toggleBookmark = (type, id) => {
+  const key = bookmarkKey(type, id);
+  progress.bookmarked = progress.bookmarked || {};
+  if (progress.bookmarked[key]) delete progress.bookmarked[key];
+  else progress.bookmarked[key] = Date.now();
+  saveProgress();
+};
+
+const bookmarkButton = (type, id) => `<button class="mini-sound bookmark ${isBookmarked(type, id) ? "saved" : ""}" data-bookmark="${type}:${id}">${isBookmarked(type, id) ? "Tersimpan" : "Simpan"}</button>`;
+
+const bindBookmarkButtons = () => {
+  view.querySelectorAll("[data-bookmark]").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const [type, id] = button.dataset.bookmark.split(":");
+      toggleBookmark(type, id);
+      button.classList.toggle("saved", isBookmarked(type, id));
+      button.textContent = isBookmarked(type, id) ? "Tersimpan" : "Simpan";
+    });
+  });
+};
+
+const normalizeLevel = (level) => String(level || "N5").replace(" dasar", "");
+
+const matchesSelectedLevel = (item) => state.jlptLevel === "all" || normalizeLevel(item.level) === state.jlptLevel;
+
+const levelSelect = (id) => `
+  <select class="search level-select" id="${id}" aria-label="Pilih level JLPT">
+    ${levelOptions.map(([value, label]) => `<option value="${value}" ${state.jlptLevel === value ? "selected" : ""}>${label}</option>`).join("")}
+  </select>`;
+
+const quizSourceSelect = (id) => `
+  <select class="search level-select" id="${id}" aria-label="Pilih jenis soal">
+    ${quizSourceOptions.map(([value, label]) => `<option value="${value}" ${state.quizSource === value ? "selected" : ""}>${label}</option>`).join("")}
+  </select>`;
+
+const bindLevelSelect = (id, callback = render) => {
+  const select = $(`#${id}`);
+  if (!select) return;
+  select.addEventListener("change", () => {
+    state.jlptLevel = select.value;
+    state.pages.vocab = 1;
+    state.pages.grammar = 1;
+    state.kanjiIndex = 0;
+    callback();
+  });
+};
+
+const bindQuizSourceSelect = (id, callback = render) => {
+  const select = $(`#${id}`);
+  if (!select) return;
+  select.addEventListener("change", () => {
+    state.quizSource = select.value;
+    callback();
+  });
+};
+
 const dueCardsCount = () => {
   const now = Date.now();
   return Object.values(progress.srs || {}).filter((card) => !card.dueAt || card.dueAt <= now).length;
@@ -133,6 +227,47 @@ const fetchJson = async (key) => {
   return json;
 };
 
+const offlineFiles = () => [
+  "./",
+  "./index.html",
+  "./manifest.webmanifest",
+  "./sw.js",
+  "./src/app.js",
+  "./src/quiz-engine.js",
+  "./src/flashcards.js",
+  "./src/styles.css",
+  "./assets/icon.svg",
+  "./assets/icon-192.png",
+  "./assets/icon-512.png",
+  "./assets/backgrounds/bg-sakura.jpg",
+  "./assets/backgrounds/bg-ninja.jpg",
+  "./assets/backgrounds/bg-temple.jpg",
+  "./assets/backgrounds/bg-street.jpg",
+  ...Object.values(DATA)
+];
+
+const downloadOfflinePack = async () => {
+  const button = $("#offlinePack");
+  if (button) button.textContent = "Menyiapkan offline...";
+  await Promise.all(offlineFiles().map((url) => fetch(url, { cache: "reload" }).catch(() => null)));
+  progress.offlineReady = true;
+  saveProgress();
+  renderHome();
+};
+
+const installApp = async () => {
+  if (state.deferredInstallPrompt) {
+    state.deferredInstallPrompt.prompt();
+    await state.deferredInstallPrompt.userChoice.catch(() => null);
+    state.deferredInstallPrompt = null;
+    renderHome();
+    return;
+  }
+  progress.installDismissed = false;
+  saveProgress();
+  renderHome();
+};
+
 const escapeHtml = (value) =>
   String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 
@@ -153,7 +288,7 @@ const speakJapanese = (text) => {
 };
 
 const scoreBadge = (percent) => {
-  if (percent >= 90) return { title: "N5 Fighter", detail: "Siap tempur buat target kerja Jepang." };
+  if (percent >= 90) return { title: "JLPT Fighter", detail: "Siap tempur buat target kerja Jepang." };
   if (percent >= 75) return { title: "Siap Kerja Jepang", detail: "Fondasi kamu sudah kuat, lanjut konsisten." };
   if (percent >= 55) return { title: "Semangat Naik Level", detail: "Bagus, tinggal review bagian yang salah." };
   return { title: "Pejuang Nihongo", detail: "Mulai dari kecil, ulangi lagi besok." };
@@ -202,11 +337,15 @@ const moduleCard = (module) => `
 const renderHome = () => {
   const totalStudied = Object.keys(progress.studied).length;
   const doneToday = Boolean(progress.dailyDone?.[todayKey()]);
+  const todayCount = todayStudiedCount();
+  const goalPercent = Math.min(100, Math.round((todayCount / progress.dailyGoal) * 100));
+  const canInstall = !state.isInstalled;
+  const onlineLabel = navigator.onLine ? "Online" : "Offline";
   view.innerHTML = `
     <section class="hero">
       <div>
         <h2>Belajar Jepang yang langsung kepakai di tempat kerja.</h2>
-        <p>Materi N5-N4 dasar untuk pemula Indonesia: kata praktis, kanji, pola kalimat, dialog kerja, flashcard SRS, dan tes acak.</p>
+        <p>Materi JLPT N5 sampai N1 untuk pemula sampai tingkat lanjut: kosakata, kanji, grammar, reading, flashcard SRS, dan tes acak.</p>
         <div class="actions">
           <button class="primary" data-route="daily">${doneToday ? "Lihat rutinitas" : "Mulai 7 menit"}</button>
           <button class="ghost" data-route="scenario">Pilih skenario kerja</button>
@@ -214,12 +353,30 @@ const renderHome = () => {
       </div>
       <div class="stats">
         <div class="stat"><strong>${progress.streak}</strong><span>Streak hari</span></div>
-        <div class="stat"><strong>${totalStudied}</strong><span>Item dipelajari</span></div>
+        <div class="stat"><strong>${todayCount}/${progress.dailyGoal}</strong><span>Target hari ini</span></div>
         <div class="stat"><strong>${progress.bestScore}%</strong><span>Skor terbaik</span></div>
       </div>
+      <div class="goal-card">
+        <div class="study-topline"><span>Progress harian</span><span>${goalPercent}%</span></div>
+        <div class="progress-track"><span style="width:${goalPercent}%"></span></div>
+        <p class="hint">Total dipelajari: ${totalStudied} item. Kecil tapi konsisten, itu mesin menangnya.</p>
+      </div>
+    </section>
+    <section class="app-card">
+      <div>
+        <h3>Mode App</h3>
+        <p class="hint">${state.isInstalled ? "Sudah berjalan seperti app." : "Pasang ke layar utama agar mudah dibuka seperti aplikasi."} Status: ${onlineLabel}. Offline pack: ${progress.offlineReady ? "siap" : "belum"}.</p>
+      </div>
+      <div class="actions">
+        ${canInstall ? `<button class="primary" id="installApp">Install App</button>` : ""}
+        <button class="ghost" id="offlinePack">${progress.offlineReady ? "Update Offline Pack" : "Download Offline Pack"}</button>
+      </div>
+      ${canInstall ? `<p class="hint ios-install">iPhone: buka di Safari, tekan Share, lalu pilih Add to Home Screen.</p>` : ""}
     </section>
     <section class="grid cards">${modules.map(moduleCard).join("")}</section>
   `;
+  $("#installApp")?.addEventListener("click", installApp);
+  $("#offlinePack")?.addEventListener("click", downloadOfflinePack);
 };
 
 const renderDaily = async () => {
@@ -264,7 +421,7 @@ const renderDaily = async () => {
       </article>
     </section>`;
   bindSpeakButtons();
-  $("#dailyQuiz").addEventListener("click", () => startQuiz(10));
+  $("#dailyQuiz").addEventListener("click", () => startQuiz(10, "N5"));
   $("#finishDaily").addEventListener("click", () => {
     touchStudyDay();
     progress.dailyDone[todayKey()] = Date.now();
@@ -310,13 +467,14 @@ const renderVocab = async () => {
   loading();
   const data = await fetchJson("vocab");
   const query = state.search.trim().toLowerCase();
-  const filtered = query
-    ? data.filter((item) => [item.jp, item.kana, item.romaji, item.id, item.meaning, item.category].join(" ").toLowerCase().includes(query))
-    : data;
+  const filtered = data
+    .filter(matchesSelectedLevel)
+    .filter((item) => !query || [item.jp, item.kana, item.romaji, item.id, item.meaning, item.category, item.level].join(" ").toLowerCase().includes(query));
   const { pageItems, maxPage } = paginate(filtered, "vocab");
   view.innerHTML = `
     <div class="toolbar">
       <input class="search" id="searchBox" placeholder="Cari kosakata, contoh: kerja, absen, yasumi..." value="${escapeHtml(state.search)}" />
+      ${levelSelect("vocabLevel")}
       <div class="hint">${filtered.length} kata ditemukan</div>
     </div>
     <div class="grid">
@@ -328,7 +486,7 @@ const renderVocab = async () => {
           <h3>${item.meaning}</h3>
           <p><button class="mini-sound" data-speak="${escapeHtml(item.example.jp)}">Dengar</button> ${item.romaji} - ${item.example.jp}</p>
           <p>${item.example.id}</p>
-          <div class="tag-row"><span class="tag">${item.category}</span><span class="tag">${item.level}</span></div>
+          <div class="tag-row"><span class="tag">${item.category}</span><span class="tag">${item.level}</span>${bookmarkButton("vocab", item.id)}</div>
         </article>`
         )
         .join("") || `<div class="empty">Tidak ada hasil.</div>`}
@@ -340,7 +498,9 @@ const renderVocab = async () => {
     state.pages.vocab = 1;
     renderVocab();
   });
+  bindLevelSelect("vocabLevel", renderVocab);
   bindSpeakButtons();
+  bindBookmarkButtons();
   bindStudyMarks();
   bindPaging();
 };
@@ -348,11 +508,20 @@ const renderVocab = async () => {
 const renderKanji = async () => {
   clearKanjiTimer();
   loading();
-  const data = await fetchJson("kanji");
+  const data = (await fetchJson("kanji")).filter(matchesSelectedLevel);
+  if (!data.length) {
+    view.innerHTML = `<div class="toolbar">${levelSelect("kanjiLevel")}</div><div class="empty">Belum ada kanji untuk level ini.</div>`;
+    bindLevelSelect("kanjiLevel", renderKanji);
+    return;
+  }
   state.kanjiIndex = Math.max(0, Math.min(state.kanjiIndex, data.length - 1));
   const item = data[state.kanjiIndex];
   const percent = Math.round(((state.kanjiIndex + 1) / data.length) * 100);
   view.innerHTML = `
+    <div class="toolbar">
+      ${levelSelect("kanjiLevel")}
+      <div class="hint">${data.length} kanji untuk ${state.jlptLevel === "all" ? "semua level" : state.jlptLevel}</div>
+    </div>
     <section class="study-stage">
       <div class="study-topline">
         <span>Kanji ${state.kanjiIndex + 1}/${data.length}</span>
@@ -372,6 +541,7 @@ const renderKanji = async () => {
           <p><button class="mini-sound" data-speak="${escapeHtml(item.example.jp)}">Dengar</button> <strong>${item.example.jp}</strong></p>
           ${readingHint("On / Kun", [item.onyomi, item.kunyomi].filter(Boolean).join(" / "))}
           <p>${item.example.id}</p>
+          <div class="tag-row">${bookmarkButton("kanji", item.id)}</div>
         </div>
       </article>
       <div class="study-controls">
@@ -385,6 +555,8 @@ const renderKanji = async () => {
     </section>
   `;
   bindSpeakButtons();
+  bindBookmarkButtons();
+  bindLevelSelect("kanjiLevel", renderKanji);
   markStudied("kanji", item.id);
   $("#prevKanji").addEventListener("click", () => {
     clearKanjiTimer();
@@ -411,9 +583,13 @@ const renderKanji = async () => {
 
 const renderGrammar = async () => {
   loading();
-  const data = await fetchJson("grammar");
+  const data = (await fetchJson("grammar")).filter(matchesSelectedLevel);
   const { pageItems, maxPage } = paginate(data, "grammar");
   view.innerHTML = `
+    <div class="toolbar">
+      ${levelSelect("grammarLevel")}
+      <div class="hint">${data.length} pola untuk ${state.jlptLevel === "all" ? "semua level" : state.jlptLevel}</div>
+    </div>
     <div class="grid">
       ${pageItems
         .map(
@@ -425,7 +601,7 @@ const renderGrammar = async () => {
           <p><button class="mini-sound" data-speak="${escapeHtml(item.example.jp)}">Dengar</button> ${item.example.jp}</p>
           ${readingHint("Tips baca", "dengarkan audio lalu ulangi pelan-pelan")}
           <p>${item.example.id}</p>
-          <div class="tag-row"><span class="tag">${item.level}</span><span class="tag">${item.use}</span></div>
+          <div class="tag-row"><span class="tag">${item.level}</span><span class="tag">${item.use}</span>${bookmarkButton("grammar", item.id)}</div>
         </article>`
         )
         .join("")}
@@ -433,6 +609,8 @@ const renderGrammar = async () => {
     ${pagination("grammar", maxPage)}
   `;
   bindSpeakButtons();
+  bindBookmarkButtons();
+  bindLevelSelect("grammarLevel", renderGrammar);
   bindStudyMarks();
   bindPaging();
 };
@@ -521,18 +699,49 @@ const clearWrong = (id) => {
   saveProgress();
 };
 
-const startQuiz = async (count) => {
+const updateSkillStats = (quiz, percent) => {
+  progress.skillStats = progress.skillStats || {};
+  const buckets = {};
+  for (const question of quiz.questions) {
+    buckets[question.source] = buckets[question.source] || { total: 0, correct: 0 };
+    buckets[question.source].total += 1;
+    if (question.correct) buckets[question.source].correct += 1;
+  }
+  for (const [source, stat] of Object.entries(buckets)) {
+    const current = progress.skillStats[source] || { total: 0, correct: 0, runs: 0 };
+    progress.skillStats[source] = {
+      total: current.total + stat.total,
+      correct: current.correct + stat.correct,
+      runs: current.runs + 1
+    };
+  }
+  progress.quizHistory = [
+    { date: Date.now(), percent, total: quiz.questions.length, level: quiz.level, source: quiz.source },
+    ...(progress.quizHistory || [])
+  ].slice(0, 12);
+  progress.recentQuizIds = [...quiz.questions.map((question) => question.id), ...(progress.recentQuizIds || [])].slice(0, 120);
+};
+
+const startQuiz = async (count, level = state.jlptLevel) => {
   state.screenshotMode = false;
   document.body.classList.remove("screenshot-mode");
   loading("Menyiapkan soal acak...");
   const { prepareQuiz } = await import("./quiz-engine.js");
+  const questions = await prepareQuiz(count, fetchJson, level, { source: state.quizSource, recentIds: progress.recentQuizIds });
+  if (!questions.length) {
+    state.quiz = null;
+    view.innerHTML = `<section class="quiz-box"><h2>Belum ada soal</h2><p class="hint">Coba pilih level atau jenis soal lain.</p><button class="primary" data-route="practice">Kembali</button></section>`;
+    return;
+  }
   state.quiz = {
-    questions: await prepareQuiz(count, fetchJson),
+    questions,
     index: 0,
     score: 0,
     answered: false,
     chosen: null,
-    mode: "random"
+    mode: "random",
+    level,
+    source: state.quizSource
   };
   state.route = "practice";
   location.hash = "practice";
@@ -560,14 +769,21 @@ const renderPractice = async () => {
     view.innerHTML = `
       <section class="quiz-box">
         <h2>Latihan Soal</h2>
-        <p class="hint">Soal diambil acak dari JSON kosakata, kanji, bunpou, dan reading. Jawaban salah masuk ke review.</p>
+        <p class="hint">Soal JLPT-style diambil acak dari kosakata, kanji, bunpou, dan reading. Pilih level, lalu latihan seperti ujian.</p>
+        <div class="toolbar">
+          ${levelSelect("practiceLevel")}
+          ${quizSourceSelect("practiceSource")}
+        </div>
         <div class="actions">
           <button class="primary" data-quiz="10">Tes cepat 10 soal</button>
           <button class="ghost" data-quiz="40">Tes normal 40 soal</button>
+          <button class="ghost" data-quiz="60">Simulasi 60 soal</button>
           <button class="ghost" id="reviewWrong" ${progress.wrongQuestions.length ? "" : "disabled"}>Review salah (${progress.wrongQuestions.length})</button>
         </div>
       </section>`;
     view.querySelectorAll("[data-quiz]").forEach((button) => button.addEventListener("click", () => startQuiz(Number(button.dataset.quiz))));
+    bindLevelSelect("practiceLevel", renderPractice);
+    bindQuizSourceSelect("practiceSource", renderPractice);
     $("#reviewWrong").addEventListener("click", startWrongReview);
     return;
   }
@@ -582,6 +798,7 @@ const renderPractice = async () => {
     progress.quizRuns += 1;
     progress.lastScore = percent;
     progress.bestScore = Math.max(progress.bestScore, percent);
+    updateSkillStats(quiz, percent);
     saveProgress();
     state.quiz = null;
     view.innerHTML = `
@@ -594,7 +811,7 @@ const renderPractice = async () => {
           <div class="result-mini-stats">
             <span>Streak ${progress.streak} hari</span>
             <span>Best ${progress.bestScore}%</span>
-            <span>${quiz.mode === "review" ? "Review salah" : "Latihan N5"}</span>
+            <span>${quiz.mode === "review" ? "Review salah" : quiz.level === "all" ? "Semua JLPT" : `${quiz.level} ${quiz.source || "mix"}`}</span>
           </div>
           <p class="result-copy">${badge.detail}</p>
           <p class="result-footer">Belajar Jepang untuk kerja di Jepang</p>
@@ -604,6 +821,7 @@ const renderPractice = async () => {
           <button class="primary" id="screenshotMode">Mode Screenshot</button>
           <button class="primary" data-quiz="10">Ulang 10 soal</button>
           <button class="ghost" data-quiz="40">Ulang 40 soal</button>
+          <button class="ghost" data-quiz="60">Simulasi 60 soal</button>
           <button class="ghost" id="reviewWrong" ${progress.wrongQuestions.length ? "" : "disabled"}>Review salah</button>
         </div>
       </section>`;
@@ -620,7 +838,7 @@ const renderPractice = async () => {
 
   view.innerHTML = `
     <section class="quiz-box">
-      <p class="question-count">Soal ${quiz.index + 1} / ${quiz.questions.length} - ${question.source}</p>
+      <p class="question-count">Soal ${quiz.index + 1} / ${quiz.questions.length} - ${question.source} - ${question.level || quiz.level || "JLPT"}</p>
       ${question.passage ? `<div class="passage"><strong>${question.passageTitle}</strong><p>${question.passage}</p></div>` : ""}
       <h2>${question.prompt}</h2>
       <div class="answer-list">
@@ -643,8 +861,10 @@ const renderPractice = async () => {
       quiz.chosen = button.dataset.answer;
       if (quiz.chosen === question.answer) {
         quiz.score += 1;
+        question.correct = true;
         clearWrong(question.id);
       } else {
+        question.correct = false;
         rememberWrong(question);
       }
       renderPractice();
@@ -718,6 +938,17 @@ const renderFlashcard = async () => {
 };
 
 const renderProgress = () => {
+  const skillRows = ["kosakata", "kanji", "bunpou", "reading"].map((source) => {
+    const stat = progress.skillStats?.[source] || { total: 0, correct: 0 };
+    const percent = stat.total ? Math.round((stat.correct / stat.total) * 100) : 0;
+    return `<article class="skill-row"><span>${source}</span><strong>${percent}%</strong><div class="progress-track"><span style="width:${percent}%"></span></div></article>`;
+  }).join("");
+  const historyRows = (progress.quizHistory || []).slice(0, 5).map((item) =>
+    `<p>${new Date(item.date).toLocaleDateString("id-ID")} - ${item.level === "all" ? "Semua" : item.level} - ${item.source || "mix"} - <strong>${item.percent}%</strong></p>`
+  ).join("") || `<p class="hint">Belum ada riwayat tes.</p>`;
+  const bookmarkCount = Object.keys(progress.bookmarked || {}).length;
+  const todayCount = todayStudiedCount();
+  const goalPercent = Math.min(100, Math.round((todayCount / progress.dailyGoal) * 100));
   view.innerHTML = `
     <section class="hero">
       <div>
@@ -731,10 +962,29 @@ const renderProgress = () => {
       </div>
     </section>
     <section class="grid">
+      <article class="item">
+        <h3>Target harian</h3>
+        <p>${todayCount}/${progress.dailyGoal} item hari ini</p>
+        <div class="progress-track"><span style="width:${goalPercent}%"></span></div>
+        <div class="actions" style="margin-top:10px">
+          <button class="ghost" data-goal="10">10</button>
+          <button class="ghost" data-goal="15">15</button>
+          <button class="ghost" data-goal="25">25</button>
+        </div>
+      </article>
+      <article class="item"><h3>Analisis skill</h3><div class="skill-grid">${skillRows}</div></article>
+      <article class="item"><h3>Riwayat tes</h3>${historyRows}</article>
       <article class="item"><h3>Materi dipelajari</h3><p>Kosakata: ${studiedCount("vocab")} - Kanji: ${studiedCount("kanji")} - Bunpou: ${studiedCount("grammar")} - Skenario: ${studiedCount("scenario")}</p></article>
-      <article class="item"><h3>Tes</h3><p>Terakhir: ${progress.lastScore}% - Terbaik: ${progress.bestScore}% - Selesai: ${progress.quizRuns} kali</p></article>
+      <article class="item"><h3>Tes & bookmark</h3><p>Terakhir: ${progress.lastScore}% - Terbaik: ${progress.bestScore}% - Selesai: ${progress.quizRuns} kali - Tersimpan: ${bookmarkCount}</p></article>
       <button class="ghost" id="resetProgress">Reset progress</button>
     </section>`;
+  view.querySelectorAll("[data-goal]").forEach((button) => {
+    button.addEventListener("click", () => {
+      progress.dailyGoal = Number(button.dataset.goal);
+      saveProgress();
+      renderProgress();
+    });
+  });
   $("#resetProgress").addEventListener("click", () => {
     progress = { ...defaultProgress, darkMode: progress.darkMode, showReading: progress.showReading };
     saveProgress();
@@ -781,6 +1031,21 @@ window.addEventListener("hashchange", () => {
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => {}));
 }
+
+window.addEventListener("beforeinstallprompt", (event) => {
+  event.preventDefault();
+  state.deferredInstallPrompt = event;
+  if (state.route === "home") renderHome();
+});
+
+window.addEventListener("appinstalled", () => {
+  state.isInstalled = true;
+  state.deferredInstallPrompt = null;
+  if (state.route === "home") renderHome();
+});
+
+window.addEventListener("online", () => state.route === "home" && renderHome());
+window.addEventListener("offline", () => state.route === "home" && renderHome());
 
 setTheme(progress.darkMode);
 setReadingMode(progress.showReading);
